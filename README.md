@@ -3,7 +3,10 @@
 This Project is Related to Templates of Iam-Gateway.
 In these Templates, has the Following Templates.
 
+
 ###Modbus Device
+
+
 | id                | 	 Name                  	 | Device Type | 	 Sub Type | 	 Model               |
 |-------------------|---------------------------|-------------|------------|-----------------------|
 | 1	                | selec-4ch-ch1             | 	 MOD       | 	 MOD-EM   | 	 selec-mrj4m-quad    |
@@ -23,11 +26,19 @@ In these Templates, has the Following Templates.
 | 15	               | Carrier_VRV               | 	 MOD       | 	 MOD-CAC  | 	 Carrier_AC          |
 | 16	               | selec-MIBRX-4-Channel     | 	 MOD       | 	 MOD-EM   | 	 selec_MIBRX-4Ch     |
 | 17	               | schneider-em6400ng        | 	 MOD       | 	 MOD-EM   | 	 schneider-em6400ng  |
-###Serial Device	
+
+
+###Serial Device
+
+
 | id  | 	 Name                  	 | Device Type | 	 Sub Type      | 	 Model           |
 |-----|---------------------------|-------------|-----------------|-------------------|
 | 1   | 	onfinity                 | SER         | 	SER	SER-UPS-T1 | 	numeric_onfinity |
-###Network Device				
+
+
+###Network Device
+
+
 | id  | 	 Name                  	   | Device Type | 	 Sub Type | 	 Model |
 |-----|-----------------------------|-------------|------------|---------|
 | 1   | 	 24 Zone Panel             | 	 NET-TCP   | 	 SILIFT24 | 	 24ZP  | 
