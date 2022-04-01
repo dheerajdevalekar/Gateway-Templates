@@ -12976,7 +12976,7 @@
           "enable": true
         },
         {
-          "id": 4,
+          "id": 5,
           "zone": "OVRD2",
           "name": "Seismic",
           "device_type": "NET-TCP",
@@ -12991,6 +12991,49 @@
           "enable": true
         }
       ]
+    },
+    {
+      "id": 8,
+      "device_type": "NET-HTTP",
+      "sub_type": "PCM",
+      "version": "1",
+      "inputs": "2",
+      "outputs": "0",
+      "model": "PCMDEVICE",
+      "name": "people counting",
+      "in_templates": [
+        {
+          "id": 241,
+          "zone": "PCMIN",
+          "device_type": "NET-HTTP",
+          "sub_type": "PCM",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "pcmcount",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "name": "people in"
+        },
+        {
+          "id": 242,
+          "zone": "PCMOUT",
+          "device_type": "NET-HTTP",
+          "sub_type": "PCM",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "pcmcount",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "name": "people out"
+        }
+      ],
+      "out_templates": []
     }
   ],
   "schedule_group_templates": [],
