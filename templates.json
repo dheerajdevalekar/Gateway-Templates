@@ -9300,7 +9300,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "multiplier": 10
+          "multiplier": 0.1
         },
         {
           "id": 488,
@@ -9372,7 +9372,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "multiplier": 10
+          "multiplier": 0.1
         },
         {
           "id": 492,
@@ -9444,7 +9444,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "multiplier": 10
+          "multiplier": 0.1
         },
         {
           "id": 496,
@@ -9484,7 +9484,7 @@
         },
         {
           "id": 498,
-          "register_address": 1060,
+          "register_address": 1063,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -9512,7 +9512,7 @@
           "device_type": "MOD",
           "master_device_id": 18,
           "input_type": "analog",
-          "name": "Battry Condition",
+          "name": "Battery Condition",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
