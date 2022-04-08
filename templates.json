@@ -13299,7 +13299,12 @@
       "inputs": "2",
       "outputs": "0",
       "model": "PCMDEVICE",
-      "name": "people counting",
+      "name": "People Counting Module",
+      "poll_interval": 60,
+      "save_interval": 10,
+      "rt_interval": 30,
+      "local_storage_enable": true,
+      "cloud_storage_enable": true,
       "in_templates": [
         {
           "id": 241,
