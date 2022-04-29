@@ -11322,7 +11322,7 @@
         "min_alarm": 0,
         "max_alarm": 0,
         "hysteresis": 0,
-        "name": "Continuous Ping STatus"
+        "name": "Continuous Ping Status"
       }
     ],
     "out_templates": []
