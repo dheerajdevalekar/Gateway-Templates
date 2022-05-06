@@ -1,5 +1,5 @@
 {
-    "modbus_templates": [
+  "modbus_templates": [
     {
       "id": 1,
       "port": "/dev/serial0",
@@ -2182,9 +2182,9 @@
       "parity": "N",
       "stop_bits": 1,
       "byte_size": 8,
-      "total_register": 72,
+      "total_register": 54,
       "register_offset": 0,
-      "batches": "[{\"address\": 3001,\"count\": 12},{\"address\":3029 ,\"count\": 14},{\"address\": 3067,\"count\": 6},{\"address\": 3097,\"count\": 6}]",
+      "batches": "[{\"address\": 199,\"count\": 54}]",
       "word_order": "big",
       "byte_order": "big",
       "batch_retry_times": 1,
@@ -2203,13 +2203,13 @@
       "in_registers": [
         {
           "id": 117,
-          "register_address": 3001,
+          "register_address": 199,
           "measurement": "power",
           "size_bits": 32,
           "count_registers": 2,
           "decode_type": "int",
           "sub_type": "MOD-EM",
-          "zone": "KW",
+          "zone": "TKW",
           "device_type": "MOD",
           "master_device_id": 4,
           "input_type": "analog",
@@ -2221,7 +2221,7 @@
         },
         {
           "id": 118,
-          "register_address": 3005,
+          "register_address": 201,
           "measurement": "power",
           "size_bits": 32,
           "count_registers": 2,
@@ -2239,7 +2239,7 @@
         },
         {
           "id": 119,
-          "register_address": 3007,
+          "register_address": 203,
           "measurement": "voltage",
           "size_bits": 32,
           "count_registers": 2,
@@ -2257,7 +2257,7 @@
         },
         {
           "id": 120,
-          "register_address": 3009,
+          "register_address": 205,
           "measurement": "voltage",
           "size_bits": 32,
           "count_registers": 2,
@@ -2275,7 +2275,7 @@
         },
         {
           "id": 121,
-          "register_address": 3011,
+          "register_address": 207,
           "measurement": "current",
           "size_bits": 32,
           "count_registers": 2,
@@ -2293,17 +2293,17 @@
         },
         {
           "id": 122,
-          "register_address": 3029,
+          "register_address": 209,
           "measurement": "energy",
           "size_bits": 32,
           "count_registers": 2,
           "decode_type": "int",
           "sub_type": "MOD-EM",
-          "zone": "AKWH",
+          "zone": "KWH",
           "device_type": "MOD",
           "master_device_id": 4,
           "input_type": "analog",
-          "name": "Avg. Active energy",
+          "name": "Mains active energy",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -2311,7 +2311,7 @@
         },
         {
           "id": 123,
-          "register_address": 3035,
+          "register_address": 211,
           "measurement": "frequency",
           "size_bits": 32,
           "count_registers": 2,
@@ -2329,7 +2329,7 @@
         },
         {
           "id": 124,
-          "register_address": 3037,
+          "register_address": 213,
           "measurement": "voltage",
           "size_bits": 32,
           "count_registers": 2,
@@ -2347,43 +2347,7 @@
         },
         {
           "id": 125,
-          "register_address": 3039,
-          "measurement": "voltage",
-          "size_bits": 32,
-          "count_registers": 2,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "V1N",
-          "device_type": "MOD",
-          "master_device_id": 4,
-          "input_type": "analog",
-          "name": "1st phase line to neutral voltage",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 0.01
-        },
-        {
-          "id": 126,
-          "register_address": 3041,
-          "measurement": "current",
-          "size_bits": 32,
-          "count_registers": 2,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "I1",
-          "device_type": "MOD",
-          "master_device_id": 4,
-          "input_type": "analog",
-          "name": "1st phase current",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 0.01
-        },
-        {
-          "id": 127,
-          "register_address": 3067,
+          "register_address": 215,
           "measurement": "voltage",
           "size_bits": 32,
           "count_registers": 2,
@@ -2400,44 +2364,8 @@
           "multiplier": 0.01
         },
         {
-          "id": 128,
-          "register_address": 3069,
-          "measurement": "voltage",
-          "size_bits": 32,
-          "count_registers": 2,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "V2N",
-          "device_type": "MOD",
-          "master_device_id": 4,
-          "input_type": "analog",
-          "name": "2nd phase line to neutral voltage",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 0.01
-        },
-        {
-          "id": 129,
-          "register_address": 3071,
-          "measurement": "current",
-          "size_bits": 32,
-          "count_registers": 2,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "I2",
-          "device_type": "MOD",
-          "master_device_id": 4,
-          "input_type": "analog",
-          "name": "2nd phase current",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 0.01
-        },
-        {
-          "id": 130,
-          "register_address": 3097,
+          "id": 126,
+          "register_address": 217,
           "measurement": "voltage",
           "size_bits": 32,
           "count_registers": 2,
@@ -2454,8 +2382,44 @@
           "multiplier": 0.01
         },
         {
-          "id": 131,
-          "register_address": 3099,
+          "id": 127,
+          "register_address": 219,
+          "measurement": "voltage",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "V1N",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "1st phase line to neutral voltage",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 128,
+          "register_address": 221,
+          "measurement": "voltage",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "V2N",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "2nd phase line to neutral voltage",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 128,
+          "register_address": 223,
           "measurement": "voltage",
           "size_bits": 32,
           "count_registers": 2,
@@ -2472,8 +2436,44 @@
           "multiplier": 0.01
         },
         {
-          "id": 132,
-          "register_address": 3101,
+          "id": 129,
+          "register_address": 225,
+          "measurement": "current",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "I1",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "1st phase current",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 130,
+          "register_address": 227,
+          "measurement": "current",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "I2",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "2nd phase current",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 131,
+          "register_address": 229,
           "measurement": "current",
           "size_bits": 32,
           "count_registers": 2,
@@ -2488,6 +2488,132 @@
           "max_alarm": 0,
           "hysteresis": 0,
           "multiplier": 0.01
+        },
+        {
+          "id": 132,
+          "register_address": 231,
+          "measurement": "energy",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "DKWH1",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "DG active energy",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 133,
+          "register_address": 237,
+          "measurement": "power",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "TKVA",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "Total Apparent Power",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 134,
+          "register_address": 239,
+          "measurement": "energy",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "KVAH",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "Main apparent energy",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 135,
+          "register_address": 245,
+          "measurement": "energy",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "DKVAH1",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "DG apparent energy",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.01
+        },
+        {
+          "id": 136,
+          "register_address": 247,
+          "measurement": "misc",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "HRS1",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "DG Run Hours",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 137,
+          "register_address": 249,
+          "measurement": "misc",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "MINS1",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "DG Run Mins",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 138,
+          "register_address": 251,
+          "measurement": "voltage",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "DGSTAT",
+          "device_type": "MOD",
+          "master_device_id": 4,
+          "input_type": "analog",
+          "name": "DG Status",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
         }
       ],
       "out_registers": []
@@ -8534,21 +8660,21 @@
       ],
       "out_registers": [
         {
-          "register_func_type": "input",
+          "zone": "ACSTATE",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 0,
           "device_type": "MOD",
           "local_storage_enable": true,
-          "id": 3,
           "enable": true,
-          "sub_type": "MOD-CAC",
+          "register_func_type": "input",
           "name": "AC State",
           "cloud_storage_enable": true,
-          "master_device_id": 15,
-          "zone": "ACSTATE",
+          "id": 2,
+          "sub_type": "MOD-CAC",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 0,
-          "config_tags": "{}",
-          "alarm_enable": true
+          "master_device_id": 15
         }
       ]
     },
@@ -9249,7 +9375,7 @@
       "name": "Delta UPS",
       "in_registers": [
         {
-          "id": 428,
+          "id": 485,
           "register_address": 1093,
           "measurement": "voltage",
           "size_bits": 16,
@@ -9267,7 +9393,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 429,
+          "id": 486,
           "register_address": 1094,
           "measurement": "current",
           "size_bits": 16,
@@ -9285,7 +9411,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 430,
+          "id": 487,
           "register_address": 1095,
           "measurement": "power",
           "size_bits": 16,
@@ -9303,7 +9429,7 @@
           "multiplier": 10
         },
         {
-          "id": 431,
+          "id": 488,
           "register_address": 1096,
           "measurement": "misc",
           "size_bits": 16,
@@ -9321,7 +9447,7 @@
           "multiplier": 1
         },
         {
-          "id": 432,
+          "id": 489,
           "register_address": 1097,
           "measurement": "voltage",
           "size_bits": 16,
@@ -9339,7 +9465,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 433,
+          "id": 490,
           "register_address": 1098,
           "measurement": "current",
           "size_bits": 16,
@@ -9357,7 +9483,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 434,
+          "id": 491,
           "register_address": 1099,
           "measurement": "power",
           "size_bits": 16,
@@ -9375,7 +9501,7 @@
           "multiplier": 10
         },
         {
-          "id": 435,
+          "id": 492,
           "register_address": 1100,
           "measurement": "misc",
           "size_bits": 16,
@@ -9393,7 +9519,7 @@
           "multiplier": 1
         },
         {
-          "id": 436,
+          "id": 493,
           "register_address": 1101,
           "measurement": "voltage",
           "size_bits": 16,
@@ -9411,7 +9537,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 437,
+          "id": 494,
           "register_address": 1102,
           "measurement": "current",
           "size_bits": 16,
@@ -9429,7 +9555,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 438,
+          "id": 495,
           "register_address": 1103,
           "measurement": "power",
           "size_bits": 16,
@@ -9447,7 +9573,7 @@
           "multiplier": 10
         },
         {
-          "id": 439,
+          "id": 496,
           "register_address": 1104,
           "measurement": "misc",
           "size_bits": 16,
@@ -9494,7 +9620,7 @@
       "name": "Nippen DT-108",
       "in_registers": [
         {
-          "id": 440,
+          "id": 497,
           "register_address": 1006,
           "measurement": "energy",
           "size_bits": 32,
@@ -9512,7 +9638,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 441,
+          "id": 498,
           "register_address": 1008,
           "measurement": "energy",
           "size_bits": 32,
@@ -9530,7 +9656,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 442,
+          "id": 499,
           "register_address": 1010,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9548,7 +9674,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 443,
+          "id": 500,
           "register_address": 1012,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9566,7 +9692,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 444,
+          "id": 501,
           "register_address": 1014,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9584,7 +9710,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 445,
+          "id": 502,
           "register_address": 1016,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9602,7 +9728,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 446,
+          "id": 503,
           "register_address": 1018,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9620,7 +9746,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 447,
+          "id": 504,
           "register_address": 1020,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9638,7 +9764,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 448,
+          "id": 505,
           "register_address": 1022,
           "measurement": "current",
           "size_bits": 32,
@@ -9656,7 +9782,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 449,
+          "id": 506,
           "register_address": 1024,
           "measurement": "current",
           "size_bits": 32,
@@ -9674,7 +9800,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 450,
+          "id": 507,
           "register_address": 1026,
           "measurement": "current",
           "size_bits": 32,
@@ -9692,7 +9818,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 451,
+          "id": 508,
           "register_address": 1028,
           "measurement": "energy",
           "size_bits": 32,
@@ -9710,7 +9836,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 452,
+          "id": 509,
           "register_address": 1030,
           "measurement": "energy",
           "size_bits": 32,
@@ -9728,7 +9854,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 453,
+          "id": 510,
           "register_address": 1032,
           "measurement": "energy",
           "size_bits": 32,
@@ -9746,7 +9872,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 454,
+          "id": 511,
           "register_address": 1034,
           "measurement": "power",
           "size_bits": 32,
@@ -9764,7 +9890,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 455,
+          "id": 512,
           "register_address": 1036,
           "measurement": "power",
           "size_bits": 32,
@@ -9782,7 +9908,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 456,
+          "id": 513,
           "register_address": 1038,
           "measurement": "power",
           "size_bits": 32,
@@ -9800,7 +9926,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 457,
+          "id": 514,
           "register_address": 1040,
           "measurement": "frequency",
           "size_bits": 32,
@@ -9818,7 +9944,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 458,
+          "id": 515,
           "register_address": 1084,
           "measurement": "power",
           "size_bits": 32,
@@ -9836,7 +9962,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 459,
+          "id": 516,
           "register_address": 1086,
           "measurement": "power",
           "size_bits": 32,
@@ -9854,7 +9980,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 460,
+          "id": 517,
           "register_address": 1088,
           "measurement": "power",
           "size_bits": 32,
@@ -9872,7 +9998,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 461,
+          "id": 518,
           "register_address": 1090,
           "measurement": "power",
           "size_bits": 32,
@@ -9890,7 +10016,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 462,
+          "id": 519,
           "register_address": 1092,
           "measurement": "power",
           "size_bits": 32,
@@ -9908,7 +10034,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 463,
+          "id": 520,
           "register_address": 1094,
           "measurement": "power",
           "size_bits": 32,
@@ -9920,6 +10046,172 @@
           "master_device_id": 19,
           "input_type": "analog",
           "name": "Apparent Power KVA-L3",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.1
+        }
+      ],
+      "out_registers": []
+    },
+    {
+      "id": 20,
+      "port": "/dev/serial0",
+      "baud_rate": 9600,
+      "parity": "N",
+      "stop_bits": 1,
+      "byte_size": 8,
+      "total_register": 25,
+      "register_offset": 0,
+      "batches": "[{\"address\": 1086, \"count\": 2}, {\"address\": 1094, \"count\": 2}, {\"address\": 1100, \"count\": 2}, {\"address\": 1102, \"count\": 2}]",
+      "word_order": "big",
+      "byte_order": "big",
+      "batch_retry_times": 1,
+      "timeout": 3,
+      "poll_interval": 10,
+      "save_interval": 10,
+      "rt_interval": 30,
+      "local_storage_enable": true,
+      "cloud_storage_enable": true,
+      "rt_enable": true,
+      "register_func_type": "holding",
+      "device_type": "MOD",
+      "sub_type": "MOD-EM",
+      "model": "DGC-202x",
+      "name": "DGC-202X DG",
+      "in_registers": [
+        {
+          "id": 528,
+          "register_address": 1086,
+          "measurement": "misc",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "float",
+          "sub_type": "MOD-EM",
+          "zone": "FL",
+          "device_type": "MOD",
+          "master_device_id": 20,
+          "input_type": "analog",
+          "name": "Fuel Level",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 529,
+          "register_address": 1094,
+          "measurement": "voltage",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "float",
+          "sub_type": "MOD-EM",
+          "zone": "BV",
+          "device_type": "MOD",
+          "master_device_id": 20,
+          "input_type": "analog",
+          "name": "Battery Voltage",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 530,
+          "register_address": 1100,
+          "measurement": "misc",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "HRS",
+          "device_type": "MOD",
+          "master_device_id": 20,
+          "input_type": "analog",
+          "name": "DG Run Hours",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.1
+        },
+        {
+          "id": 531,
+          "register_address": 1102,
+          "measurement": "energy",
+          "size_bits": 32,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "KWH",
+          "device_type": "MOD",
+          "master_device_id": 20,
+          "input_type": "analog",
+          "name": "Active Power",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.1
+        }
+      ],
+      "out_registers": []
+    },
+    {
+      "id": 21,
+      "port": "/dev/serial0",
+      "baud_rate": 9600,
+      "parity": "N",
+      "stop_bits": 1,
+      "byte_size": 8,
+      "total_register": 4,
+      "register_offset": 0,
+      "batches": "[{\"address\": 1550,\"count\": 2}, {\"address\": 1554,\"count\": 2}]",
+      "word_order": "little",
+      "byte_order": "big",
+      "batch_retry_times": 1,
+      "timeout": 3,
+      "poll_interval": 10,
+      "save_interval": 10,
+      "rt_interval": 30,
+      "local_storage_enable": true,
+      "cloud_storage_enable": true,
+      "rt_enable": true,
+      "register_func_type": "input",
+      "device_type": "MOD",
+      "sub_type": "MOD-EM",
+      "model": "PLC Temperature Twix",
+      "name": "PLC Temperature Twix",
+      "in_registers": [
+        {
+          "id": 532,
+          "register_address": 1550,
+          "measurement": "temperature",
+          "size_bits": 16,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "BLCH1",
+          "device_type": "MOD",
+          "master_device_id": 21,
+          "input_type": "analog",
+          "name": "Temp_channel0",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 0.1
+        },
+        {
+          "id": 533,
+          "register_address": 1554,
+          "measurement": "temperature",
+          "size_bits": 16,
+          "count_registers": 2,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "ATMCH2",
+          "device_type": "MOD",
+          "master_device_id": 21,
+          "input_type": "analog",
+          "name": "Temp_channel1",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -13769,7 +14061,7 @@
       ],
       "out_templates": []
     }
-],
+  ],
   "schedule_group_templates": [],
   "serial_device_templates": [
     {
