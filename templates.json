@@ -10128,7 +10128,7 @@
           "device_type": "MOD",
           "master_device_id": 20,
           "input_type": "analog",
-          "name": "DG Run Hurs",
+          "name": "DG Run Hours",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
