@@ -18065,7 +18065,7 @@
       "retry_times": 2,
       "timeout": 3,
       "poll_interval": 10,
-      "save_interval": 1,
+      "save_interval": 10,
       "rt_interval": 30,
       "version": "1",
       "local_storage_enable": true,
