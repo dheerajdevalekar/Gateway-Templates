@@ -4251,7 +4251,7 @@
           "device_type": "MOD",
           "master_device_id": 6,
           "input_type": "analog",
-          "name": "Total apperant energy",
+          "name": "Total apparent energy",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -10492,7 +10492,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "Safety brake contact  pckup KBA2",
+          "name": "Safety brake contact pickup KBA2",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -10510,7 +10510,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "Sately brake contact  picku p KBA3",
+          "name": "Sately brake contact pickup KBA3",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -10528,7 +10528,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "Sately brake contact  picku p KBA4",
+          "name": "Sately brake contact  pickup KBA4",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -12832,7 +12832,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "PB overtemperature",
+          "name": "PB over temperature",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -12850,7 +12850,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "PT overtemperature",
+          "name": "PT over temperature",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -12868,7 +12868,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "PA overtemperature",
+          "name": "PA over temperature",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -13012,7 +13012,7 @@
           "device_type": "MOD",
           "master_device_id": 22,
           "input_type": "state",
-          "name": "Glass cladding monitor diagnostiC",
+          "name": "Glass cladding monitor diagnostics",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -14924,11 +14924,11 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{\"0\":\"Under Maintainence\",\"1\":\"Normal\"}",
+          "alarm_info": "{\"0\":\"Under Maintenance\",\"1\":\"Normal\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Under Maintainence"
+          "name": "Under Maintenance"
         },
         {
           "id": 40,
@@ -15093,7 +15093,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Safety brake contact  pckup KBA2"
+          "name": "Safety brake contact pickup KBA2"
         },
         {
           "id": 51,
@@ -15108,7 +15108,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Sately brake contact  picku p KBA3"
+          "name": "Sately brake contact pickup KBA3"
         },
         {
           "id": 52,
@@ -15123,7 +15123,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Sately brake contact  picku p KBA4"
+          "name": "Sately brake contact pickup KBA4"
         },
         {
           "id": 53,
@@ -17043,7 +17043,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "PB overtemperature"
+          "name": "PB over temperature"
         },
         {
           "id": 181,
@@ -17058,7 +17058,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "PT overtemperature"
+          "name": "PT over temperature"
         },
         {
           "id": 182,
@@ -17073,7 +17073,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "PA overtemperature"
+          "name": "PA over temperature"
         },
         {
           "id": 183,
@@ -17193,7 +17193,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Glass cladding monitor diagnostiC"
+          "name": "Glass cladding monitor diagnostics"
         },
         {
           "id": 191,
