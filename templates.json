@@ -19023,20 +19023,7 @@
       "out_templates": []
     }
   ],
-  "schedule_group_templates": [
-    {
-      "id": 1,
-      "friendly_name": "motion_test",
-      "created_at": "2022-05-27T15:14:28.112073",
-      "schedule_time_divisions": []
-    },
-    {
-      "id": 2,
-      "friendly_name": "motion_test",
-      "created_at": "2022-07-04T15:36:24.616680",
-      "schedule_time_divisions": []
-    }
-  ],
+  "schedule_group_templates": [],
   "serial_device_templates": [
     {
       "id": 1,
