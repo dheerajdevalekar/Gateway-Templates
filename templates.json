@@ -5822,7 +5822,7 @@
       "total_register": 26,
       "register_offset": 0,
       "batches": "[{\"address\": 0,\"count\": 29}]",
-      "word_order": "little",
+      "word_order": "big",
       "byte_order": "big",
       "batch_retry_times": 1,
       "timeout": 3,
@@ -5836,7 +5836,7 @@
       "device_type": "MOD",
       "sub_type": "MOD-HVAC",
       "model": "hvac-controller",
-      "name": "hvac-controller",
+      "name": "Hvac-Controller",
       "in_registers": [
         {
           "id": 311,
@@ -5965,9 +5965,9 @@
           "multiplier": 1
         },
         {
-          "id": 319,
+          "id": 318,
           "register_address": 12,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "int",
@@ -5975,7 +5975,7 @@
           "zone": "AS",
           "device_type": "MOD",
           "master_device_id": 9,
-          "input_type": "analog",
+          "input_type": "state",
           "name": "Alarm Status",
           "min_alarm": 0,
           "max_alarm": 0,
@@ -5983,9 +5983,9 @@
           "multiplier": 1
         },
         {
-          "id": 320,
+          "id": 319,
           "register_address": 14,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "int",
@@ -5993,7 +5993,7 @@
           "zone": "TEMPFLT",
           "device_type": "MOD",
           "master_device_id": 9,
-          "input_type": "analog",
+          "input_type": "state",
           "name": "Temperature Sensor Fault",
           "min_alarm": 0,
           "max_alarm": 0,
@@ -6001,9 +6001,9 @@
           "multiplier": 1
         },
         {
-          "id": 321,
+          "id": 320,
           "register_address": 16,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "int",
@@ -6011,7 +6011,7 @@
           "zone": "FANFLT",
           "device_type": "MOD",
           "master_device_id": 9,
-          "input_type": "analog",
+          "input_type": "state",
           "name": "Fan Fault Register",
           "min_alarm": 0,
           "max_alarm": 0,
@@ -6019,9 +6019,9 @@
           "multiplier": 1
         },
         {
-          "id": 322,
+          "id": 321,
           "register_address": 17,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "int",
@@ -6029,7 +6029,7 @@
           "zone": "COM1FLT",
           "device_type": "MOD",
           "master_device_id": 9,
-          "input_type": "analog",
+          "input_type": "state",
           "name": "Compressor1 Fault Register",
           "min_alarm": 0,
           "max_alarm": 0,
@@ -6037,9 +6037,9 @@
           "multiplier": 1
         },
         {
-          "id": 323,
+          "id": 322,
           "register_address": 18,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "int",
@@ -6047,7 +6047,7 @@
           "zone": "COM2FLT",
           "device_type": "MOD",
           "master_device_id": 9,
-          "input_type": "analog",
+          "input_type": "state",
           "name": "Compressor2 Fault Register",
           "min_alarm": 0,
           "max_alarm": 0,
@@ -6055,7 +6055,7 @@
           "multiplier": 1
         },
         {
-          "id": 325,
+          "id": 323,
           "register_address": 11,
           "measurement": "acspeed",
           "size_bits": 2,
@@ -6073,7 +6073,7 @@
           "multiplier": 1
         },
         {
-          "id": 325,
+          "id": 324,
           "register_address": 23,
           "measurement": "acmode",
           "size_bits": 6,
@@ -6091,7 +6091,7 @@
           "multiplier": 1
         },
         {
-          "id": 326,
+          "id": 325,
           "register_address": 23,
           "measurement": "acstate",
           "size_bits": 1,
@@ -6145,9 +6145,9 @@
           "multiplier": 1
         },
         {
-          "id": 329,
+          "id": 328,
           "register_address": 10,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -6163,9 +6163,9 @@
           "multiplier": 1
         },
         {
-          "id": 330,
+          "id": 329,
           "register_address": 10,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -6179,14 +6179,50 @@
           "max_alarm": 0,
           "hysteresis": 0,
           "multiplier": 1
+        },
+        {
+          "id": 330,
+          "register_address": 13,
+          "measurement": "event",
+          "size_bits": 1,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-HVAC",
+          "zone": "SYSFLT",
+          "device_type": "MOD",
+          "master_device_id": 9,
+          "input_type": "state",
+          "name": "SPPR Fault",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 331,
+          "register_address": 23,
+          "measurement": "event",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-HVAC",
+          "zone": "REMOTEHAND",
+          "device_type": "MOD",
+          "master_device_id": 9,
+          "input_type": "state",
+          "name": "Remote Handled",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
         }
       ],
       "out_registers": [
         {
-          "id": 1,
           "register_func_type": "holding",
           "device_type": "MOD",
           "local_storage_enable": true,
+          "id": 1,
           "enable": true,
           "sub_type": "MOD-HVAC",
           "name": "AC State",
@@ -6200,10 +6236,10 @@
           "alarm_enable": true
         },
         {
-          "id": 2,
           "register_func_type": "holding",
           "device_type": "MOD",
           "local_storage_enable": true,
+          "id": 2,
           "enable": true,
           "sub_type": "MOD-HVAC",
           "name": "AC State",
@@ -6245,7 +6281,7 @@
       "name": "enviro-temp-hum",
       "in_registers": [
         {
-          "id": 331,
+          "id": 332,
           "register_address": 1005,
           "measurement": "temperature",
           "size_bits": 16,
@@ -6263,7 +6299,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 332,
+          "id": 333,
           "register_address": 1009,
           "measurement": "humidity",
           "size_bits": 16,
@@ -6338,7 +6374,7 @@
       "name": "selec-MIBRX",
       "in_registers": [
         {
-          "id": 333,
+          "id": 334,
           "register_address": 1552,
           "measurement": "temperature",
           "size_bits": 32,
@@ -6356,7 +6392,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 334,
+          "id": 335,
           "register_address": 1554,
           "measurement": "temperature",
           "size_bits": 32,
@@ -6403,7 +6439,7 @@
       "name": "selec-306-C-D",
       "in_registers": [
         {
-          "id": 335,
+          "id": 336,
           "register_address": 0,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6421,7 +6457,7 @@
           "multiplier": 1
         },
         {
-          "id": 336,
+          "id": 337,
           "register_address": 2,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6439,7 +6475,7 @@
           "multiplier": 1
         },
         {
-          "id": 337,
+          "id": 338,
           "register_address": 4,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6457,7 +6493,7 @@
           "multiplier": 1
         },
         {
-          "id": 338,
+          "id": 339,
           "register_address": 6,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6475,7 +6511,7 @@
           "multiplier": 1
         },
         {
-          "id": 339,
+          "id": 340,
           "register_address": 8,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6493,7 +6529,7 @@
           "multiplier": 1
         },
         {
-          "id": 340,
+          "id": 341,
           "register_address": 10,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6511,7 +6547,7 @@
           "multiplier": 1
         },
         {
-          "id": 341,
+          "id": 342,
           "register_address": 12,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6529,7 +6565,7 @@
           "multiplier": 1
         },
         {
-          "id": 342,
+          "id": 343,
           "register_address": 14,
           "measurement": "voltage",
           "size_bits": 32,
@@ -6547,7 +6583,7 @@
           "multiplier": 1
         },
         {
-          "id": 343,
+          "id": 344,
           "register_address": 16,
           "measurement": "current",
           "size_bits": 32,
@@ -6565,7 +6601,7 @@
           "multiplier": 1
         },
         {
-          "id": 344,
+          "id": 345,
           "register_address": 18,
           "measurement": "current",
           "size_bits": 32,
@@ -6583,7 +6619,7 @@
           "multiplier": 1
         },
         {
-          "id": 345,
+          "id": 346,
           "register_address": 20,
           "measurement": "current",
           "size_bits": 32,
@@ -6601,7 +6637,7 @@
           "multiplier": 1
         },
         {
-          "id": 346,
+          "id": 347,
           "register_address": 22,
           "measurement": "current",
           "size_bits": 32,
@@ -6619,7 +6655,7 @@
           "multiplier": 1
         },
         {
-          "id": 347,
+          "id": 348,
           "register_address": 24,
           "measurement": "power",
           "size_bits": 32,
@@ -6637,7 +6673,7 @@
           "multiplier": 1
         },
         {
-          "id": 348,
+          "id": 349,
           "register_address": 26,
           "measurement": "power",
           "size_bits": 32,
@@ -6655,7 +6691,7 @@
           "multiplier": 1
         },
         {
-          "id": 349,
+          "id": 350,
           "register_address": 28,
           "measurement": "power",
           "size_bits": 32,
@@ -6673,7 +6709,7 @@
           "multiplier": 1
         },
         {
-          "id": 350,
+          "id": 351,
           "register_address": 30,
           "measurement": "power",
           "size_bits": 32,
@@ -6691,7 +6727,7 @@
           "multiplier": 1
         },
         {
-          "id": 351,
+          "id": 352,
           "register_address": 32,
           "measurement": "power",
           "size_bits": 32,
@@ -6709,7 +6745,7 @@
           "multiplier": 1
         },
         {
-          "id": 352,
+          "id": 353,
           "register_address": 34,
           "measurement": "power",
           "size_bits": 32,
@@ -6727,7 +6763,7 @@
           "multiplier": 1
         },
         {
-          "id": 353,
+          "id": 354,
           "register_address": 36,
           "measurement": "power",
           "size_bits": 32,
@@ -6745,7 +6781,7 @@
           "multiplier": 1
         },
         {
-          "id": 354,
+          "id": 355,
           "register_address": 38,
           "measurement": "power",
           "size_bits": 32,
@@ -6763,7 +6799,7 @@
           "multiplier": 1
         },
         {
-          "id": 355,
+          "id": 356,
           "register_address": 40,
           "measurement": "power",
           "size_bits": 32,
@@ -6781,7 +6817,7 @@
           "multiplier": 1
         },
         {
-          "id": 356,
+          "id": 357,
           "register_address": 42,
           "measurement": "power",
           "size_bits": 32,
@@ -6799,7 +6835,7 @@
           "multiplier": 1
         },
         {
-          "id": 357,
+          "id": 358,
           "register_address": 44,
           "measurement": "power",
           "size_bits": 32,
@@ -6817,7 +6853,7 @@
           "multiplier": 1
         },
         {
-          "id": 358,
+          "id": 359,
           "register_address": 46,
           "measurement": "power",
           "size_bits": 32,
@@ -6835,7 +6871,7 @@
           "multiplier": 1
         },
         {
-          "id": 359,
+          "id": 360,
           "register_address": 48,
           "measurement": "power",
           "size_bits": 32,
@@ -6853,7 +6889,7 @@
           "multiplier": 1
         },
         {
-          "id": 360,
+          "id": 361,
           "register_address": 50,
           "measurement": "power",
           "size_bits": 32,
@@ -6871,7 +6907,7 @@
           "multiplier": 1
         },
         {
-          "id": 361,
+          "id": 362,
           "register_address": 52,
           "measurement": "power",
           "size_bits": 32,
@@ -6889,7 +6925,7 @@
           "multiplier": 1
         },
         {
-          "id": 362,
+          "id": 363,
           "register_address": 54,
           "measurement": "power",
           "size_bits": 32,
@@ -6907,7 +6943,7 @@
           "multiplier": 1
         },
         {
-          "id": 363,
+          "id": 364,
           "register_address": 56,
           "measurement": "frequency",
           "size_bits": 32,
@@ -6925,7 +6961,7 @@
           "multiplier": 1
         },
         {
-          "id": 364,
+          "id": 365,
           "register_address": 58,
           "measurement": "energy",
           "size_bits": 32,
@@ -6943,7 +6979,7 @@
           "multiplier": 1
         },
         {
-          "id": 365,
+          "id": 366,
           "register_address": 60,
           "measurement": "energy",
           "size_bits": 32,
@@ -6961,7 +6997,7 @@
           "multiplier": 1
         },
         {
-          "id": 366,
+          "id": 367,
           "register_address": 62,
           "measurement": "energy",
           "size_bits": 32,
@@ -6979,7 +7015,7 @@
           "multiplier": 1
         },
         {
-          "id": 367,
+          "id": 368,
           "register_address": 74,
           "measurement": "energy",
           "size_bits": 32,
@@ -6997,7 +7033,7 @@
           "multiplier": 1
         },
         {
-          "id": 368,
+          "id": 369,
           "register_address": 76,
           "measurement": "energy",
           "size_bits": 32,
@@ -7015,7 +7051,7 @@
           "multiplier": 1
         },
         {
-          "id": 369,
+          "id": 370,
           "register_address": 78,
           "measurement": "energy",
           "size_bits": 32,
@@ -7033,7 +7069,7 @@
           "multiplier": 1
         },
         {
-          "id": 370,
+          "id": 371,
           "register_address": 122,
           "measurement": "energy",
           "size_bits": 32,
@@ -7051,7 +7087,7 @@
           "multiplier": 1
         },
         {
-          "id": 371,
+          "id": 372,
           "register_address": 124,
           "measurement": "energy",
           "size_bits": 32,
@@ -7069,7 +7105,7 @@
           "multiplier": 1
         },
         {
-          "id": 372,
+          "id": 373,
           "register_address": 126,
           "measurement": "energy",
           "size_bits": 32,
@@ -7087,7 +7123,7 @@
           "multiplier": 1
         },
         {
-          "id": 373,
+          "id": 374,
           "register_address": 128,
           "measurement": "misc",
           "size_bits": 32,
@@ -7134,7 +7170,7 @@
       "name": "Deepsea-4520-MK11",
       "in_registers": [
         {
-          "id": 374,
+          "id": 375,
           "register_address": 1027,
           "measurement": "misc",
           "size_bits": 16,
@@ -7152,7 +7188,7 @@
           "multiplier": 1
         },
         {
-          "id": 375,
+          "id": 376,
           "register_address": 1028,
           "measurement": "voltage",
           "size_bits": 16,
@@ -7170,7 +7206,7 @@
           "multiplier": 1
         },
         {
-          "id": 376,
+          "id": 377,
           "register_address": 1029,
           "measurement": "voltage",
           "size_bits": 16,
@@ -7188,7 +7224,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 377,
+          "id": 378,
           "register_address": 1030,
           "measurement": "misc",
           "size_bits": 16,
@@ -7206,7 +7242,7 @@
           "multiplier": 1
         },
         {
-          "id": 378,
+          "id": 379,
           "register_address": 1290,
           "measurement": "misc",
           "size_bits": 32,
@@ -7224,7 +7260,7 @@
           "multiplier": 0.01
         },
         {
-          "id": 379,
+          "id": 380,
           "register_address": 1296,
           "measurement": "misc",
           "size_bits": 32,
@@ -7242,7 +7278,7 @@
           "multiplier": 1
         },
         {
-          "id": 380,
+          "id": 381,
           "register_address": 1798,
           "measurement": "misc",
           "size_bits": 32,
@@ -7260,7 +7296,7 @@
           "multiplier": 0.00027777
         },
         {
-          "id": 381,
+          "id": 382,
           "register_address": 1800,
           "measurement": "energy",
           "size_bits": 32,
@@ -7278,7 +7314,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 382,
+          "id": 383,
           "register_address": 39425,
           "measurement": "misc",
           "size_bits": 16,
@@ -7296,7 +7332,7 @@
           "multiplier": 1
         },
         {
-          "id": 383,
+          "id": 384,
           "register_address": 39426,
           "measurement": "misc",
           "size_bits": 16,
@@ -7314,7 +7350,7 @@
           "multiplier": 1
         },
         {
-          "id": 384,
+          "id": 385,
           "register_address": 39427,
           "measurement": "misc",
           "size_bits": 16,
@@ -7332,7 +7368,7 @@
           "multiplier": 1
         },
         {
-          "id": 385,
+          "id": 386,
           "register_address": 39428,
           "measurement": "misc",
           "size_bits": 16,
@@ -7350,7 +7386,7 @@
           "multiplier": 1
         },
         {
-          "id": 386,
+          "id": 387,
           "register_address": 39429,
           "measurement": "misc",
           "size_bits": 16,
@@ -7368,7 +7404,7 @@
           "multiplier": 1
         },
         {
-          "id": 387,
+          "id": 388,
           "register_address": 39429,
           "measurement": "misc",
           "size_bits": 16,
@@ -7386,7 +7422,7 @@
           "multiplier": 1
         },
         {
-          "id": 388,
+          "id": 389,
           "register_address": 39429,
           "measurement": "misc",
           "size_bits": 16,
@@ -7404,7 +7440,7 @@
           "multiplier": 1
         },
         {
-          "id": 389,
+          "id": 390,
           "register_address": 39429,
           "measurement": "misc",
           "size_bits": 16,
@@ -7422,7 +7458,7 @@
           "multiplier": 1
         },
         {
-          "id": 390,
+          "id": 391,
           "register_address": 39429,
           "measurement": "misc",
           "size_bits": 16,
@@ -7440,7 +7476,7 @@
           "multiplier": 1
         },
         {
-          "id": 391,
+          "id": 392,
           "register_address": 39429,
           "measurement": "misc",
           "size_bits": 16,
@@ -7487,7 +7523,7 @@
       "name": "Carrier_VRV",
       "in_registers": [
         {
-          "id": 392,
+          "id": 393,
           "register_address": 0,
           "measurement": "event",
           "size_bits": 1,
@@ -7505,7 +7541,7 @@
           "multiplier": 1
         },
         {
-          "id": 393,
+          "id": 394,
           "register_address": 1,
           "measurement": "temperature",
           "size_bits": 1,
@@ -7523,7 +7559,7 @@
           "multiplier": 1
         },
         {
-          "id": 394,
+          "id": 395,
           "register_address": 2,
           "measurement": "temperature",
           "size_bits": 16,
@@ -7541,7 +7577,7 @@
           "multiplier": 1
         },
         {
-          "id": 395,
+          "id": 396,
           "register_address": 3,
           "measurement": "acmode",
           "size_bits": 1,
@@ -7559,7 +7595,7 @@
           "multiplier": 1
         },
         {
-          "id": 396,
+          "id": 397,
           "register_address": 4,
           "measurement": "acspeed",
           "size_bits": 1,
@@ -7577,7 +7613,7 @@
           "multiplier": 1
         },
         {
-          "id": 397,
+          "id": 398,
           "register_address": 5,
           "measurement": "humidity",
           "size_bits": 1,
@@ -7595,7 +7631,7 @@
           "multiplier": 1
         },
         {
-          "id": 398,
+          "id": 399,
           "register_address": 6,
           "measurement": "event",
           "size_bits": 1,
@@ -7613,7 +7649,7 @@
           "multiplier": 1
         },
         {
-          "id": 399,
+          "id": 400,
           "register_address": 7,
           "measurement": "event",
           "size_bits": 1,
@@ -7631,7 +7667,7 @@
           "multiplier": 1
         },
         {
-          "id": 400,
+          "id": 401,
           "register_address": 8,
           "measurement": "event",
           "size_bits": 1,
@@ -7649,7 +7685,7 @@
           "multiplier": 1
         },
         {
-          "id": 401,
+          "id": 402,
           "register_address": 9,
           "measurement": "event",
           "size_bits": 1,
@@ -7667,7 +7703,7 @@
           "multiplier": 1
         },
         {
-          "id": 402,
+          "id": 403,
           "register_address": 10,
           "measurement": "event",
           "size_bits": 1,
@@ -7685,7 +7721,7 @@
           "multiplier": 1
         },
         {
-          "id": 403,
+          "id": 404,
           "register_address": 11,
           "measurement": "event",
           "size_bits": 1,
@@ -7703,7 +7739,7 @@
           "multiplier": 1
         },
         {
-          "id": 404,
+          "id": 405,
           "register_address": 12,
           "measurement": "event",
           "size_bits": 1,
@@ -7721,7 +7757,7 @@
           "multiplier": 1
         },
         {
-          "id": 405,
+          "id": 406,
           "register_address": 13,
           "measurement": "event",
           "size_bits": 1,
@@ -7739,7 +7775,7 @@
           "multiplier": 1
         },
         {
-          "id": 406,
+          "id": 407,
           "register_address": 14,
           "measurement": "event",
           "size_bits": 1,
@@ -7757,7 +7793,7 @@
           "multiplier": 1
         },
         {
-          "id": 407,
+          "id": 408,
           "register_address": 15,
           "measurement": "event",
           "size_bits": 1,
@@ -7775,7 +7811,7 @@
           "multiplier": 1
         },
         {
-          "id": 408,
+          "id": 409,
           "register_address": 16,
           "measurement": "event",
           "size_bits": 1,
@@ -7793,7 +7829,7 @@
           "multiplier": 1
         },
         {
-          "id": 409,
+          "id": 410,
           "register_address": 17,
           "measurement": "event",
           "size_bits": 1,
@@ -7811,7 +7847,7 @@
           "multiplier": 1
         },
         {
-          "id": 410,
+          "id": 411,
           "register_address": 18,
           "measurement": "event",
           "size_bits": 1,
@@ -7829,7 +7865,7 @@
           "multiplier": 1
         },
         {
-          "id": 411,
+          "id": 412,
           "register_address": 19,
           "measurement": "event",
           "size_bits": 1,
@@ -7847,7 +7883,7 @@
           "multiplier": 1
         },
         {
-          "id": 412,
+          "id": 413,
           "register_address": 20,
           "measurement": "event",
           "size_bits": 1,
@@ -7865,7 +7901,7 @@
           "multiplier": 1
         },
         {
-          "id": 413,
+          "id": 414,
           "register_address": 21,
           "measurement": "event",
           "size_bits": 1,
@@ -7883,7 +7919,7 @@
           "multiplier": 1
         },
         {
-          "id": 414,
+          "id": 415,
           "register_address": 22,
           "measurement": "event",
           "size_bits": 1,
@@ -7901,7 +7937,7 @@
           "multiplier": 1
         },
         {
-          "id": 415,
+          "id": 416,
           "register_address": 23,
           "measurement": "event",
           "size_bits": 1,
@@ -7919,7 +7955,7 @@
           "multiplier": 1
         },
         {
-          "id": 416,
+          "id": 417,
           "register_address": 24,
           "measurement": "event",
           "size_bits": 1,
@@ -7937,7 +7973,7 @@
           "multiplier": 1
         },
         {
-          "id": 417,
+          "id": 418,
           "register_address": 25,
           "measurement": "event",
           "size_bits": 1,
@@ -7955,7 +7991,7 @@
           "multiplier": 1
         },
         {
-          "id": 418,
+          "id": 419,
           "register_address": 26,
           "measurement": "event",
           "size_bits": 1,
@@ -7973,7 +8009,7 @@
           "multiplier": 1
         },
         {
-          "id": 419,
+          "id": 420,
           "register_address": 27,
           "measurement": "event",
           "size_bits": 1,
@@ -7991,7 +8027,7 @@
           "multiplier": 1
         },
         {
-          "id": 420,
+          "id": 421,
           "register_address": 28,
           "measurement": "event",
           "size_bits": 1,
@@ -8009,7 +8045,7 @@
           "multiplier": 1
         },
         {
-          "id": 421,
+          "id": 422,
           "register_address": 29,
           "measurement": "event",
           "size_bits": 1,
@@ -8027,7 +8063,7 @@
           "multiplier": 1
         },
         {
-          "id": 422,
+          "id": 423,
           "register_address": 30,
           "measurement": "event",
           "size_bits": 1,
@@ -8045,7 +8081,7 @@
           "multiplier": 1
         },
         {
-          "id": 423,
+          "id": 424,
           "register_address": 31,
           "measurement": "event",
           "size_bits": 1,
@@ -8063,7 +8099,7 @@
           "multiplier": 1
         },
         {
-          "id": 424,
+          "id": 425,
           "register_address": 32,
           "measurement": "event",
           "size_bits": 1,
@@ -8081,7 +8117,7 @@
           "multiplier": 1
         },
         {
-          "id": 425,
+          "id": 426,
           "register_address": 33,
           "measurement": "event",
           "size_bits": 1,
@@ -8099,7 +8135,7 @@
           "multiplier": 1
         },
         {
-          "id": 426,
+          "id": 427,
           "register_address": 34,
           "measurement": "event",
           "size_bits": 1,
@@ -8117,7 +8153,7 @@
           "multiplier": 1
         },
         {
-          "id": 427,
+          "id": 428,
           "register_address": 35,
           "measurement": "event",
           "size_bits": 1,
@@ -8135,7 +8171,7 @@
           "multiplier": 1
         },
         {
-          "id": 428,
+          "id": 429,
           "register_address": 36,
           "measurement": "event",
           "size_bits": 1,
@@ -8153,7 +8189,7 @@
           "multiplier": 1
         },
         {
-          "id": 429,
+          "id": 430,
           "register_address": 37,
           "measurement": "event",
           "size_bits": 1,
@@ -8171,7 +8207,7 @@
           "multiplier": 1
         },
         {
-          "id": 430,
+          "id": 431,
           "register_address": 38,
           "measurement": "event",
           "size_bits": 1,
@@ -8189,7 +8225,7 @@
           "multiplier": 1
         },
         {
-          "id": 431,
+          "id": 432,
           "register_address": 39,
           "measurement": "event",
           "size_bits": 1,
@@ -8207,7 +8243,7 @@
           "multiplier": 1
         },
         {
-          "id": 432,
+          "id": 433,
           "register_address": 40,
           "measurement": "event",
           "size_bits": 1,
@@ -8225,7 +8261,7 @@
           "multiplier": 1
         },
         {
-          "id": 433,
+          "id": 434,
           "register_address": 41,
           "measurement": "event",
           "size_bits": 1,
@@ -8243,7 +8279,7 @@
           "multiplier": 1
         },
         {
-          "id": 434,
+          "id": 435,
           "register_address": 42,
           "measurement": "event",
           "size_bits": 1,
@@ -8261,7 +8297,7 @@
           "multiplier": 1
         },
         {
-          "id": 435,
+          "id": 436,
           "register_address": 43,
           "measurement": "event",
           "size_bits": 1,
@@ -8279,7 +8315,7 @@
           "multiplier": 1
         },
         {
-          "id": 436,
+          "id": 437,
           "register_address": 44,
           "measurement": "event",
           "size_bits": 1,
@@ -8297,7 +8333,7 @@
           "multiplier": 1
         },
         {
-          "id": 437,
+          "id": 438,
           "register_address": 45,
           "measurement": "event",
           "size_bits": 1,
@@ -8315,7 +8351,7 @@
           "multiplier": 1
         },
         {
-          "id": 438,
+          "id": 439,
           "register_address": 46,
           "measurement": "event",
           "size_bits": 1,
@@ -8333,7 +8369,7 @@
           "multiplier": 1
         },
         {
-          "id": 439,
+          "id": 440,
           "register_address": 47,
           "measurement": "event",
           "size_bits": 1,
@@ -8351,7 +8387,7 @@
           "multiplier": 1
         },
         {
-          "id": 440,
+          "id": 441,
           "register_address": 48,
           "measurement": "event",
           "size_bits": 1,
@@ -8369,7 +8405,7 @@
           "multiplier": 1
         },
         {
-          "id": 441,
+          "id": 442,
           "register_address": 49,
           "measurement": "event",
           "size_bits": 1,
@@ -8387,7 +8423,7 @@
           "multiplier": 1
         },
         {
-          "id": 442,
+          "id": 443,
           "register_address": 50,
           "measurement": "event",
           "size_bits": 1,
@@ -8405,7 +8441,7 @@
           "multiplier": 1
         },
         {
-          "id": 443,
+          "id": 444,
           "register_address": 51,
           "measurement": "event",
           "size_bits": 1,
@@ -8423,7 +8459,7 @@
           "multiplier": 1
         },
         {
-          "id": 444,
+          "id": 445,
           "register_address": 52,
           "measurement": "event",
           "size_bits": 1,
@@ -8441,7 +8477,7 @@
           "multiplier": 1
         },
         {
-          "id": 445,
+          "id": 446,
           "register_address": 53,
           "measurement": "event",
           "size_bits": 1,
@@ -8459,7 +8495,7 @@
           "multiplier": 1
         },
         {
-          "id": 446,
+          "id": 447,
           "register_address": 54,
           "measurement": "event",
           "size_bits": 1,
@@ -8477,7 +8513,7 @@
           "multiplier": 1
         },
         {
-          "id": 447,
+          "id": 448,
           "register_address": 55,
           "measurement": "event",
           "size_bits": 1,
@@ -8495,7 +8531,7 @@
           "multiplier": 1
         },
         {
-          "id": 448,
+          "id": 449,
           "register_address": 56,
           "measurement": "event",
           "size_bits": 1,
@@ -8513,7 +8549,7 @@
           "multiplier": 1
         },
         {
-          "id": 449,
+          "id": 450,
           "register_address": 57,
           "measurement": "event",
           "size_bits": 1,
@@ -8531,7 +8567,7 @@
           "multiplier": 1
         },
         {
-          "id": 450,
+          "id": 451,
           "register_address": 58,
           "measurement": "event",
           "size_bits": 1,
@@ -8549,7 +8585,7 @@
           "multiplier": 1
         },
         {
-          "id": 451,
+          "id": 452,
           "register_address": 59,
           "measurement": "event",
           "size_bits": 1,
@@ -8567,7 +8603,7 @@
           "multiplier": 1
         },
         {
-          "id": 452,
+          "id": 453,
           "register_address": 60,
           "measurement": "event",
           "size_bits": 1,
@@ -8585,7 +8621,7 @@
           "multiplier": 1
         },
         {
-          "id": 453,
+          "id": 454,
           "register_address": 61,
           "measurement": "event",
           "size_bits": 1,
@@ -8603,7 +8639,7 @@
           "multiplier": 1
         },
         {
-          "id": 454,
+          "id": 455,
           "register_address": 62,
           "measurement": "event",
           "size_bits": 1,
@@ -8621,7 +8657,7 @@
           "multiplier": 1
         },
         {
-          "id": 455,
+          "id": 456,
           "register_address": 63,
           "measurement": "event",
           "size_bits": 1,
@@ -8639,7 +8675,7 @@
           "multiplier": 1
         },
         {
-          "id": 456,
+          "id": 457,
           "register_address": 64,
           "measurement": "event",
           "size_bits": 1,
@@ -8657,7 +8693,7 @@
           "multiplier": 1
         },
         {
-          "id": 457,
+          "id": 458,
           "register_address": 65,
           "measurement": "acstate",
           "size_bits": 16,
@@ -8680,7 +8716,7 @@
           "register_func_type": "input",
           "device_type": "MOD",
           "local_storage_enable": true,
-          "id": 4,
+          "id": 3,
           "enable": true,
           "sub_type": "MOD-CAC",
           "name": "AC State",
@@ -8722,7 +8758,7 @@
       "name": "selec-MIBRX-4-Channel",
       "in_registers": [
         {
-          "id": 458,
+          "id": 459,
           "register_address": 1538,
           "measurement": "temperature",
           "size_bits": 16,
@@ -8740,7 +8776,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 459,
+          "id": 460,
           "register_address": 1542,
           "measurement": "temperature",
           "size_bits": 16,
@@ -8758,7 +8794,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 460,
+          "id": 461,
           "register_address": 1546,
           "measurement": "temperature",
           "size_bits": 16,
@@ -8776,7 +8812,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 461,
+          "id": 462,
           "register_address": 1550,
           "measurement": "temperature",
           "size_bits": 16,
@@ -8823,7 +8859,7 @@
       "name": "schneider-em6400ng",
       "in_registers": [
         {
-          "id": 462,
+          "id": 463,
           "register_address": 2999,
           "measurement": "current",
           "size_bits": 32,
@@ -8841,7 +8877,7 @@
           "multiplier": 1
         },
         {
-          "id": 463,
+          "id": 464,
           "register_address": 3001,
           "measurement": "current",
           "size_bits": 32,
@@ -8859,7 +8895,7 @@
           "multiplier": 1
         },
         {
-          "id": 464,
+          "id": 465,
           "register_address": 3003,
           "measurement": "current",
           "size_bits": 32,
@@ -8877,7 +8913,7 @@
           "multiplier": 1
         },
         {
-          "id": 465,
+          "id": 466,
           "register_address": 3009,
           "measurement": "current",
           "size_bits": 32,
@@ -8895,7 +8931,7 @@
           "multiplier": 1
         },
         {
-          "id": 466,
+          "id": 467,
           "register_address": 3019,
           "measurement": "voltage",
           "size_bits": 32,
@@ -8913,7 +8949,7 @@
           "multiplier": 1
         },
         {
-          "id": 467,
+          "id": 468,
           "register_address": 3021,
           "measurement": "voltage",
           "size_bits": 32,
@@ -8931,7 +8967,7 @@
           "multiplier": 1
         },
         {
-          "id": 468,
+          "id": 469,
           "register_address": 3023,
           "measurement": "voltage",
           "size_bits": 32,
@@ -8949,7 +8985,7 @@
           "multiplier": 1
         },
         {
-          "id": 469,
+          "id": 470,
           "register_address": 3025,
           "measurement": "voltage",
           "size_bits": 32,
@@ -8967,7 +9003,7 @@
           "multiplier": 1
         },
         {
-          "id": 470,
+          "id": 471,
           "register_address": 3027,
           "measurement": "voltage",
           "size_bits": 32,
@@ -8985,7 +9021,7 @@
           "multiplier": 1
         },
         {
-          "id": 471,
+          "id": 472,
           "register_address": 3029,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9003,7 +9039,7 @@
           "multiplier": 1
         },
         {
-          "id": 472,
+          "id": 473,
           "register_address": 3031,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9021,7 +9057,7 @@
           "multiplier": 1
         },
         {
-          "id": 473,
+          "id": 474,
           "register_address": 3035,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9039,7 +9075,7 @@
           "multiplier": 1
         },
         {
-          "id": 474,
+          "id": 475,
           "register_address": 3053,
           "measurement": "power",
           "size_bits": 32,
@@ -9057,7 +9093,7 @@
           "multiplier": 1
         },
         {
-          "id": 475,
+          "id": 476,
           "register_address": 3055,
           "measurement": "power",
           "size_bits": 32,
@@ -9075,7 +9111,7 @@
           "multiplier": 1
         },
         {
-          "id": 476,
+          "id": 477,
           "register_address": 3057,
           "measurement": "power",
           "size_bits": 32,
@@ -9093,7 +9129,7 @@
           "multiplier": 1
         },
         {
-          "id": 477,
+          "id": 478,
           "register_address": 3059,
           "measurement": "power",
           "size_bits": 32,
@@ -9111,7 +9147,7 @@
           "multiplier": 1
         },
         {
-          "id": 478,
+          "id": 479,
           "register_address": 3061,
           "measurement": "power",
           "size_bits": 32,
@@ -9129,7 +9165,7 @@
           "multiplier": 1
         },
         {
-          "id": 479,
+          "id": 480,
           "register_address": 3063,
           "measurement": "power",
           "size_bits": 32,
@@ -9147,7 +9183,7 @@
           "multiplier": 1
         },
         {
-          "id": 480,
+          "id": 481,
           "register_address": 3065,
           "measurement": "power",
           "size_bits": 32,
@@ -9165,7 +9201,7 @@
           "multiplier": 1
         },
         {
-          "id": 481,
+          "id": 482,
           "register_address": 3067,
           "measurement": "power",
           "size_bits": 32,
@@ -9183,7 +9219,7 @@
           "multiplier": 1
         },
         {
-          "id": 482,
+          "id": 483,
           "register_address": 3069,
           "measurement": "power",
           "size_bits": 32,
@@ -9201,7 +9237,7 @@
           "multiplier": 1
         },
         {
-          "id": 483,
+          "id": 484,
           "register_address": 3071,
           "measurement": "power",
           "size_bits": 32,
@@ -9219,7 +9255,7 @@
           "multiplier": 1
         },
         {
-          "id": 484,
+          "id": 485,
           "register_address": 3073,
           "measurement": "power",
           "size_bits": 32,
@@ -9237,7 +9273,7 @@
           "multiplier": 1
         },
         {
-          "id": 485,
+          "id": 486,
           "register_address": 3075,
           "measurement": "power",
           "size_bits": 32,
@@ -9255,7 +9291,7 @@
           "multiplier": 1
         },
         {
-          "id": 486,
+          "id": 487,
           "register_address": 3077,
           "measurement": "power",
           "size_bits": 32,
@@ -9273,7 +9309,7 @@
           "multiplier": 1
         },
         {
-          "id": 487,
+          "id": 488,
           "register_address": 3079,
           "measurement": "power",
           "size_bits": 32,
@@ -9291,7 +9327,7 @@
           "multiplier": 1
         },
         {
-          "id": 488,
+          "id": 489,
           "register_address": 3081,
           "measurement": "power",
           "size_bits": 32,
@@ -9309,7 +9345,7 @@
           "multiplier": 1
         },
         {
-          "id": 489,
+          "id": 490,
           "register_address": 3083,
           "measurement": "power",
           "size_bits": 32,
@@ -9327,7 +9363,7 @@
           "multiplier": 1
         },
         {
-          "id": 490,
+          "id": 491,
           "register_address": 3109,
           "measurement": "power",
           "size_bits": 32,
@@ -9345,7 +9381,7 @@
           "multiplier": 1
         },
         {
-          "id": 491,
+          "id": 492,
           "register_address": 3205,
           "measurement": "power",
           "size_bits": 32,
@@ -9392,7 +9428,7 @@
       "name": "Delta UPS",
       "in_registers": [
         {
-          "id": 492,
+          "id": 493,
           "register_address": 1093,
           "measurement": "voltage",
           "size_bits": 16,
@@ -9410,7 +9446,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 493,
+          "id": 494,
           "register_address": 1094,
           "measurement": "current",
           "size_bits": 16,
@@ -9428,7 +9464,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 494,
+          "id": 495,
           "register_address": 1095,
           "measurement": "power",
           "size_bits": 16,
@@ -9446,7 +9482,7 @@
           "multiplier": 10
         },
         {
-          "id": 495,
+          "id": 496,
           "register_address": 1096,
           "measurement": "misc",
           "size_bits": 16,
@@ -9464,7 +9500,7 @@
           "multiplier": 1
         },
         {
-          "id": 496,
+          "id": 497,
           "register_address": 1097,
           "measurement": "voltage",
           "size_bits": 16,
@@ -9482,7 +9518,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 497,
+          "id": 498,
           "register_address": 1098,
           "measurement": "current",
           "size_bits": 16,
@@ -9500,7 +9536,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 498,
+          "id": 499,
           "register_address": 1099,
           "measurement": "power",
           "size_bits": 16,
@@ -9518,7 +9554,7 @@
           "multiplier": 10
         },
         {
-          "id": 499,
+          "id": 500,
           "register_address": 1100,
           "measurement": "misc",
           "size_bits": 16,
@@ -9536,7 +9572,7 @@
           "multiplier": 1
         },
         {
-          "id": 500,
+          "id": 501,
           "register_address": 1101,
           "measurement": "voltage",
           "size_bits": 16,
@@ -9554,7 +9590,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 501,
+          "id": 502,
           "register_address": 1102,
           "measurement": "current",
           "size_bits": 16,
@@ -9572,7 +9608,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 502,
+          "id": 503,
           "register_address": 1103,
           "measurement": "power",
           "size_bits": 16,
@@ -9590,7 +9626,7 @@
           "multiplier": 10
         },
         {
-          "id": 503,
+          "id": 504,
           "register_address": 1104,
           "measurement": "misc",
           "size_bits": 16,
@@ -9637,7 +9673,7 @@
       "name": "Nippen DT-108",
       "in_registers": [
         {
-          "id": 504,
+          "id": 505,
           "register_address": 1006,
           "measurement": "energy",
           "size_bits": 32,
@@ -9655,7 +9691,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 505,
+          "id": 506,
           "register_address": 1008,
           "measurement": "energy",
           "size_bits": 32,
@@ -9673,7 +9709,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 506,
+          "id": 507,
           "register_address": 1010,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9691,7 +9727,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 507,
+          "id": 508,
           "register_address": 1012,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9709,7 +9745,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 508,
+          "id": 509,
           "register_address": 1014,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9727,7 +9763,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 509,
+          "id": 510,
           "register_address": 1016,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9745,7 +9781,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 510,
+          "id": 511,
           "register_address": 1018,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9763,7 +9799,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 511,
+          "id": 512,
           "register_address": 1020,
           "measurement": "voltage",
           "size_bits": 32,
@@ -9781,7 +9817,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 512,
+          "id": 513,
           "register_address": 1022,
           "measurement": "current",
           "size_bits": 32,
@@ -9799,7 +9835,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 513,
+          "id": 514,
           "register_address": 1024,
           "measurement": "current",
           "size_bits": 32,
@@ -9817,7 +9853,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 514,
+          "id": 515,
           "register_address": 1026,
           "measurement": "current",
           "size_bits": 32,
@@ -9835,7 +9871,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 515,
+          "id": 516,
           "register_address": 1028,
           "measurement": "energy",
           "size_bits": 32,
@@ -9853,7 +9889,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 516,
+          "id": 517,
           "register_address": 1030,
           "measurement": "energy",
           "size_bits": 32,
@@ -9871,7 +9907,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 517,
+          "id": 518,
           "register_address": 1032,
           "measurement": "energy",
           "size_bits": 32,
@@ -9889,7 +9925,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 518,
+          "id": 519,
           "register_address": 1034,
           "measurement": "power",
           "size_bits": 32,
@@ -9907,7 +9943,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 519,
+          "id": 520,
           "register_address": 1036,
           "measurement": "power",
           "size_bits": 32,
@@ -9925,7 +9961,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 520,
+          "id": 521,
           "register_address": 1038,
           "measurement": "power",
           "size_bits": 32,
@@ -9943,7 +9979,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 521,
+          "id": 522,
           "register_address": 1040,
           "measurement": "frequency",
           "size_bits": 32,
@@ -9961,7 +9997,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 522,
+          "id": 523,
           "register_address": 1084,
           "measurement": "power",
           "size_bits": 32,
@@ -9979,7 +10015,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 523,
+          "id": 524,
           "register_address": 1086,
           "measurement": "power",
           "size_bits": 32,
@@ -9997,7 +10033,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 524,
+          "id": 525,
           "register_address": 1088,
           "measurement": "power",
           "size_bits": 32,
@@ -10015,7 +10051,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 525,
+          "id": 526,
           "register_address": 1090,
           "measurement": "power",
           "size_bits": 32,
@@ -10033,7 +10069,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 526,
+          "id": 527,
           "register_address": 1092,
           "measurement": "power",
           "size_bits": 32,
@@ -10051,7 +10087,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 527,
+          "id": 528,
           "register_address": 1094,
           "measurement": "power",
           "size_bits": 32,
@@ -10098,7 +10134,7 @@
       "name": "DGC-202X DG",
       "in_registers": [
         {
-          "id": 528,
+          "id": 529,
           "register_address": 1086,
           "measurement": "misc",
           "size_bits": 32,
@@ -10116,7 +10152,7 @@
           "multiplier": 1
         },
         {
-          "id": 529,
+          "id": 530,
           "register_address": 1094,
           "measurement": "voltage",
           "size_bits": 32,
@@ -10134,7 +10170,7 @@
           "multiplier": 1
         },
         {
-          "id": 530,
+          "id": 531,
           "register_address": 1100,
           "measurement": "misc",
           "size_bits": 32,
@@ -10152,7 +10188,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 531,
+          "id": 532,
           "register_address": 1102,
           "measurement": "energy",
           "size_bits": 32,
@@ -10199,7 +10235,7 @@
       "name": "ESC-Kochi-Metro",
       "in_registers": [
         {
-          "id": 532,
+          "id": 533,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 2,
@@ -10217,7 +10253,7 @@
           "multiplier": 1
         },
         {
-          "id": 533,
+          "id": 534,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 3,
@@ -10235,7 +10271,7 @@
           "multiplier": 1
         },
         {
-          "id": 534,
+          "id": 535,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 4,
@@ -10253,7 +10289,7 @@
           "multiplier": 1
         },
         {
-          "id": 535,
+          "id": 536,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 5,
@@ -10271,7 +10307,7 @@
           "multiplier": 1
         },
         {
-          "id": 536,
+          "id": 537,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 6,
@@ -10289,7 +10325,7 @@
           "multiplier": 1
         },
         {
-          "id": 537,
+          "id": 538,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 7,
@@ -10307,7 +10343,7 @@
           "multiplier": 1
         },
         {
-          "id": 538,
+          "id": 539,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 8,
@@ -10325,7 +10361,7 @@
           "multiplier": 1
         },
         {
-          "id": 539,
+          "id": 540,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 9,
@@ -10343,7 +10379,7 @@
           "multiplier": 1
         },
         {
-          "id": 540,
+          "id": 541,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 10,
@@ -10361,7 +10397,7 @@
           "multiplier": 1
         },
         {
-          "id": 541,
+          "id": 542,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 11,
@@ -10379,7 +10415,7 @@
           "multiplier": 1
         },
         {
-          "id": 542,
+          "id": 543,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 12,
@@ -10397,7 +10433,7 @@
           "multiplier": 1
         },
         {
-          "id": 543,
+          "id": 544,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 13,
@@ -10415,7 +10451,7 @@
           "multiplier": 1
         },
         {
-          "id": 544,
+          "id": 545,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 14,
@@ -10433,7 +10469,7 @@
           "multiplier": 1
         },
         {
-          "id": 545,
+          "id": 546,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 15,
@@ -10451,7 +10487,7 @@
           "multiplier": 1
         },
         {
-          "id": 546,
+          "id": 547,
           "register_address": 1,
           "measurement": "state",
           "size_bits": 16,
@@ -10469,7 +10505,7 @@
           "multiplier": 1
         },
         {
-          "id": 547,
+          "id": 548,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 1,
@@ -10487,7 +10523,7 @@
           "multiplier": 1
         },
         {
-          "id": 548,
+          "id": 549,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 2,
@@ -10505,7 +10541,7 @@
           "multiplier": 1
         },
         {
-          "id": 549,
+          "id": 550,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 3,
@@ -10523,7 +10559,7 @@
           "multiplier": 1
         },
         {
-          "id": 550,
+          "id": 551,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 5,
@@ -10541,7 +10577,7 @@
           "multiplier": 1
         },
         {
-          "id": 551,
+          "id": 552,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 6,
@@ -10559,7 +10595,7 @@
           "multiplier": 1
         },
         {
-          "id": 552,
+          "id": 553,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 7,
@@ -10577,7 +10613,7 @@
           "multiplier": 1
         },
         {
-          "id": 553,
+          "id": 554,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 8,
@@ -10595,7 +10631,7 @@
           "multiplier": 1
         },
         {
-          "id": 554,
+          "id": 555,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 9,
@@ -10613,7 +10649,7 @@
           "multiplier": 1
         },
         {
-          "id": 555,
+          "id": 556,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 10,
@@ -10631,7 +10667,7 @@
           "multiplier": 1
         },
         {
-          "id": 556,
+          "id": 557,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 11,
@@ -10649,7 +10685,7 @@
           "multiplier": 1
         },
         {
-          "id": 557,
+          "id": 558,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 12,
@@ -10667,7 +10703,7 @@
           "multiplier": 1
         },
         {
-          "id": 558,
+          "id": 559,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 13,
@@ -10685,7 +10721,7 @@
           "multiplier": 1
         },
         {
-          "id": 559,
+          "id": 560,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 14,
@@ -10703,7 +10739,7 @@
           "multiplier": 1
         },
         {
-          "id": 560,
+          "id": 561,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 15,
@@ -10721,7 +10757,7 @@
           "multiplier": 1
         },
         {
-          "id": 561,
+          "id": 562,
           "register_address": 2,
           "measurement": "state",
           "size_bits": 16,
@@ -10739,7 +10775,7 @@
           "multiplier": 1
         },
         {
-          "id": 562,
+          "id": 563,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 1,
@@ -10757,7 +10793,7 @@
           "multiplier": 1
         },
         {
-          "id": 563,
+          "id": 564,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 4,
@@ -10775,7 +10811,7 @@
           "multiplier": 1
         },
         {
-          "id": 564,
+          "id": 565,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 5,
@@ -10793,7 +10829,7 @@
           "multiplier": 1
         },
         {
-          "id": 565,
+          "id": 566,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 6,
@@ -10811,7 +10847,7 @@
           "multiplier": 1
         },
         {
-          "id": 566,
+          "id": 567,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 7,
@@ -10829,7 +10865,7 @@
           "multiplier": 1
         },
         {
-          "id": 567,
+          "id": 568,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 9,
@@ -10847,7 +10883,7 @@
           "multiplier": 1
         },
         {
-          "id": 568,
+          "id": 569,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 10,
@@ -10865,7 +10901,7 @@
           "multiplier": 1
         },
         {
-          "id": 569,
+          "id": 570,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 11,
@@ -10883,7 +10919,7 @@
           "multiplier": 1
         },
         {
-          "id": 570,
+          "id": 571,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 12,
@@ -10901,7 +10937,7 @@
           "multiplier": 1
         },
         {
-          "id": 571,
+          "id": 572,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 13,
@@ -10919,7 +10955,7 @@
           "multiplier": 1
         },
         {
-          "id": 572,
+          "id": 573,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 14,
@@ -10937,7 +10973,7 @@
           "multiplier": 1
         },
         {
-          "id": 573,
+          "id": 574,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 15,
@@ -10955,7 +10991,7 @@
           "multiplier": 1
         },
         {
-          "id": 574,
+          "id": 575,
           "register_address": 3,
           "measurement": "state",
           "size_bits": 16,
@@ -10973,7 +11009,7 @@
           "multiplier": 1
         },
         {
-          "id": 575,
+          "id": 576,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 2,
@@ -10991,7 +11027,7 @@
           "multiplier": 1
         },
         {
-          "id": 576,
+          "id": 577,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 3,
@@ -11009,7 +11045,7 @@
           "multiplier": 1
         },
         {
-          "id": 577,
+          "id": 578,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 4,
@@ -11027,7 +11063,7 @@
           "multiplier": 1
         },
         {
-          "id": 578,
+          "id": 579,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 5,
@@ -11045,7 +11081,7 @@
           "multiplier": 1
         },
         {
-          "id": 579,
+          "id": 580,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 6,
@@ -11063,7 +11099,7 @@
           "multiplier": 1
         },
         {
-          "id": 580,
+          "id": 581,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 7,
@@ -11081,7 +11117,7 @@
           "multiplier": 1
         },
         {
-          "id": 581,
+          "id": 582,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 10,
@@ -11099,7 +11135,7 @@
           "multiplier": 1
         },
         {
-          "id": 582,
+          "id": 583,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 11,
@@ -11117,7 +11153,7 @@
           "multiplier": 1
         },
         {
-          "id": 583,
+          "id": 584,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 12,
@@ -11135,7 +11171,7 @@
           "multiplier": 1
         },
         {
-          "id": 584,
+          "id": 585,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 13,
@@ -11153,7 +11189,7 @@
           "multiplier": 1
         },
         {
-          "id": 585,
+          "id": 586,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 15,
@@ -11171,7 +11207,7 @@
           "multiplier": 1
         },
         {
-          "id": 586,
+          "id": 587,
           "register_address": 4,
           "measurement": "state",
           "size_bits": 16,
@@ -11189,7 +11225,7 @@
           "multiplier": 1
         },
         {
-          "id": 587,
+          "id": 588,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 2,
@@ -11207,7 +11243,7 @@
           "multiplier": 1
         },
         {
-          "id": 588,
+          "id": 589,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 3,
@@ -11225,7 +11261,7 @@
           "multiplier": 1
         },
         {
-          "id": 589,
+          "id": 590,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 4,
@@ -11243,7 +11279,7 @@
           "multiplier": 1
         },
         {
-          "id": 590,
+          "id": 591,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 5,
@@ -11261,7 +11297,7 @@
           "multiplier": 1
         },
         {
-          "id": 591,
+          "id": 592,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 6,
@@ -11279,7 +11315,7 @@
           "multiplier": 1
         },
         {
-          "id": 592,
+          "id": 593,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 8,
@@ -11297,7 +11333,7 @@
           "multiplier": 1
         },
         {
-          "id": 593,
+          "id": 594,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 9,
@@ -11315,7 +11351,7 @@
           "multiplier": 1
         },
         {
-          "id": 594,
+          "id": 595,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 10,
@@ -11333,7 +11369,7 @@
           "multiplier": 1
         },
         {
-          "id": 595,
+          "id": 596,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 11,
@@ -11351,7 +11387,7 @@
           "multiplier": 1
         },
         {
-          "id": 596,
+          "id": 597,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 12,
@@ -11369,7 +11405,7 @@
           "multiplier": 1
         },
         {
-          "id": 597,
+          "id": 598,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 13,
@@ -11387,7 +11423,7 @@
           "multiplier": 1
         },
         {
-          "id": 598,
+          "id": 599,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 15,
@@ -11405,7 +11441,7 @@
           "multiplier": 1
         },
         {
-          "id": 599,
+          "id": 600,
           "register_address": 5,
           "measurement": "state",
           "size_bits": 16,
@@ -11423,7 +11459,7 @@
           "multiplier": 1
         },
         {
-          "id": 600,
+          "id": 601,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 4,
@@ -11441,7 +11477,7 @@
           "multiplier": 1
         },
         {
-          "id": 601,
+          "id": 602,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 5,
@@ -11459,7 +11495,7 @@
           "multiplier": 1
         },
         {
-          "id": 602,
+          "id": 603,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 6,
@@ -11477,7 +11513,7 @@
           "multiplier": 1
         },
         {
-          "id": 603,
+          "id": 604,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 7,
@@ -11495,7 +11531,7 @@
           "multiplier": 1
         },
         {
-          "id": 604,
+          "id": 605,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 8,
@@ -11513,7 +11549,7 @@
           "multiplier": 1
         },
         {
-          "id": 605,
+          "id": 606,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 9,
@@ -11531,7 +11567,7 @@
           "multiplier": 1
         },
         {
-          "id": 606,
+          "id": 607,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 10,
@@ -11549,7 +11585,7 @@
           "multiplier": 1
         },
         {
-          "id": 607,
+          "id": 608,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 11,
@@ -11567,7 +11603,7 @@
           "multiplier": 1
         },
         {
-          "id": 608,
+          "id": 609,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 12,
@@ -11585,7 +11621,7 @@
           "multiplier": 1
         },
         {
-          "id": 609,
+          "id": 610,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 13,
@@ -11603,7 +11639,7 @@
           "multiplier": 1
         },
         {
-          "id": 610,
+          "id": 611,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 14,
@@ -11621,7 +11657,7 @@
           "multiplier": 1
         },
         {
-          "id": 611,
+          "id": 612,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 15,
@@ -11639,7 +11675,7 @@
           "multiplier": 1
         },
         {
-          "id": 612,
+          "id": 613,
           "register_address": 6,
           "measurement": "state",
           "size_bits": 16,
@@ -11657,7 +11693,7 @@
           "multiplier": 1
         },
         {
-          "id": 613,
+          "id": 614,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 1,
@@ -11675,7 +11711,7 @@
           "multiplier": 1
         },
         {
-          "id": 614,
+          "id": 615,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 2,
@@ -11693,7 +11729,7 @@
           "multiplier": 1
         },
         {
-          "id": 615,
+          "id": 616,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 4,
@@ -11711,7 +11747,7 @@
           "multiplier": 1
         },
         {
-          "id": 616,
+          "id": 617,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 5,
@@ -11729,7 +11765,7 @@
           "multiplier": 1
         },
         {
-          "id": 617,
+          "id": 618,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 6,
@@ -11747,7 +11783,7 @@
           "multiplier": 1
         },
         {
-          "id": 618,
+          "id": 619,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 7,
@@ -11765,7 +11801,7 @@
           "multiplier": 1
         },
         {
-          "id": 619,
+          "id": 620,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 8,
@@ -11783,7 +11819,7 @@
           "multiplier": 1
         },
         {
-          "id": 620,
+          "id": 621,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 13,
@@ -11801,7 +11837,7 @@
           "multiplier": 1
         },
         {
-          "id": 621,
+          "id": 622,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 14,
@@ -11819,7 +11855,7 @@
           "multiplier": 1
         },
         {
-          "id": 622,
+          "id": 623,
           "register_address": 7,
           "measurement": "state",
           "size_bits": 16,
@@ -11837,7 +11873,7 @@
           "multiplier": 1
         },
         {
-          "id": 623,
+          "id": 624,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 6,
@@ -11855,7 +11891,7 @@
           "multiplier": 1
         },
         {
-          "id": 624,
+          "id": 625,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 7,
@@ -11873,7 +11909,7 @@
           "multiplier": 1
         },
         {
-          "id": 625,
+          "id": 626,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 8,
@@ -11891,7 +11927,7 @@
           "multiplier": 1
         },
         {
-          "id": 626,
+          "id": 627,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 9,
@@ -11909,7 +11945,7 @@
           "multiplier": 1
         },
         {
-          "id": 627,
+          "id": 628,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 10,
@@ -11927,7 +11963,7 @@
           "multiplier": 1
         },
         {
-          "id": 628,
+          "id": 629,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 11,
@@ -11945,7 +11981,7 @@
           "multiplier": 1
         },
         {
-          "id": 629,
+          "id": 630,
           "register_address": 8,
           "measurement": "state",
           "size_bits": 12,
@@ -11963,7 +11999,7 @@
           "multiplier": 1
         },
         {
-          "id": 630,
+          "id": 631,
           "register_address": 9,
           "measurement": "state",
           "size_bits": 14,
@@ -11981,7 +12017,7 @@
           "multiplier": 1
         },
         {
-          "id": 631,
+          "id": 632,
           "register_address": 9,
           "measurement": "state",
           "size_bits": 15,
@@ -11999,7 +12035,7 @@
           "multiplier": 1
         },
         {
-          "id": 632,
+          "id": 633,
           "register_address": 9,
           "measurement": "state",
           "size_bits": 16,
@@ -12017,7 +12053,7 @@
           "multiplier": 1
         },
         {
-          "id": 633,
+          "id": 634,
           "register_address": 10,
           "measurement": "state",
           "size_bits": 1,
@@ -12035,7 +12071,7 @@
           "multiplier": 1
         },
         {
-          "id": 634,
+          "id": 635,
           "register_address": 10,
           "measurement": "state",
           "size_bits": 3,
@@ -12053,7 +12089,7 @@
           "multiplier": 1
         },
         {
-          "id": 635,
+          "id": 636,
           "register_address": 10,
           "measurement": "state",
           "size_bits": 14,
@@ -12071,7 +12107,7 @@
           "multiplier": 1
         },
         {
-          "id": 636,
+          "id": 637,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 1,
@@ -12089,7 +12125,7 @@
           "multiplier": 1
         },
         {
-          "id": 637,
+          "id": 638,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 2,
@@ -12107,7 +12143,7 @@
           "multiplier": 1
         },
         {
-          "id": 638,
+          "id": 639,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 3,
@@ -12125,7 +12161,7 @@
           "multiplier": 1
         },
         {
-          "id": 639,
+          "id": 640,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 4,
@@ -12143,7 +12179,7 @@
           "multiplier": 1
         },
         {
-          "id": 640,
+          "id": 641,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 5,
@@ -12161,7 +12197,7 @@
           "multiplier": 1
         },
         {
-          "id": 641,
+          "id": 642,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 6,
@@ -12179,7 +12215,7 @@
           "multiplier": 1
         },
         {
-          "id": 642,
+          "id": 643,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 7,
@@ -12197,7 +12233,7 @@
           "multiplier": 1
         },
         {
-          "id": 643,
+          "id": 644,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 8,
@@ -12215,7 +12251,7 @@
           "multiplier": 1
         },
         {
-          "id": 644,
+          "id": 645,
           "register_address": 11,
           "measurement": "state",
           "size_bits": 9,
@@ -12233,7 +12269,7 @@
           "multiplier": 1
         },
         {
-          "id": 645,
+          "id": 646,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 1,
@@ -12251,7 +12287,7 @@
           "multiplier": 1
         },
         {
-          "id": 646,
+          "id": 647,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 2,
@@ -12269,7 +12305,7 @@
           "multiplier": 1
         },
         {
-          "id": 647,
+          "id": 648,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 3,
@@ -12287,7 +12323,7 @@
           "multiplier": 1
         },
         {
-          "id": 648,
+          "id": 649,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 4,
@@ -12305,7 +12341,7 @@
           "multiplier": 1
         },
         {
-          "id": 649,
+          "id": 650,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 5,
@@ -12323,7 +12359,7 @@
           "multiplier": 1
         },
         {
-          "id": 650,
+          "id": 651,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 9,
@@ -12341,7 +12377,7 @@
           "multiplier": 1
         },
         {
-          "id": 651,
+          "id": 652,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 10,
@@ -12359,7 +12395,7 @@
           "multiplier": 1
         },
         {
-          "id": 652,
+          "id": 653,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 11,
@@ -12377,7 +12413,7 @@
           "multiplier": 1
         },
         {
-          "id": 653,
+          "id": 654,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 12,
@@ -12395,7 +12431,7 @@
           "multiplier": 1
         },
         {
-          "id": 654,
+          "id": 655,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 13,
@@ -12413,7 +12449,7 @@
           "multiplier": 1
         },
         {
-          "id": 655,
+          "id": 656,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 14,
@@ -12431,7 +12467,7 @@
           "multiplier": 1
         },
         {
-          "id": 656,
+          "id": 657,
           "register_address": 12,
           "measurement": "state",
           "size_bits": 16,
@@ -12449,7 +12485,7 @@
           "multiplier": 1
         },
         {
-          "id": 657,
+          "id": 658,
           "register_address": 13,
           "measurement": "state",
           "size_bits": 12,
@@ -12467,7 +12503,7 @@
           "multiplier": 1
         },
         {
-          "id": 658,
+          "id": 659,
           "register_address": 13,
           "measurement": "state",
           "size_bits": 13,
@@ -12485,7 +12521,7 @@
           "multiplier": 1
         },
         {
-          "id": 659,
+          "id": 660,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 2,
@@ -12503,7 +12539,7 @@
           "multiplier": 1
         },
         {
-          "id": 660,
+          "id": 661,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 3,
@@ -12521,7 +12557,7 @@
           "multiplier": 1
         },
         {
-          "id": 661,
+          "id": 662,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 4,
@@ -12539,7 +12575,7 @@
           "multiplier": 1
         },
         {
-          "id": 662,
+          "id": 663,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 7,
@@ -12557,7 +12593,7 @@
           "multiplier": 1
         },
         {
-          "id": 663,
+          "id": 664,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 8,
@@ -12575,7 +12611,7 @@
           "multiplier": 1
         },
         {
-          "id": 664,
+          "id": 665,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 9,
@@ -12593,7 +12629,7 @@
           "multiplier": 1
         },
         {
-          "id": 665,
+          "id": 666,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 10,
@@ -12611,7 +12647,7 @@
           "multiplier": 1
         },
         {
-          "id": 666,
+          "id": 667,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 11,
@@ -12629,7 +12665,7 @@
           "multiplier": 1
         },
         {
-          "id": 667,
+          "id": 668,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 12,
@@ -12647,7 +12683,7 @@
           "multiplier": 1
         },
         {
-          "id": 668,
+          "id": 669,
           "register_address": 14,
           "measurement": "state",
           "size_bits": 16,
@@ -12665,7 +12701,7 @@
           "multiplier": 1
         },
         {
-          "id": 669,
+          "id": 670,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 1,
@@ -12683,7 +12719,7 @@
           "multiplier": 1
         },
         {
-          "id": 670,
+          "id": 671,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 2,
@@ -12701,7 +12737,7 @@
           "multiplier": 1
         },
         {
-          "id": 671,
+          "id": 672,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 3,
@@ -12719,7 +12755,7 @@
           "multiplier": 1
         },
         {
-          "id": 672,
+          "id": 673,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 4,
@@ -12737,7 +12773,7 @@
           "multiplier": 1
         },
         {
-          "id": 673,
+          "id": 674,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 5,
@@ -12755,7 +12791,7 @@
           "multiplier": 1
         },
         {
-          "id": 674,
+          "id": 675,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 6,
@@ -12773,7 +12809,7 @@
           "multiplier": 1
         },
         {
-          "id": 675,
+          "id": 676,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 7,
@@ -12791,7 +12827,7 @@
           "multiplier": 1
         },
         {
-          "id": 676,
+          "id": 677,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 11,
@@ -12809,7 +12845,7 @@
           "multiplier": 1
         },
         {
-          "id": 677,
+          "id": 678,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 12,
@@ -12827,7 +12863,7 @@
           "multiplier": 1
         },
         {
-          "id": 678,
+          "id": 679,
           "register_address": 15,
           "measurement": "state",
           "size_bits": 14,
@@ -12845,7 +12881,7 @@
           "multiplier": 1
         },
         {
-          "id": 679,
+          "id": 680,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 3,
@@ -12863,7 +12899,7 @@
           "multiplier": 1
         },
         {
-          "id": 680,
+          "id": 681,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 4,
@@ -12881,7 +12917,7 @@
           "multiplier": 1
         },
         {
-          "id": 681,
+          "id": 682,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 9,
@@ -12899,7 +12935,7 @@
           "multiplier": 1
         },
         {
-          "id": 682,
+          "id": 683,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 10,
@@ -12917,7 +12953,7 @@
           "multiplier": 1
         },
         {
-          "id": 683,
+          "id": 684,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 11,
@@ -12935,7 +12971,7 @@
           "multiplier": 1
         },
         {
-          "id": 684,
+          "id": 685,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 12,
@@ -12953,7 +12989,7 @@
           "multiplier": 1
         },
         {
-          "id": 685,
+          "id": 686,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 13,
@@ -12971,7 +13007,7 @@
           "multiplier": 1
         },
         {
-          "id": 686,
+          "id": 687,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 14,
@@ -12989,7 +13025,7 @@
           "multiplier": 1
         },
         {
-          "id": 687,
+          "id": 688,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 15,
@@ -13007,7 +13043,7 @@
           "multiplier": 1
         },
         {
-          "id": 688,
+          "id": 689,
           "register_address": 16,
           "measurement": "state",
           "size_bits": 16,
@@ -13025,7 +13061,7 @@
           "multiplier": 1
         },
         {
-          "id": 689,
+          "id": 690,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 2,
@@ -13043,7 +13079,7 @@
           "multiplier": 1
         },
         {
-          "id": 690,
+          "id": 691,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 3,
@@ -13061,7 +13097,7 @@
           "multiplier": 1
         },
         {
-          "id": 691,
+          "id": 692,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 4,
@@ -13079,7 +13115,7 @@
           "multiplier": 1
         },
         {
-          "id": 692,
+          "id": 693,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 5,
@@ -13097,7 +13133,7 @@
           "multiplier": 1
         },
         {
-          "id": 693,
+          "id": 694,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 6,
@@ -13115,7 +13151,7 @@
           "multiplier": 1
         },
         {
-          "id": 694,
+          "id": 695,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 7,
@@ -13133,7 +13169,7 @@
           "multiplier": 1
         },
         {
-          "id": 695,
+          "id": 696,
           "register_address": 30,
           "measurement": "misc",
           "size_bits": 16,
@@ -13151,7 +13187,7 @@
           "multiplier": 1
         },
         {
-          "id": 696,
+          "id": 697,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 6,
@@ -13169,7 +13205,7 @@
           "multiplier": 1
         },
         {
-          "id": 697,
+          "id": 698,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 10,
@@ -13187,7 +13223,7 @@
           "multiplier": 1
         },
         {
-          "id": 698,
+          "id": 699,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 11,
@@ -13205,7 +13241,7 @@
           "multiplier": 1
         },
         {
-          "id": 699,
+          "id": 700,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 12,
@@ -13223,7 +13259,7 @@
           "multiplier": 1
         },
         {
-          "id": 700,
+          "id": 701,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 13,
@@ -13241,7 +13277,7 @@
           "multiplier": 1
         },
         {
-          "id": 701,
+          "id": 702,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 14,
@@ -13259,7 +13295,7 @@
           "multiplier": 1
         },
         {
-          "id": 702,
+          "id": 703,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 15,
@@ -13277,7 +13313,7 @@
           "multiplier": 1
         },
         {
-          "id": 703,
+          "id": 704,
           "register_address": 21,
           "measurement": "state",
           "size_bits": 16,
@@ -13295,7 +13331,7 @@
           "multiplier": 1
         },
         {
-          "id": 704,
+          "id": 705,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 1,
@@ -13313,7 +13349,7 @@
           "multiplier": 1
         },
         {
-          "id": 705,
+          "id": 706,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 2,
@@ -13331,7 +13367,7 @@
           "multiplier": 1
         },
         {
-          "id": 706,
+          "id": 707,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 3,
@@ -13349,7 +13385,7 @@
           "multiplier": 1
         },
         {
-          "id": 707,
+          "id": 708,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 4,
@@ -13367,7 +13403,7 @@
           "multiplier": 1
         },
         {
-          "id": 708,
+          "id": 709,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 5,
@@ -13385,7 +13421,7 @@
           "multiplier": 1
         },
         {
-          "id": 709,
+          "id": 710,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 6,
@@ -13403,7 +13439,7 @@
           "multiplier": 1
         },
         {
-          "id": 710,
+          "id": 711,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 7,
@@ -13421,7 +13457,7 @@
           "multiplier": 1
         },
         {
-          "id": 711,
+          "id": 712,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 8,
@@ -13439,7 +13475,7 @@
           "multiplier": 1
         },
         {
-          "id": 712,
+          "id": 713,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 9,
@@ -13457,7 +13493,7 @@
           "multiplier": 1
         },
         {
-          "id": 713,
+          "id": 714,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 10,
@@ -13475,7 +13511,7 @@
           "multiplier": 1
         },
         {
-          "id": 714,
+          "id": 715,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 11,
@@ -13493,7 +13529,7 @@
           "multiplier": 1
         },
         {
-          "id": 715,
+          "id": 716,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 12,
@@ -13511,7 +13547,7 @@
           "multiplier": 1
         },
         {
-          "id": 716,
+          "id": 717,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 13,
@@ -13529,7 +13565,7 @@
           "multiplier": 1
         },
         {
-          "id": 717,
+          "id": 718,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 14,
@@ -13547,7 +13583,7 @@
           "multiplier": 1
         },
         {
-          "id": 718,
+          "id": 719,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 15,
@@ -13565,7 +13601,7 @@
           "multiplier": 1
         },
         {
-          "id": 719,
+          "id": 720,
           "register_address": 133,
           "measurement": "state",
           "size_bits": 16,
@@ -13583,7 +13619,7 @@
           "multiplier": 1
         },
         {
-          "id": 720,
+          "id": 721,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 1,
@@ -13601,7 +13637,7 @@
           "multiplier": 1
         },
         {
-          "id": 721,
+          "id": 722,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 2,
@@ -13619,7 +13655,7 @@
           "multiplier": 1
         },
         {
-          "id": 722,
+          "id": 723,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 3,
@@ -13637,7 +13673,7 @@
           "multiplier": 1
         },
         {
-          "id": 723,
+          "id": 724,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 4,
@@ -13655,7 +13691,7 @@
           "multiplier": 1
         },
         {
-          "id": 724,
+          "id": 725,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 5,
@@ -13673,7 +13709,7 @@
           "multiplier": 1
         },
         {
-          "id": 725,
+          "id": 726,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 6,
@@ -13691,7 +13727,7 @@
           "multiplier": 1
         },
         {
-          "id": 726,
+          "id": 727,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 16,
@@ -13709,7 +13745,7 @@
           "multiplier": 1
         },
         {
-          "id": 727,
+          "id": 728,
           "register_address": 134,
           "measurement": "state",
           "size_bits": 16,
@@ -13727,7 +13763,7 @@
           "multiplier": 1
         },
         {
-          "id": 728,
+          "id": 729,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13745,7 +13781,7 @@
           "multiplier": 1
         },
         {
-          "id": 729,
+          "id": 730,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13763,7 +13799,7 @@
           "multiplier": 1
         },
         {
-          "id": 730,
+          "id": 731,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13781,7 +13817,7 @@
           "multiplier": 1
         },
         {
-          "id": 731,
+          "id": 732,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13799,7 +13835,7 @@
           "multiplier": 1
         },
         {
-          "id": 732,
+          "id": 733,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13817,7 +13853,7 @@
           "multiplier": 1
         },
         {
-          "id": 733,
+          "id": 734,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13835,7 +13871,7 @@
           "multiplier": 1
         },
         {
-          "id": 734,
+          "id": 735,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13853,7 +13889,7 @@
           "multiplier": 1
         },
         {
-          "id": 735,
+          "id": 736,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13871,7 +13907,7 @@
           "multiplier": 1
         },
         {
-          "id": 736,
+          "id": 737,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13889,7 +13925,7 @@
           "multiplier": 1
         },
         {
-          "id": 737,
+          "id": 738,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13907,7 +13943,7 @@
           "multiplier": 1
         },
         {
-          "id": 738,
+          "id": 739,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13925,7 +13961,7 @@
           "multiplier": 1
         },
         {
-          "id": 739,
+          "id": 740,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13943,7 +13979,7 @@
           "multiplier": 1
         },
         {
-          "id": 740,
+          "id": 741,
           "register_address": 135,
           "measurement": "state",
           "size_bits": 16,
@@ -13961,7 +13997,7 @@
           "multiplier": 1
         },
         {
-          "id": 741,
+          "id": 742,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -13979,7 +14015,7 @@
           "multiplier": 1
         },
         {
-          "id": 742,
+          "id": 743,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -13997,7 +14033,7 @@
           "multiplier": 1
         },
         {
-          "id": 743,
+          "id": 744,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -14015,7 +14051,7 @@
           "multiplier": 1
         },
         {
-          "id": 744,
+          "id": 745,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -14033,7 +14069,7 @@
           "multiplier": 1
         },
         {
-          "id": 745,
+          "id": 746,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -14051,7 +14087,7 @@
           "multiplier": 1
         },
         {
-          "id": 746,
+          "id": 747,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -14069,7 +14105,7 @@
           "multiplier": 1
         },
         {
-          "id": 747,
+          "id": 748,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -14087,7 +14123,7 @@
           "multiplier": 1
         },
         {
-          "id": 748,
+          "id": 749,
           "register_address": 136,
           "measurement": "state",
           "size_bits": 16,
@@ -14134,7 +14170,7 @@
       "name": "sedemac_645",
       "in_registers": [
         {
-          "id": 749,
+          "id": 750,
           "register_address": 2,
           "measurement": "misc",
           "size_bits": 16,
@@ -14152,7 +14188,7 @@
           "multiplier": 0.01
         },
         {
-          "id": 750,
+          "id": 751,
           "register_address": 3,
           "measurement": "temperature",
           "size_bits": 16,
@@ -14170,7 +14206,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 751,
+          "id": 752,
           "register_address": 4,
           "measurement": "misc",
           "size_bits": 16,
@@ -14188,7 +14224,7 @@
           "multiplier": 1
         },
         {
-          "id": 752,
+          "id": 753,
           "register_address": 5,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14206,7 +14242,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 753,
+          "id": 754,
           "register_address": 6,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14224,7 +14260,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 754,
+          "id": 755,
           "register_address": 7,
           "measurement": "misc",
           "size_bits": 16,
@@ -14242,7 +14278,7 @@
           "multiplier": 1
         },
         {
-          "id": 755,
+          "id": 756,
           "register_address": 8,
           "measurement": "misc",
           "size_bits": 16,
@@ -14260,7 +14296,7 @@
           "multiplier": 1
         },
         {
-          "id": 756,
+          "id": 757,
           "register_address": 9,
           "measurement": "misc",
           "size_bits": 16,
@@ -14278,7 +14314,7 @@
           "multiplier": 1
         },
         {
-          "id": 757,
+          "id": 758,
           "register_address": 10,
           "measurement": "misc",
           "size_bits": 16,
@@ -14296,7 +14332,7 @@
           "multiplier": 1
         },
         {
-          "id": 758,
+          "id": 759,
           "register_address": 11,
           "measurement": "misc",
           "size_bits": 16,
@@ -14314,7 +14350,7 @@
           "multiplier": 1
         },
         {
-          "id": 759,
+          "id": 760,
           "register_address": 12,
           "measurement": "frequency",
           "size_bits": 16,
@@ -14332,7 +14368,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 760,
+          "id": 761,
           "register_address": 13,
           "measurement": "frequency",
           "size_bits": 16,
@@ -14350,7 +14386,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 761,
+          "id": 762,
           "register_address": 14,
           "measurement": "frequency",
           "size_bits": 16,
@@ -14368,7 +14404,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 762,
+          "id": 763,
           "register_address": 15,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14386,7 +14422,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 763,
+          "id": 764,
           "register_address": 16,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14404,7 +14440,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 764,
+          "id": 765,
           "register_address": 17,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14422,7 +14458,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 765,
+          "id": 766,
           "register_address": 18,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14440,7 +14476,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 766,
+          "id": 767,
           "register_address": 19,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14458,7 +14494,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 767,
+          "id": 768,
           "register_address": 20,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14476,7 +14512,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 768,
+          "id": 769,
           "register_address": 21,
           "measurement": "current",
           "size_bits": 16,
@@ -14494,7 +14530,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 769,
+          "id": 770,
           "register_address": 22,
           "measurement": "current",
           "size_bits": 16,
@@ -14512,7 +14548,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 770,
+          "id": 771,
           "register_address": 23,
           "measurement": "current",
           "size_bits": 16,
@@ -14530,7 +14566,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 771,
+          "id": 772,
           "register_address": 24,
           "measurement": "power",
           "size_bits": 16,
@@ -14548,7 +14584,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 772,
+          "id": 773,
           "register_address": 25,
           "measurement": "power",
           "size_bits": 16,
@@ -14566,7 +14602,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 773,
+          "id": 774,
           "register_address": 26,
           "measurement": "power",
           "size_bits": 16,
@@ -14584,7 +14620,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 774,
+          "id": 775,
           "register_address": 27,
           "measurement": "power",
           "size_bits": 16,
@@ -14602,7 +14638,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 775,
+          "id": 776,
           "register_address": 28,
           "measurement": "power",
           "size_bits": 16,
@@ -14620,7 +14656,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 776,
+          "id": 777,
           "register_address": 29,
           "measurement": "power",
           "size_bits": 16,
@@ -14638,7 +14674,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 777,
+          "id": 778,
           "register_address": 30,
           "measurement": "power",
           "size_bits": 16,
@@ -14656,7 +14692,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 778,
+          "id": 779,
           "register_address": 31,
           "measurement": "power",
           "size_bits": 16,
@@ -14674,7 +14710,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 779,
+          "id": 780,
           "register_address": 32,
           "measurement": "power",
           "size_bits": 16,
@@ -14692,7 +14728,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 780,
+          "id": 781,
           "register_address": 33,
           "measurement": "power",
           "size_bits": 16,
@@ -14710,7 +14746,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 781,
+          "id": 782,
           "register_address": 34,
           "measurement": "power",
           "size_bits": 16,
@@ -14728,7 +14764,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 782,
+          "id": 783,
           "register_address": 35,
           "measurement": "power",
           "size_bits": 16,
@@ -14746,7 +14782,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 783,
+          "id": 784,
           "register_address": 36,
           "measurement": "power",
           "size_bits": 16,
@@ -14764,7 +14800,7 @@
           "multiplier": 0.01
         },
         {
-          "id": 784,
+          "id": 785,
           "register_address": 37,
           "measurement": "power",
           "size_bits": 16,
@@ -14782,7 +14818,7 @@
           "multiplier": 0.01
         },
         {
-          "id": 785,
+          "id": 786,
           "register_address": 38,
           "measurement": "power",
           "size_bits": 16,
@@ -14800,7 +14836,7 @@
           "multiplier": 0.01
         },
         {
-          "id": 786,
+          "id": 787,
           "register_address": 39,
           "measurement": "power",
           "size_bits": 16,
@@ -14818,7 +14854,7 @@
           "multiplier": 0.01
         },
         {
-          "id": 787,
+          "id": 788,
           "register_address": 40,
           "measurement": "energy",
           "size_bits": 32,
@@ -14836,7 +14872,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 788,
+          "id": 789,
           "register_address": 42,
           "measurement": "energy",
           "size_bits": 32,
@@ -14854,7 +14890,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 789,
+          "id": 790,
           "register_address": 44,
           "measurement": "energy",
           "size_bits": 32,
@@ -14872,7 +14908,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 790,
+          "id": 791,
           "register_address": 46,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14890,7 +14926,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 791,
+          "id": 792,
           "register_address": 47,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14908,7 +14944,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 792,
+          "id": 793,
           "register_address": 48,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14926,7 +14962,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 793,
+          "id": 794,
           "register_address": 49,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14944,7 +14980,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 794,
+          "id": 795,
           "register_address": 50,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14962,7 +14998,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 795,
+          "id": 796,
           "register_address": 51,
           "measurement": "voltage",
           "size_bits": 16,
@@ -14980,7 +15016,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 796,
+          "id": 797,
           "register_address": 59,
           "measurement": "misc",
           "size_bits": 16,
@@ -14998,7 +15034,7 @@
           "multiplier": 1
         },
         {
-          "id": 797,
+          "id": 798,
           "register_address": 60,
           "measurement": "misc",
           "size_bits": 16,
@@ -15016,7 +15052,7 @@
           "multiplier": 1
         },
         {
-          "id": 798,
+          "id": 799,
           "register_address": 61,
           "measurement": "misc",
           "size_bits": 16,
@@ -15034,7 +15070,7 @@
           "multiplier": 1
         },
         {
-          "id": 799,
+          "id": 800,
           "register_address": 62,
           "measurement": "misc",
           "size_bits": 16,
@@ -15052,7 +15088,7 @@
           "multiplier": 1
         },
         {
-          "id": 800,
+          "id": 801,
           "register_address": 63,
           "measurement": "misc",
           "size_bits": 16,
@@ -15070,7 +15106,7 @@
           "multiplier": 1
         },
         {
-          "id": 801,
+          "id": 802,
           "register_address": 64,
           "measurement": "misc",
           "size_bits": 16,
@@ -15088,7 +15124,7 @@
           "multiplier": 1
         },
         {
-          "id": 802,
+          "id": 803,
           "register_address": 65,
           "measurement": "misc",
           "size_bits": 16,
@@ -15106,7 +15142,7 @@
           "multiplier": 1
         },
         {
-          "id": 803,
+          "id": 804,
           "register_address": 66,
           "measurement": "misc",
           "size_bits": 16,
@@ -15124,7 +15160,7 @@
           "multiplier": 1
         },
         {
-          "id": 804,
+          "id": 805,
           "register_address": 67,
           "measurement": "misc",
           "size_bits": 16,
@@ -15142,7 +15178,7 @@
           "multiplier": 1
         },
         {
-          "id": 805,
+          "id": 806,
           "register_address": 68,
           "measurement": "misc",
           "size_bits": 16,
@@ -15160,7 +15196,7 @@
           "multiplier": 1
         },
         {
-          "id": 806,
+          "id": 807,
           "register_address": 69,
           "measurement": "misc",
           "size_bits": 16,
@@ -15183,7 +15219,7 @@
           "register_func_type": "holding",
           "device_type": "MOD",
           "local_storage_enable": true,
-          "id": 5,
+          "id": 4,
           "enable": true,
           "sub_type": "MOD-ESCL-485",
           "name": "Write Modbus-ESCL-485",
@@ -15225,7 +15261,7 @@
       "name": "Elmeasure",
       "in_registers": [
         {
-          "id": 749,
+          "id": 808,
           "register_address": 100,
           "measurement": "power",
           "size_bits": 32,
@@ -15243,7 +15279,7 @@
           "multiplier": 1
         },
         {
-          "id": 750,
+          "id": 809,
           "register_address": 102,
           "measurement": "power",
           "size_bits": 32,
@@ -15261,7 +15297,7 @@
           "multiplier": 1
         },
         {
-          "id": 751,
+          "id": 810,
           "register_address": 104,
           "measurement": "power",
           "size_bits": 32,
@@ -15279,7 +15315,7 @@
           "multiplier": 1
         },
         {
-          "id": 752,
+          "id": 811,
           "register_address": 106,
           "measurement": "power",
           "size_bits": 32,
@@ -15297,7 +15333,7 @@
           "multiplier": 1
         },
         {
-          "id": 753,
+          "id": 812,
           "register_address": 116,
           "measurement": "power",
           "size_bits": 32,
@@ -15315,7 +15351,7 @@
           "multiplier": 1
         },
         {
-          "id": 754,
+          "id": 813,
           "register_address": 118,
           "measurement": "power",
           "size_bits": 32,
@@ -15333,7 +15369,7 @@
           "multiplier": 1
         },
         {
-          "id": 755,
+          "id": 814,
           "register_address": 120,
           "measurement": "power",
           "size_bits": 32,
@@ -15351,7 +15387,7 @@
           "multiplier": 1
         },
         {
-          "id": 756,
+          "id": 815,
           "register_address": 122,
           "measurement": "power",
           "size_bits": 32,
@@ -15369,7 +15405,7 @@
           "multiplier": 1
         },
         {
-          "id": 757,
+          "id": 816,
           "register_address": 124,
           "measurement": "power",
           "size_bits": 32,
@@ -15387,7 +15423,7 @@
           "multiplier": 1
         },
         {
-          "id": 758,
+          "id": 817,
           "register_address": 126,
           "measurement": "power",
           "size_bits": 32,
@@ -15405,7 +15441,7 @@
           "multiplier": 1
         },
         {
-          "id": 759,
+          "id": 818,
           "register_address": 128,
           "measurement": "power",
           "size_bits": 32,
@@ -15423,7 +15459,7 @@
           "multiplier": 1
         },
         {
-          "id": 760,
+          "id": 819,
           "register_address": 130,
           "measurement": "power",
           "size_bits": 32,
@@ -15441,7 +15477,7 @@
           "multiplier": 1
         },
         {
-          "id": 761,
+          "id": 820,
           "register_address": 132,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15459,7 +15495,7 @@
           "multiplier": 1
         },
         {
-          "id": 762,
+          "id": 821,
           "register_address": 134,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15477,7 +15513,7 @@
           "multiplier": 1
         },
         {
-          "id": 763,
+          "id": 822,
           "register_address": 136,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15495,7 +15531,7 @@
           "multiplier": 1
         },
         {
-          "id": 764,
+          "id": 823,
           "register_address": 138,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15513,7 +15549,7 @@
           "multiplier": 1
         },
         {
-          "id": 765,
+          "id": 824,
           "register_address": 140,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15531,7 +15567,7 @@
           "multiplier": 1
         },
         {
-          "id": 766,
+          "id": 825,
           "register_address": 142,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15549,7 +15585,7 @@
           "multiplier": 1
         },
         {
-          "id": 767,
+          "id": 826,
           "register_address": 144,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15567,7 +15603,7 @@
           "multiplier": 1
         },
         {
-          "id": 768,
+          "id": 827,
           "register_address": 146,
           "measurement": "voltage",
           "size_bits": 32,
@@ -15585,7 +15621,7 @@
           "multiplier": 1
         },
         {
-          "id": 769,
+          "id": 828,
           "register_address": 148,
           "measurement": "current",
           "size_bits": 32,
@@ -15603,7 +15639,7 @@
           "multiplier": 1
         },
         {
-          "id": 770,
+          "id": 829,
           "register_address": 150,
           "measurement": "current",
           "size_bits": 32,
@@ -15621,7 +15657,7 @@
           "multiplier": 1
         },
         {
-          "id": 771,
+          "id": 830,
           "register_address": 152,
           "measurement": "current",
           "size_bits": 32,
@@ -15639,7 +15675,7 @@
           "multiplier": 1
         },
         {
-          "id": 772,
+          "id": 831,
           "register_address": 154,
           "measurement": "current",
           "size_bits": 32,
@@ -15657,7 +15693,7 @@
           "multiplier": 1
         },
         {
-          "id": 773,
+          "id": 832,
           "register_address": 156,
           "measurement": "power",
           "size_bits": 32,
@@ -15675,7 +15711,7 @@
           "multiplier": 1
         },
         {
-          "id": 774,
+          "id": 833,
           "register_address": 158,
           "measurement": "energy",
           "size_bits": 32,
@@ -15693,7 +15729,7 @@
           "multiplier": 1
         },
         {
-          "id": 775,
+          "id": 834,
           "register_address": 160,
           "measurement": "energy",
           "size_bits": 32,
@@ -15711,7 +15747,7 @@
           "multiplier": 1
         },
         {
-          "id": 776,
+          "id": 835,
           "register_address": 214,
           "measurement": "misc",
           "size_bits": 32,
@@ -15729,7 +15765,7 @@
           "multiplier": 1
         },
         {
-          "id": 777,
+          "id": 836,
           "register_address": 216,
           "measurement": "misc",
           "size_bits": 32,
@@ -15747,7 +15783,7 @@
           "multiplier": 1
         },
         {
-          "id": 778,
+          "id": 837,
           "register_address": 230,
           "measurement": "misc",
           "size_bits": 32,
@@ -15794,7 +15830,7 @@
       "name": "PLC Temperature Twix",
       "in_registers": [
         {
-          "id": 532,
+          "id": 838,
           "register_address": 1550,
           "measurement": "temperature",
           "size_bits": 16,
@@ -15803,7 +15839,7 @@
           "sub_type": "MOD-EM",
           "zone": "BLCH1",
           "device_type": "MOD",
-          "master_device_id": 21,
+          "master_device_id": 24,
           "input_type": "analog",
           "name": "Temp_channel0",
           "min_alarm": 0,
@@ -15812,7 +15848,7 @@
           "multiplier": 0.1
         },
         {
-          "id": 533,
+          "id": 839,
           "register_address": 1554,
           "measurement": "temperature",
           "size_bits": 16,
@@ -15821,7 +15857,7 @@
           "sub_type": "MOD-EM",
           "zone": "ATMCH2",
           "device_type": "MOD",
-          "master_device_id": 21,
+          "master_device_id": 24,
           "input_type": "analog",
           "name": "Temp_channel1",
           "min_alarm": 0,
