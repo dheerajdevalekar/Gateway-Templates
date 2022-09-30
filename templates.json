@@ -16426,6 +16426,21 @@
           "max_alarm": 0,
           "hysteresis": 1,
           "name": "ESP Device Dust Concentration"
+        },
+        {
+          "id": 34,
+          "zone": "BOOTCNT",
+          "device_type": "NET-MQ",
+          "sub_type": "IES",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "bootcount",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 1,
+          "name": "ESP Device Boot Count"
         }
       ],
       "out_templates": [
