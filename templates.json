@@ -16135,8 +16135,8 @@
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "float",
-          "sub_type": "P2",
-          "zone": "DIGITALIN",
+          "sub_type": "MOD-EM",
+          "zone": "P2",
           "device_type": "MOD",
           "master_device_id": 25,
           "input_type": "analog",
@@ -17009,7 +17009,7 @@
           "rt_enable": true,
           "register_address": 21,
           "config_tags": "{}",
-          "alarm_enable": false
+          "alarm_enable": true
         },
         {
           "id": 4,
@@ -17026,7 +17026,7 @@
           "rt_enable": true,
           "register_address": 22,
           "config_tags": "{}",
-          "alarm_enable": false
+          "alarm_enable": true
         }
       ]
     }
