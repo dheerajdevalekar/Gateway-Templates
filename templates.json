@@ -15949,24 +15949,6 @@
           "multiplier": 1
         },
         {
-          "id": 6,
-          "register_address": 3,
-          "measurement": "temperature",
-          "size_bits": 16,
-          "count_registers": 1,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "RTEMP",
-          "device_type": "MOD",
-          "master_device_id": 25,
-          "input_type": "analog",
-          "name": "Room Temperature",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 1
-        },
-        {
           "id": 7,
           "register_address": 7,
           "measurement": "event",
