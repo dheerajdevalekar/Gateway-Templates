@@ -15875,7 +15875,7 @@
       "parity": "N",
       "stop_bits": 1,
       "byte_size": 8,
-      "total_register": 4,
+      "total_register": 80,
       "register_offset": 0,
       "batches": "[{\"address\": 1,\"count\": 20}, {\"address\": 21,\"count\": 40}, {\"address\": 41,\"count\": 60}, {\"address\": 61,\"count\": 70}]",
       "word_order": "little",
@@ -15888,7 +15888,7 @@
       "local_storage_enable": true,
       "cloud_storage_enable": true,
       "rt_enable": true,
-      "register_func_type": "input",
+      "register_func_type": "holding",
       "device_type": "MOD",
       "sub_type": "MOD-COLD-RUSH",
       "model": "Cold Rush",
@@ -15896,7 +15896,7 @@
       "in_registers": [
         {
           "id": 1,
-          "register_address": 3,
+          "register_address": 2,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -15914,7 +15914,7 @@
         },
         {
           "id": 2,
-          "register_address": 4,
+          "register_address": 3,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -15932,7 +15932,7 @@
         },
         {
           "id": 3,
-          "register_address": 7,
+          "register_address": 6,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -15949,44 +15949,8 @@
           "multiplier": 1
         },
         {
-          "id": 4,
-          "register_address": 4,
-          "measurement": "temperature",
-          "size_bits": 16,
-          "count_registers": 1,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "RTEMP",
-          "device_type": "MOD",
-          "master_device_id": 25,
-          "input_type": "analog",
-          "name": "Room Temperature",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 1
-        },
-        {
-          "id": 5,
-          "register_address": 4,
-          "measurement": "temperature",
-          "size_bits": 16,
-          "count_registers": 1,
-          "decode_type": "int",
-          "sub_type": "MOD-EM",
-          "zone": "RTEMP",
-          "device_type": "MOD",
-          "master_device_id": 25,
-          "input_type": "analog",
-          "name": "Room Temperature",
-          "min_alarm": 0,
-          "max_alarm": 0,
-          "hysteresis": 0,
-          "multiplier": 1
-        },
-        {
           "id": 6,
-          "register_address": 4,
+          "register_address": 3,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16004,7 +15968,7 @@
         },
         {
           "id": 7,
-          "register_address": 8,
+          "register_address": 7,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16022,7 +15986,7 @@
         },
         {
           "id": 8,
-          "register_address": 10,
+          "register_address": 9,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16040,7 +16004,7 @@
         },
         {
           "id": 9,
-          "register_address": 11,
+          "register_address": 10,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16058,7 +16022,7 @@
         },
         {
           "id": 10,
-          "register_address": 14,
+          "register_address": 13,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16076,7 +16040,7 @@
         },
         {
           "id": 11,
-          "register_address": 15,
+          "register_address": 14,
           "measurement": "current",
           "size_bits": 16,
           "count_registers": 1,
@@ -16094,7 +16058,7 @@
         },
         {
           "id": 12,
-          "register_address": 16,
+          "register_address": 15,
           "measurement": "current",
           "size_bits": 16,
           "count_registers": 1,
@@ -16112,7 +16076,7 @@
         },
         {
           "id": 13,
-          "register_address": 17,
+          "register_address": 16,
           "measurement": "current",
           "size_bits": 16,
           "count_registers": 1,
@@ -16130,7 +16094,7 @@
         },
         {
           "id": 14,
-          "register_address": 21,
+          "register_address": 20,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16148,7 +16112,7 @@
         },
         {
           "id": 15,
-          "register_address": 22,
+          "register_address": 21,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16166,7 +16130,7 @@
         },
         {
           "id": 16,
-          "register_address": 23,
+          "register_address": 22,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16184,7 +16148,7 @@
         },
         {
           "id": 17,
-          "register_address": 24,
+          "register_address": 23,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16202,7 +16166,7 @@
         },
         {
           "id": 18,
-          "register_address": 25,
+          "register_address": 24,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16220,7 +16184,7 @@
         },
         {
           "id": 19,
-          "register_address": 26,
+          "register_address": 25,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16238,7 +16202,7 @@
         },
         {
           "id": 20,
-          "register_address": 27,
+          "register_address": 26,
           "measurement": "Frequency",
           "size_bits": 16,
           "count_registers": 1,
@@ -16256,7 +16220,7 @@
         },
         {
           "id": 21,
-          "register_address": 28,
+          "register_address": 27,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16274,7 +16238,7 @@
         },
         {
           "id": 22,
-          "register_address": 29,
+          "register_address": 28,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16292,7 +16256,7 @@
         },
         {
           "id": 23,
-          "register_address": 30,
+          "register_address": 29,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16310,7 +16274,7 @@
         },
         {
           "id": 24,
-          "register_address": 31,
+          "register_address": 30,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16328,7 +16292,7 @@
         },
         {
           "id": 25,
-          "register_address": 32,
+          "register_address": 31,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16346,7 +16310,7 @@
         },
         {
           "id": 26,
-          "register_address": 33,
+          "register_address": 32,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16364,7 +16328,7 @@
         },
         {
           "id": 27,
-          "register_address": 34,
+          "register_address": 33,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16382,7 +16346,7 @@
         },
         {
           "id": 28,
-          "register_address": 35,
+          "register_address": 34,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16400,7 +16364,7 @@
         },
         {
           "id": 29,
-          "register_address": 36,
+          "register_address": 35,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16418,7 +16382,7 @@
         },
         {
           "id": 30,
-          "register_address": 37,
+          "register_address": 36,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16436,7 +16400,7 @@
         },
         {
           "id": 31,
-          "register_address": 38,
+          "register_address": 37,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16454,7 +16418,7 @@
         },
         {
           "id": 32,
-          "register_address": 39,
+          "register_address": 38,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16472,7 +16436,7 @@
         },
         {
           "id": 33,
-          "register_address": 40,
+          "register_address": 39,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16490,7 +16454,7 @@
         },
         {
           "id": 34,
-          "register_address": 41,
+          "register_address": 40,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16508,7 +16472,7 @@
         },
         {
           "id": 35,
-          "register_address": 42,
+          "register_address": 41,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -16526,7 +16490,7 @@
         },
         {
           "id": 36,
-          "register_address": 43,
+          "register_address": 42,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16544,7 +16508,7 @@
         },
         {
           "id": 37,
-          "register_address": 44,
+          "register_address": 43,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16562,7 +16526,7 @@
         },
         {
           "id": 38,
-          "register_address": 45,
+          "register_address": 44,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16580,7 +16544,7 @@
         },
         {
           "id": 39,
-          "register_address": 46,
+          "register_address": 45,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16598,7 +16562,7 @@
         },
         {
           "id": 40,
-          "register_address": 47,
+          "register_address": 46,
           "measurement": "current",
           "size_bits": 16,
           "count_registers": 1,
@@ -16616,7 +16580,7 @@
         },
         {
           "id": 41,
-          "register_address": 48,
+          "register_address": 47,
           "measurement": "current",
           "size_bits": 16,
           "count_registers": 1,
@@ -16634,7 +16598,7 @@
         },
         {
           "id": 42,
-          "register_address": 49,
+          "register_address": 48,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16652,7 +16616,7 @@
         },
         {
           "id": 43,
-          "register_address": 50,
+          "register_address": 49,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16670,7 +16634,7 @@
         },
         {
           "id": 44,
-          "register_address": 51,
+          "register_address": 50,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16688,7 +16652,7 @@
         },
         {
           "id": 45,
-          "register_address": 52,
+          "register_address": 51,
           "measurement": "voltage",
           "size_bits": 16,
           "count_registers": 1,
@@ -16706,7 +16670,7 @@
         },
         {
           "id": 46,
-          "register_address": 53,
+          "register_address": 52,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16724,7 +16688,7 @@
         },
         {
           "id": 47,
-          "register_address": 54,
+          "register_address": 53,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16742,7 +16706,7 @@
         },
         {
           "id": 48,
-          "register_address": 55,
+          "register_address": 54,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16760,7 +16724,7 @@
         },
         {
           "id": 49,
-          "register_address": 56,
+          "register_address": 55,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16778,7 +16742,7 @@
         },
         {
           "id": 50,
-          "register_address": 57,
+          "register_address": 56,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16796,7 +16760,7 @@
         },
         {
           "id": 51,
-          "register_address": 58,
+          "register_address": 57,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16814,7 +16778,7 @@
         },
         {
           "id": 52,
-          "register_address": 59,
+          "register_address": 58,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16832,7 +16796,7 @@
         },
         {
           "id": 53,
-          "register_address": 60,
+          "register_address": 59,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16850,7 +16814,7 @@
         },
         {
           "id": 54,
-          "register_address": 61,
+          "register_address": 60,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16868,7 +16832,7 @@
         },
         {
           "id": 55,
-          "register_address": 62,
+          "register_address": 61,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16886,7 +16850,7 @@
         },
         {
           "id": 56,
-          "register_address": 63,
+          "register_address": 62,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16904,7 +16868,7 @@
         },
         {
           "id": 57,
-          "register_address": 64,
+          "register_address": 63,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16922,7 +16886,7 @@
         },
         {
           "id": 58,
-          "register_address": 65,
+          "register_address": 64,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16940,7 +16904,7 @@
         },
         {
           "id": 59,
-          "register_address": 66,
+          "register_address": 67,
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
@@ -16958,7 +16922,7 @@
         },
         {
           "id": 60,
-          "register_address": 67,
+          "register_address": 66,
           "measurement": "misc",
           "size_bits": 16,
           "count_registers": 1,
@@ -16976,7 +16940,7 @@
         },
         {
           "id": 61,
-          "register_address": 68,
+          "register_address": 67,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -17007,7 +16971,7 @@
           "zone": "P2",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 21,
+          "register_address": 20,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17024,7 +16988,7 @@
           "zone": "P3",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 22,
+          "register_address": 21,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17041,7 +17005,7 @@
           "zone": "P4",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 23,
+          "register_address": 22,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17058,7 +17022,7 @@
           "zone": "P6",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 25,
+          "register_address": 24,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17075,7 +17039,7 @@
           "zone": "P7",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 26,
+          "register_address": 25,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17092,7 +17056,7 @@
           "zone": "P8",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 27,
+          "register_address": 26,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17109,7 +17073,7 @@
           "zone": "P9",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 28,
+          "register_address": 27,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17126,7 +17090,7 @@
           "zone": "P10",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 29,
+          "register_address": 28,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17143,7 +17107,7 @@
           "zone": "P11",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 30,
+          "register_address": 29,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17160,7 +17124,7 @@
           "zone": "P12",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 31,
+          "register_address": 30,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17177,7 +17141,7 @@
           "zone": "P13",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 32,
+          "register_address": 31,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17194,7 +17158,7 @@
           "zone": "DID",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 33,
+          "register_address": 32,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17211,7 +17175,7 @@
           "zone": "OPSSEL",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 34,
+          "register_address": 33,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17228,7 +17192,7 @@
           "zone": "QFD",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 35,
+          "register_address": 34,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17245,7 +17209,7 @@
           "zone": "CND6",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 36,
+          "register_address": 35,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17262,7 +17226,7 @@
           "zone": "CDN7",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 37,
+          "register_address": 36,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17279,7 +17243,7 @@
           "zone": "L1",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 38,
+          "register_address": 37,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17296,7 +17260,7 @@
           "zone": "L2",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 39,
+          "register_address": 38,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17313,7 +17277,7 @@
           "zone": "L3",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 40,
+          "register_address": 39,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17330,7 +17294,7 @@
           "zone": "L4",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 41,
+          "register_address": 40,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17347,7 +17311,7 @@
           "zone": "L5",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 42,
+          "register_address": 41,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17364,7 +17328,7 @@
           "zone": "L7",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 43,
+          "register_address": 42,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17381,7 +17345,7 @@
           "zone": "L8",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 44,
+          "register_address": 43,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17398,7 +17362,7 @@
           "zone": "BUZ",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 45,
+          "register_address": 44,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17415,7 +17379,7 @@
           "zone": "AL",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 46,
+          "register_address": 45,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17432,7 +17396,7 @@
           "zone": "COMPUL",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 47,
+          "register_address": 46,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17449,7 +17413,7 @@
           "zone": "COMPOL",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 48,
+          "register_address": 47,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17466,7 +17430,7 @@
           "zone": "C2",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 49,
+          "register_address": 48,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17483,7 +17447,7 @@
           "zone": "D0",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 50,
+          "register_address": 49,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17500,7 +17464,7 @@
           "zone": "D1",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 51,
+          "register_address": 50,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17517,7 +17481,7 @@
           "zone": "D2",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 52,
+          "register_address": 51,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17534,7 +17498,7 @@
           "zone": "D3",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 53,
+          "register_address": 52,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17551,7 +17515,7 @@
           "zone": "D4",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 54,
+          "register_address": 53,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17568,7 +17532,7 @@
           "zone": "E1",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 55,
+          "register_address": 54,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17585,7 +17549,7 @@
           "zone": "TON",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 56,
+          "register_address": 55,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17602,7 +17566,7 @@
           "zone": "TOFF",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 57,
+          "register_address": 56,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17619,7 +17583,7 @@
           "zone": "E7",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 58,
+          "register_address": 57,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17636,7 +17600,7 @@
           "zone": "E8",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 59,
+          "register_address": 58,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17653,7 +17617,7 @@
           "zone": "LD",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 60,
+          "register_address": 59,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17670,7 +17634,7 @@
           "zone": "PDN",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 61,
+          "register_address": 60,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17687,7 +17651,7 @@
           "zone": "CCRH",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 62,
+          "register_address": 61,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17704,7 +17668,7 @@
           "zone": "LOCK",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 63,
+          "register_address": 62,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17721,7 +17685,7 @@
           "zone": "PO",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 64,
+          "register_address": 63,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17738,7 +17702,7 @@
           "zone": "PDIS",
           "output_type": "event",
           "rt_enable": true,
-          "register_address": 65,
+          "register_address": 64,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17755,7 +17719,7 @@
           "zone": "FS",
           "output_type": "state",
           "rt_enable": true,
-          "register_address": 66,
+          "register_address": 65,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17772,7 +17736,7 @@
           "zone": "SETPOINT",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 67,
+          "register_address": 66,
           "config_tags": "{}",
           "alarm_enable": true
         },
@@ -17789,7 +17753,7 @@
           "zone": "QFS",
           "output_type": "analog",
           "rt_enable": true,
-          "register_address": 68,
+          "register_address": 67,
           "config_tags": "{}",
           "alarm_enable": true
         }
