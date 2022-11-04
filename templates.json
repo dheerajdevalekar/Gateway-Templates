@@ -8762,7 +8762,7 @@
     {
       "id": 16,
       "port": "/dev/serial0",
-      "baud_rate": 19200,
+      "baud_rate": 9600,
       "parity": "N",
       "stop_bits": 1,
       "byte_size": 8,
