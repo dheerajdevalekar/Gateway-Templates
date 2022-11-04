@@ -15935,8 +15935,8 @@
       "register_func_type": "holding",
       "device_type": "MOD",
       "sub_type": "MOD-COLD-RUSH",
-      "model": "Cold Rush",
-      "name": "Cold Rush",
+      "model": "Cold Rush(Holding)",
+      "name": "Cold Rush(Holding)",
       "in_registers": [
         {
           "id": 840,
@@ -18378,6 +18378,125 @@
           "alarm_enable": true
         }
       ]
+    },
+    {
+      "id": 26,
+      "port": "/dev/serial0",
+      "baud_rate": 9600,
+      "parity": "N",
+      "stop_bits": 1,
+      "byte_size": 8,
+      "total_register": 80,
+      "register_offset": 0,
+      "batches": "[{\"address\": 0,\"count\": 1}]",
+      "word_order": "big",
+      "byte_order": "big",
+      "batch_retry_times": 1,
+      "timeout": 3,
+      "poll_interval": 10,
+      "save_interval": 10,
+      "rt_interval": 30,
+      "local_storage_enable": true,
+      "cloud_storage_enable": true,
+      "rt_enable": true,
+      "register_func_type": "coil",
+      "device_type": "MOD",
+      "sub_type": "MOD-COLD-RUSH",
+      "model": "Cold Rush(Coil)",
+      "name": "Cold Rush(Coil)",
+      "in_registers": [
+        {
+          "id": 840,
+          "register_address": 0,
+          "measurement": "event",
+          "size_bits": 1,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-EM",
+          "zone": "ACSTATE",
+          "device_type": "MOD",
+          "master_device_id": 26,
+          "input_type": "state",
+          "name": "Power Status",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 840,
+          "register_address": 0,
+          "measurement": "event",
+          "size_bits": 2,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-EM",
+          "zone": "BUZZSTATE",
+          "device_type": "MOD",
+          "master_device_id": 26,
+          "input_type": "state",
+          "name": "Buzzer Status",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 840,
+          "register_address": 0,
+          "measurement": "event",
+          "size_bits": 3,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-EM",
+          "zone": "DEFROSTSTATE",
+          "device_type": "MOD",
+          "master_device_id": 26,
+          "input_type": "state",
+          "name": "Defrost Status",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 840,
+          "register_address": 0,
+          "measurement": "event",
+          "size_bits": 4,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-EM",
+          "zone": "QUICKFREEZESTATUS",
+          "device_type": "MOD",
+          "master_device_id": 26,
+          "input_type": "state",
+          "name": "Quick Freeze Status",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 840,
+          "register_address": 0,
+          "measurement": "event",
+          "size_bits": 5,
+          "count_registers": 1,
+          "decode_type": "bit",
+          "sub_type": "MOD-EM",
+          "zone": "LIGHTSTATUS",
+          "device_type": "MOD",
+          "master_device_id": 26,
+          "input_type": "state",
+          "name": "Light Status",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        }
+      ],
+      "out_registers": []
     }
   ],
   "network_templates": [
@@ -22350,7 +22469,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Input Voltage"
+          "name": "Fault Voltage"
         },
         {
           "id": 3,
@@ -22365,7 +22484,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Input Voltage"
+          "name": "Output Voltage"
         },
         {
           "id": 4,
@@ -22380,7 +22499,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "name": "Input Voltage"
+          "name": "Percentage Load"
         },
         {
           "id": 5,
