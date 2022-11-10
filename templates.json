@@ -17575,6 +17575,78 @@
           "max_alarm": 0,
           "hysteresis": 0,
           "multiplier": 0.1
+        },
+        {
+          "id": 930,
+          "register_address": 7,
+          "measurement": "misc",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "Fault1STATUS",
+          "device_type": "MOD",
+          "master_device_id": 25,
+          "input_type": "analog",
+          "name": "Fault 1 Status Byte",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 930,
+          "register_address": 10,
+          "measurement": "misc",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "SYSTEMSTATUS",
+          "device_type": "MOD",
+          "master_device_id": 25,
+          "input_type": "analog",
+          "name": "System status Byte",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 930,
+          "register_address": 6,
+          "measurement": "misc",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "RELAYSTATUS",
+          "device_type": "MOD",
+          "master_device_id": 25,
+          "input_type": "analog",
+          "name": "Relay status Byte",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 930,
+          "register_address": 9,
+          "measurement": "misc",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "DIGITALINPUT",
+          "device_type": "MOD",
+          "master_device_id": 25,
+          "input_type": "analog",
+          "name": "Digital Input Byte",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
         }
       ],
       "out_registers": [
@@ -18496,7 +18568,9 @@
           "multiplier": 1
         }
       ],
-      "out_registers": []
+      "out_registers": [
+
+      ]
     }
   ],
   "network_templates": [
