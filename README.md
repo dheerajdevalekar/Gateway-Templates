@@ -7,25 +7,34 @@ In these Templates, has the Following Templates.
 ###Modbus Device
 
 
-| id                | 	 Name                  	 | Device Type | 	 Sub Type | 	 Model               |
-|-------------------|---------------------------|-------------|------------|-----------------------|
-| 1	                | selec-4ch-ch1             | 	 MOD       | 	 MOD-EM   | 	 selec-mrj4m-quad    |
-| 2	                | selec-4ch-ch2             | 	 MOD       | 	 MOD-EM   | 	 selec-mrj4m-quad    |
-| 3	                | socomec-multis-lm35       | 	 MOD       | 	 MOD-EM   | 	 socomec-multis-lm35 |
-| 4	                | trinity-tinypro-6         | 	 MOD       | 	 MOD-EM   | 	 trinity-tinypro-6   |
-| 5	                | selec-mfm384              | 	 MOD       | 	 MOD-EM   | 	 selec-mfm384        |
-| 6	                | selec-mfm384d             | 	 MOD       | 	 MOD-EM   | 	 selec-mfm384d       |
-| 7                 | 	 selec-4ch-ch3           | 	 MOD       | 	 MOD-EM   | 	 selec-mrj4m-quad    |
-| 8                 | 	 selec-4ch-ch4           | 	 MOD       | 	 MOD-EM   | 	 selec-mrj4m-quad    |
-| 9                 | 	 hvac-controller         | 	 MOD       | 	 MOD-HVAC | 	 hvac-controller     |
-| 10                | 	 enviro-temp-hum         | 	 MOD       | 	 MOD-HVAC | 	 enviro-temp-hum     |
-| 11	               | rielta_cordinator         | 	 MOD       | 	 RIELTA   | 	 rielta_cordinator   |
-| 12                | 	 selec-MIBRX             | 	 MOD       | 	 MOD-EM   | 	 selec_RX            |
-| 13	               | selec-306-C-D             | MOD         | 	 MOD-EM   | 	 selec-306-C-D       |
-| 14	               | Deepsea-4520-MK11         | 	 MOD       | 	 MOD-EM   | 	 Deepsea-4520-MK11   |
-| 15	               | Carrier_VRV               | 	 MOD       | 	 MOD-CAC  | 	 Carrier_AC          |
-| 16	               | selec-MIBRX-4-Channel     | 	 MOD       | 	 MOD-EM   | 	 selec_MIBRX-4Ch     |
-| 17	               | schneider-em6400ng        | 	 MOD       | 	 MOD-EM   | 	 schneider-em6400ng  |
+| id  | 	 Name                  	 | Device Type | 	 Sub Type    | 	 Model               |
+|-----|---------------------------|-------------|---------------|-----------------------|
+| 1	  | selec-4ch-ch1             | 	 MOD       | 	 MOD-EM      | 	 selec-mrj4m-quad    |
+| 2	  | selec-4ch-ch2             | 	 MOD       | 	 MOD-EM      | 	 selec-mrj4m-quad    |
+| 3	  | socomec-multis-lm35       | 	 MOD       | 	 MOD-EM      | 	 socomec-multis-lm35 |
+| 4	  | trinity-tinypro-6         | 	 MOD       | 	 MOD-EM      | 	 trinity-tinypro-6   |
+| 5	  | selec-mfm384              | 	 MOD       | 	 MOD-EM      | 	 selec-mfm384        |
+| 6	  | selec-mfm384d             | 	 MOD       | 	 MOD-EM      | 	 selec-mfm384d       |
+| 7   | 	 selec-4ch-ch3           | 	 MOD       | 	 MOD-EM      | 	 selec-mrj4m-quad    |
+| 8   | 	 selec-4ch-ch4           | 	 MOD       | 	 MOD-EM      | 	 selec-mrj4m-quad    |
+| 9   | 	 hvac-controller         | 	 MOD       | 	 MOD-HVAC    | 	 hvac-controller     |
+| 10  | 	 enviro-temp-hum         | 	 MOD       | 	 MOD-HVAC    | 	 enviro-temp-hum     |
+| 11	 | rielta_cordinator         | 	 MOD       | 	 RIELTA      | 	 rielta_cordinator   |
+| 12  | 	 selec-MIBRX             | 	 MOD       | 	 MOD-EM      | 	 selec_RX            |
+| 13	 | selec-306-C-D             | MOD         | 	 MOD-EM      | 	 selec-306-C-D       |
+| 14	 | Deepsea-4520-MK11         | 	 MOD       | 	 MOD-EM      | 	 Deepsea-4520-MK11   |
+| 15	 | Carrier_VRV               | 	 MOD       | 	 MOD-CAC     | 	 Carrier_AC          |
+| 16	 | selec-MIBRX-4-Channel     | 	 MOD       | 	 MOD-EM      | 	 selec_MIBRX-4Ch     |
+| 17	 | schneider-em6400ng        | 	 MOD       | 	 MOD-EM      | 	 schneider-em6400ng  |
+| 18  | Delta UPS                 | MOD         | MOD-TCP       | Delta UPS             |
+| 19  | Nippen DT-108             | MOD         | MOD-EM        | DT-108                |
+| 20  | DGC-202X DG               | MOD         | MOD-EM        | DGC-202x              |
+| 21  | ESC-Kochi-Metro           | MOD         | MOD-ESCL-485  | ESC-Kochi-Metro       |
+| 22  | sedemac_645               | MOD         | MOD-EM        | sedemac_gc1111        |
+| 23  | Elmeasure                 | MOD         | MOD-EM        | LG5310                |
+| 24  | PLC Temperature Twix      | MOD         | MOD-EM        | PLC Temperature Twix  |
+| 25  | Cold Rush(Holding)        | MOD         | MOD-COLD-RUSH | Cold Rush(Holding)    |
+| 26  | Cold Rush(Coil)           | MOD         | MOD-COLD-RUSH | Cold Rush(Coil)       |
 
 
 ###Serial Device
