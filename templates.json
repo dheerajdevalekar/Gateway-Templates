@@ -22483,9 +22483,7 @@
           "name": "Continuous Ping Status"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     }
   ],
   "schedule_group_templates": [
