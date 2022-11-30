@@ -765,9 +765,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 2,
@@ -1534,9 +1532,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 3,
@@ -2177,9 +2173,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 4,
@@ -2622,9 +2616,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 5,
@@ -3319,9 +3311,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 6,
@@ -4286,9 +4276,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 7,
@@ -5055,9 +5043,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 8,
@@ -5824,9 +5810,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 9,
@@ -6333,9 +6317,7 @@
           "multiplier": 0.1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 11,
@@ -6365,9 +6347,7 @@
       "in_registers": [
 
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 12,
@@ -6432,9 +6412,7 @@
           "multiplier": 0.1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 13,
@@ -7165,9 +7143,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 14,
@@ -7520,9 +7496,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 15,
@@ -8858,9 +8832,7 @@
           "multiplier": 0.1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 17,
@@ -9429,9 +9401,7 @@
           "multiplier": 0.001
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 18,
@@ -9676,9 +9646,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 19,
@@ -10139,9 +10107,7 @@
           "multiplier": 0.1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 20,
@@ -10242,9 +10208,7 @@
           "multiplier": 0.1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 21,
@@ -14179,9 +14143,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 22,
@@ -15841,9 +15803,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 24,
@@ -15908,9 +15868,7 @@
           "multiplier": 0.1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 25,
@@ -18568,9 +18526,7 @@
           "multiplier": 1
         }
       ],
-      "out_registers": [
-
-      ]
+      "out_registers": []
     },
     {
       "id": 27,
@@ -23984,9 +23940,7 @@
       "out_templates": []
     }
   ],
-  "schedule_group_templates": [
-
-  ],
+  "schedule_group_templates": [],
   "serial_device_templates": [
     {
       "id": 1,
