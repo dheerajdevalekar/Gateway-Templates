@@ -20242,7 +20242,7 @@
       "device_type": "MOD",
       "sub_type": "MOD-EM",
       "model": "Selec-EM4M-3P-C-100A",
-      "name": "Selec 4-Channel EM",
+      "name": "Selec 4-Channel EM(Smart Home)",
       "in_registers": [
         {
           "id": 1,
