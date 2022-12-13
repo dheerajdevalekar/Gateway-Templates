@@ -17342,7 +17342,7 @@
           "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
-          "decode_type": "float",
+          "decode_type": "int",
           "sub_type": "MOD-EM",
           "zone": "D1",
           "device_type": "MOD",
