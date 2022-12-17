@@ -10239,7 +10239,7 @@
         {
           "id": 533,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10257,7 +10257,7 @@
         {
           "id": 534,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10275,7 +10275,7 @@
         {
           "id": 535,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10293,7 +10293,7 @@
         {
           "id": 536,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10311,7 +10311,7 @@
         {
           "id": 537,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10329,7 +10329,7 @@
         {
           "id": 538,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10347,7 +10347,7 @@
         {
           "id": 539,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10365,7 +10365,7 @@
         {
           "id": 540,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10383,7 +10383,7 @@
         {
           "id": 541,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10401,7 +10401,7 @@
         {
           "id": 542,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10419,7 +10419,7 @@
         {
           "id": 543,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10437,7 +10437,7 @@
         {
           "id": 544,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10455,7 +10455,7 @@
         {
           "id": 545,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10473,7 +10473,7 @@
         {
           "id": 546,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10491,7 +10491,7 @@
         {
           "id": 547,
           "register_address": 1,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10509,7 +10509,7 @@
         {
           "id": 548,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10527,7 +10527,7 @@
         {
           "id": 549,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10545,7 +10545,7 @@
         {
           "id": 550,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10563,7 +10563,7 @@
         {
           "id": 551,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10581,7 +10581,7 @@
         {
           "id": 552,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10599,7 +10599,7 @@
         {
           "id": 553,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10617,7 +10617,7 @@
         {
           "id": 554,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10635,7 +10635,7 @@
         {
           "id": 555,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10653,7 +10653,7 @@
         {
           "id": 556,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10671,7 +10671,7 @@
         {
           "id": 557,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10689,7 +10689,7 @@
         {
           "id": 558,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10707,7 +10707,7 @@
         {
           "id": 559,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10725,7 +10725,7 @@
         {
           "id": 560,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10743,7 +10743,7 @@
         {
           "id": 561,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10761,7 +10761,7 @@
         {
           "id": 562,
           "register_address": 2,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10779,7 +10779,7 @@
         {
           "id": 563,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10797,7 +10797,7 @@
         {
           "id": 564,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10815,7 +10815,7 @@
         {
           "id": 565,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10833,7 +10833,7 @@
         {
           "id": 566,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10851,7 +10851,7 @@
         {
           "id": 567,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10869,7 +10869,7 @@
         {
           "id": 568,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10887,7 +10887,7 @@
         {
           "id": 569,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10905,7 +10905,7 @@
         {
           "id": 570,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10923,7 +10923,7 @@
         {
           "id": 571,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10941,7 +10941,7 @@
         {
           "id": 572,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10959,7 +10959,7 @@
         {
           "id": 573,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10977,7 +10977,7 @@
         {
           "id": 574,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -10995,7 +10995,7 @@
         {
           "id": 575,
           "register_address": 3,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11013,7 +11013,7 @@
         {
           "id": 576,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11031,7 +11031,7 @@
         {
           "id": 577,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11049,7 +11049,7 @@
         {
           "id": 578,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11067,7 +11067,7 @@
         {
           "id": 579,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11085,7 +11085,7 @@
         {
           "id": 580,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11103,7 +11103,7 @@
         {
           "id": 581,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11121,7 +11121,7 @@
         {
           "id": 582,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11139,7 +11139,7 @@
         {
           "id": 583,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11157,7 +11157,7 @@
         {
           "id": 584,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11175,7 +11175,7 @@
         {
           "id": 585,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11193,7 +11193,7 @@
         {
           "id": 586,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11211,7 +11211,7 @@
         {
           "id": 587,
           "register_address": 4,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11229,7 +11229,7 @@
         {
           "id": 588,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11247,7 +11247,7 @@
         {
           "id": 589,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11265,7 +11265,7 @@
         {
           "id": 590,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11283,7 +11283,7 @@
         {
           "id": 591,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11301,7 +11301,7 @@
         {
           "id": 592,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11319,7 +11319,7 @@
         {
           "id": 593,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11337,7 +11337,7 @@
         {
           "id": 594,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11355,7 +11355,7 @@
         {
           "id": 595,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11373,7 +11373,7 @@
         {
           "id": 596,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11391,7 +11391,7 @@
         {
           "id": 597,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11409,7 +11409,7 @@
         {
           "id": 598,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11427,7 +11427,7 @@
         {
           "id": 599,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11445,7 +11445,7 @@
         {
           "id": 600,
           "register_address": 5,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11463,7 +11463,7 @@
         {
           "id": 601,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11481,7 +11481,7 @@
         {
           "id": 602,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11499,7 +11499,7 @@
         {
           "id": 603,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11517,7 +11517,7 @@
         {
           "id": 604,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11535,7 +11535,7 @@
         {
           "id": 605,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11553,7 +11553,7 @@
         {
           "id": 606,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11571,7 +11571,7 @@
         {
           "id": 607,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11589,7 +11589,7 @@
         {
           "id": 608,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11607,7 +11607,7 @@
         {
           "id": 609,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11625,7 +11625,7 @@
         {
           "id": 610,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11643,7 +11643,7 @@
         {
           "id": 611,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11661,7 +11661,7 @@
         {
           "id": 612,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11679,7 +11679,7 @@
         {
           "id": 613,
           "register_address": 6,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11697,7 +11697,7 @@
         {
           "id": 614,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11715,7 +11715,7 @@
         {
           "id": 615,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11733,7 +11733,7 @@
         {
           "id": 616,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11751,7 +11751,7 @@
         {
           "id": 617,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11769,7 +11769,7 @@
         {
           "id": 618,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11787,7 +11787,7 @@
         {
           "id": 619,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11805,7 +11805,7 @@
         {
           "id": 620,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11823,7 +11823,7 @@
         {
           "id": 621,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11841,7 +11841,7 @@
         {
           "id": 622,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11859,7 +11859,7 @@
         {
           "id": 623,
           "register_address": 7,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11877,7 +11877,7 @@
         {
           "id": 624,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11895,7 +11895,7 @@
         {
           "id": 625,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11913,7 +11913,7 @@
         {
           "id": 626,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11931,7 +11931,7 @@
         {
           "id": 627,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11949,7 +11949,7 @@
         {
           "id": 628,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11967,7 +11967,7 @@
         {
           "id": 629,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -11985,7 +11985,7 @@
         {
           "id": 630,
           "register_address": 8,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12003,7 +12003,7 @@
         {
           "id": 631,
           "register_address": 9,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12021,7 +12021,7 @@
         {
           "id": 632,
           "register_address": 9,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12039,7 +12039,7 @@
         {
           "id": 633,
           "register_address": 9,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12057,7 +12057,7 @@
         {
           "id": 634,
           "register_address": 10,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12075,7 +12075,7 @@
         {
           "id": 635,
           "register_address": 10,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12093,7 +12093,7 @@
         {
           "id": 636,
           "register_address": 10,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12111,7 +12111,7 @@
         {
           "id": 637,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12129,7 +12129,7 @@
         {
           "id": 638,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12147,7 +12147,7 @@
         {
           "id": 639,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12165,7 +12165,7 @@
         {
           "id": 640,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12183,7 +12183,7 @@
         {
           "id": 641,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12201,7 +12201,7 @@
         {
           "id": 642,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12219,7 +12219,7 @@
         {
           "id": 643,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12237,7 +12237,7 @@
         {
           "id": 644,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12255,7 +12255,7 @@
         {
           "id": 645,
           "register_address": 11,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12273,7 +12273,7 @@
         {
           "id": 646,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12291,7 +12291,7 @@
         {
           "id": 647,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12309,7 +12309,7 @@
         {
           "id": 648,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12327,7 +12327,7 @@
         {
           "id": 649,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12345,7 +12345,7 @@
         {
           "id": 650,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12363,7 +12363,7 @@
         {
           "id": 651,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12381,7 +12381,7 @@
         {
           "id": 652,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12399,7 +12399,7 @@
         {
           "id": 653,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12417,7 +12417,7 @@
         {
           "id": 654,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12435,7 +12435,7 @@
         {
           "id": 655,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12453,7 +12453,7 @@
         {
           "id": 656,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12471,7 +12471,7 @@
         {
           "id": 657,
           "register_address": 12,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12489,7 +12489,7 @@
         {
           "id": 658,
           "register_address": 13,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12507,7 +12507,7 @@
         {
           "id": 659,
           "register_address": 13,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12525,7 +12525,7 @@
         {
           "id": 660,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12543,7 +12543,7 @@
         {
           "id": 661,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12561,7 +12561,7 @@
         {
           "id": 662,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12579,7 +12579,7 @@
         {
           "id": 663,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12597,7 +12597,7 @@
         {
           "id": 664,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12615,7 +12615,7 @@
         {
           "id": 665,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12633,7 +12633,7 @@
         {
           "id": 666,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12651,7 +12651,7 @@
         {
           "id": 667,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12669,7 +12669,7 @@
         {
           "id": 668,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12687,7 +12687,7 @@
         {
           "id": 669,
           "register_address": 14,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12705,7 +12705,7 @@
         {
           "id": 670,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12723,7 +12723,7 @@
         {
           "id": 671,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12741,7 +12741,7 @@
         {
           "id": 672,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12759,7 +12759,7 @@
         {
           "id": 673,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12777,7 +12777,7 @@
         {
           "id": 674,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12795,7 +12795,7 @@
         {
           "id": 675,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12813,7 +12813,7 @@
         {
           "id": 676,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12831,7 +12831,7 @@
         {
           "id": 677,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12849,7 +12849,7 @@
         {
           "id": 678,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12867,7 +12867,7 @@
         {
           "id": 679,
           "register_address": 15,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12885,7 +12885,7 @@
         {
           "id": 680,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12903,7 +12903,7 @@
         {
           "id": 681,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12921,7 +12921,7 @@
         {
           "id": 682,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12939,7 +12939,7 @@
         {
           "id": 683,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12957,7 +12957,7 @@
         {
           "id": 684,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12975,7 +12975,7 @@
         {
           "id": 685,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -12993,7 +12993,7 @@
         {
           "id": 686,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13011,7 +13011,7 @@
         {
           "id": 687,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13029,7 +13029,7 @@
         {
           "id": 688,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13047,7 +13047,7 @@
         {
           "id": 689,
           "register_address": 16,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13065,7 +13065,7 @@
         {
           "id": 690,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13083,7 +13083,7 @@
         {
           "id": 691,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13101,7 +13101,7 @@
         {
           "id": 692,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13119,7 +13119,7 @@
         {
           "id": 693,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13137,7 +13137,7 @@
         {
           "id": 694,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13155,7 +13155,7 @@
         {
           "id": 695,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13191,7 +13191,7 @@
         {
           "id": 697,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13209,7 +13209,7 @@
         {
           "id": 698,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13227,7 +13227,7 @@
         {
           "id": 699,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13245,7 +13245,7 @@
         {
           "id": 700,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13263,7 +13263,7 @@
         {
           "id": 701,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13281,7 +13281,7 @@
         {
           "id": 702,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13299,7 +13299,7 @@
         {
           "id": 703,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13317,7 +13317,7 @@
         {
           "id": 704,
           "register_address": 21,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13335,7 +13335,7 @@
         {
           "id": 705,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13353,7 +13353,7 @@
         {
           "id": 706,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13371,7 +13371,7 @@
         {
           "id": 707,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13389,7 +13389,7 @@
         {
           "id": 708,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13407,7 +13407,7 @@
         {
           "id": 709,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13425,7 +13425,7 @@
         {
           "id": 710,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13443,7 +13443,7 @@
         {
           "id": 711,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 7,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13461,7 +13461,7 @@
         {
           "id": 712,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 8,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13479,7 +13479,7 @@
         {
           "id": 713,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 9,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13497,7 +13497,7 @@
         {
           "id": 714,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 10,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13515,7 +13515,7 @@
         {
           "id": 715,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 11,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13533,7 +13533,7 @@
         {
           "id": 716,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 12,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13551,7 +13551,7 @@
         {
           "id": 717,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 13,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13569,7 +13569,7 @@
         {
           "id": 718,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 14,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13587,7 +13587,7 @@
         {
           "id": 719,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 15,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13605,7 +13605,7 @@
         {
           "id": 720,
           "register_address": 133,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13623,7 +13623,7 @@
         {
           "id": 721,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13641,7 +13641,7 @@
         {
           "id": 722,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 2,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13659,7 +13659,7 @@
         {
           "id": 723,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 3,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13677,7 +13677,7 @@
         {
           "id": 724,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 4,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13695,7 +13695,7 @@
         {
           "id": 725,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 5,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13713,7 +13713,7 @@
         {
           "id": 726,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 6,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13731,7 +13731,7 @@
         {
           "id": 727,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13749,7 +13749,7 @@
         {
           "id": 728,
           "register_address": 134,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13767,7 +13767,7 @@
         {
           "id": 729,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13785,7 +13785,7 @@
         {
           "id": 730,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13803,7 +13803,7 @@
         {
           "id": 731,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13821,7 +13821,7 @@
         {
           "id": 732,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13839,7 +13839,7 @@
         {
           "id": 733,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13857,7 +13857,7 @@
         {
           "id": 734,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13875,7 +13875,7 @@
         {
           "id": 735,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13893,7 +13893,7 @@
         {
           "id": 736,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13911,7 +13911,7 @@
         {
           "id": 737,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13929,7 +13929,7 @@
         {
           "id": 738,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13947,7 +13947,7 @@
         {
           "id": 739,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13965,7 +13965,7 @@
         {
           "id": 740,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -13983,7 +13983,7 @@
         {
           "id": 741,
           "register_address": 135,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14001,7 +14001,7 @@
         {
           "id": 742,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14019,7 +14019,7 @@
         {
           "id": 743,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14037,7 +14037,7 @@
         {
           "id": 744,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14055,7 +14055,7 @@
         {
           "id": 745,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14073,7 +14073,7 @@
         {
           "id": 746,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14091,7 +14091,7 @@
         {
           "id": 747,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14109,7 +14109,7 @@
         {
           "id": 748,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
@@ -14127,7 +14127,7 @@
         {
           "id": 749,
           "register_address": 136,
-          "measurement": "state",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "bit",
