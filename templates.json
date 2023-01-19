@@ -22680,7 +22680,72 @@
         }
     ],
     "out_registers": []
- }
+ },
+    {
+      "id": 32,
+      "port": "/dev/serial0",
+      "baud_rate": 9600,
+      "parity": "N",
+      "stop_bits": 1,
+      "byte_size": 8,
+      "total_register": 5,
+      "register_offset": 0,
+      "batches": "[{\"address\": 0,\"count\": 2}]",
+      "word_order": "big",
+      "byte_order": "big",
+      "batch_retry_times": 1,
+      "timeout": 1,
+      "poll_interval": 10,
+      "save_interval": 10,
+      "rt_interval": 30,
+      "local_storage_enable": true,
+      "cloud_storage_enable": true,
+      "rt_enable": true,
+      "register_func_type": "holding",
+      "device_type": "MOD",
+      "sub_type": "MOD-EM",
+      "model": "RH-Temp",
+      "name": "RH and Temperature Sensor",
+      "in_registers": [
+        {
+          "id": 839,
+          "register_address": 0,
+          "measurement": "humidity",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "HUMID",
+          "device_type": "MOD",
+          "master_device_id": 32,
+          "input_type": "analog",
+          "name": "Relative Humidity",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        },
+        {
+          "id": 840,
+          "register_address": 1,
+          "measurement": "temperature",
+          "size_bits": 16,
+          "count_registers": 1,
+          "decode_type": "int",
+          "sub_type": "MOD-EM",
+          "zone": "TEMP",
+          "device_type": "MOD",
+          "master_device_id": 32,
+          "input_type": "analog",
+          "name": "Temperature",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0,
+          "multiplier": 1
+        }
+      ],
+      "out_registers": []
+    }
   ],
   "network_templates": [
     {
