@@ -10232,7 +10232,7 @@
       "rt_enable": true,
       "register_func_type": "holding",
       "device_type": "MOD",
-      "sub_type": "MOD-TCP",
+      "sub_type": "MOD-ESCL-485",
       "model": "ESC-Kochi-Metro",
       "name": "ESC-Kochi-Metro",
       "in_registers": [
