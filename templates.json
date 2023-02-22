@@ -20217,7 +20217,7 @@
         }
       ],
       "out_registers": []
- },
+    },
     {
       "id": 29,
       "port": "/dev/serial0",
@@ -21308,7 +21308,7 @@
         }
       ],
       "out_registers": []
-},
+    },
     {
       "id": 30,
       "port": "/dev/serial0",
@@ -22039,7 +22039,7 @@
         }
       ],
       "out_registers": []
-},
+    },
     {
     "id": 31,
     "port": "/dev/serial0",
@@ -22680,7 +22680,7 @@
         }
     ],
     "out_registers": []
- },
+    },
     {
       "id": 32,
       "port": "/dev/serial0",
@@ -22750,7 +22750,7 @@
       "id": 33,
       "port": "/dev/serial0",
       "baud_rate": 9600,
-      "parity": "N",
+      "parity": "E",
       "stop_bits": 1,
       "byte_size": 8,
       "total_register": 80,
@@ -22768,7 +22768,7 @@
       "rt_enable": true,
       "register_func_type": "discrete_input",
       "device_type": "MOD",
-      "sub_type": "MOD-EM",
+      "sub_type": "MOD-TCP",
       "model": "485 Based 8-IO",
       "name": "485 Based 8-IO Board",
       "in_registers": [
@@ -22917,7 +22917,144 @@
           "multiplier": 1
         }
       ],
-      "out_registers": []
+      "out_registers": [
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-1",
+          "cloud_storage_enable": true,
+          "id": 1,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY1",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 0,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-2",
+          "cloud_storage_enable": true,
+          "id": 2,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY2",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 1,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-3",
+          "cloud_storage_enable": true,
+          "id": 3,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY3",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 2,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-4",
+          "cloud_storage_enable": true,
+          "id": 4,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY4",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 3,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-5",
+          "cloud_storage_enable": true,
+          "id": 5,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY5",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 4,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-6",
+          "cloud_storage_enable": true,
+          "id": 6,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY6",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 5,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-7",
+          "cloud_storage_enable": true,
+          "id": 7,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY7",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 6,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        },
+        {
+          "enable": true,
+          "register_func_type": "coil",
+          "name": "8-IO-Relay-8",
+          "cloud_storage_enable": true,
+          "id": 8,
+          "sub_type": "MOD-TCP",
+          "output_type": "state",
+          "rt_enable": true,
+          "master_device_id": 33,
+          "zone": "IORELAY8",
+          "config_tags": "{}",
+          "alarm_enable": true,
+          "register_address": 7,
+          "device_type": "MOD",
+          "local_storage_enable": true
+        }
+      ]
     },
     {
       "id": 34,
@@ -23001,7 +23138,7 @@
         }
       ],
       "out_registers": []
-},
+    },
     {
       "id": 35,
       "port": "/dev/serial0",
