@@ -24717,7 +24717,7 @@
           "zone": "AACSTATE",
           "device_type": "MOD",
           "master_device_id": 36,
-          "input_type": "state",
+          "input_type": "analog",
           "name": "Analog AC State(| 0-OFF | 1-ON |)",
           "min_alarm": 0,
           "max_alarm": 0,
