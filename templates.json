@@ -25412,7 +25412,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "multiplier": 1
+          "multiplier": 0.001
         },
         {
           "id": 31,
@@ -26395,7 +26395,7 @@
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
-          "multiplier": 1
+          "multiplier": 0.001
         },
         {
           "id": 31,
