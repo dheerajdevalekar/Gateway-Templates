@@ -13110,7 +13110,7 @@
           "device_type": "MOD",
           "master_device_id": 21,
           "input_type": "state",
-          "name": "Stop button, customer- provided",
+          "name": "Building Fire Alarm ON",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
