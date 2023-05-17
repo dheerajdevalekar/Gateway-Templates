@@ -26845,9 +26845,7 @@
           "name": "Floor No Z17-21"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 2,
@@ -26920,9 +26918,7 @@
           "name": "Floor No"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 3,
@@ -26995,9 +26991,7 @@
           "name": "Floor No"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 4,
@@ -27070,9 +27064,7 @@
           "name": "Floor No"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 5,
@@ -27414,9 +27406,7 @@
           "name": "Input 2"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 7,
@@ -30533,9 +30523,7 @@
           "name": "people out"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 9,
@@ -30636,7 +30624,53 @@
           "hysteresis": 0
         }
       ],
-      "out_templates": []
+      "out_templates": [
+        {
+          "id": 1,
+          "zone": "MULTISTATEVALUE:1",
+          "name": "System Mode",
+          "device_type": "NET-BACNET",
+          "sub_type": "BACNET",
+          "version": "1",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 2,
+          "zone": "ANALOGVALUE:108",
+          "name": "Room Temperature Setpoint in degree C",
+          "device_type": "NET-BACNET",
+          "sub_type": "BACNET",
+          "version": "1",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 3,
+          "zone": "ANALOGINPUT:1",
+          "name": "Relative Damper Position in %",
+          "device_type": "NET-BACNET",
+          "sub_type": "BACNET",
+          "version": "1",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        }
+      ]
     }
   ],
   "schedule_group_templates": [],
