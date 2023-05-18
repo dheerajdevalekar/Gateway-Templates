@@ -35,6 +35,19 @@ In these Templates, has the Following Templates.
 | 24  | PLC Temperature Twix      | MOD         | MOD-EM        | PLC Temperature Twix  |
 | 25  | Cold Rush(Holding)        | MOD         | MOD-COLD-RUSH | Cold Rush(Holding)    |
 | 26  | Cold Rush(Coil)           | MOD         | MOD-COLD-RUSH | Cold Rush(Coil)       |
+| 27 | Secure Energy Meter(Metro)           | MOD           | MOD-EM        | ELite 440                            |
+| 28 | ESP ModBus Device(Selec 306 EM)      | MOD           | MOD-SOCKET    | ESP ModBus                           |
+| 29 | Selec 4-Channel EM(Smart Home)       | MOD           | MOD-EM        | Selec-EM4M-3P-C-100A                 |
+| 30 | Secure Elite-500 Energy Meter(Metro) | MOD           | MOD-EM        | ELite 500                            |
+| 31 | Ghansoli ICMC EM                     | MOD           | MOD-EM        | Schneider-Conzerv-METSEEM6438H       |
+| 32 | RH and Temperature Sensor            | MOD           | MOD-EM        | RH-Temp                              |
+| 33 | 485 Based 8-IO Board                 | MOD           | MOD-TCP       | 485 Based 8-IO                       |
+| 34 | GasAlarm CO2 Module                  | MOD           | MOD-EM        | GAS-CO2-R111-NO-T                    |
+| 35 | Secure Elite-500 Energy Meter(Metro) | MOD           | MOD-TCP       | ELite 500                            |
+| 36 | Hitachi VRF For LODHA Towers         | MOD           | MOD-VRF       | Hitachi-VRF                          |
+| 37 | Elmeasure Energy Meter(Mains)        | MOD           | MOD-EM        | Elmeasure Energy Meter(Mains)        |
+| 38 | Elmeasure Energy Meter(Distribution) | MOD           | MOD-EM        | Elmeasure Energy Meter(Distribution) |
+
 
 
 ###Serial Device
