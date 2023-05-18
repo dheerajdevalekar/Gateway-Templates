@@ -70,3 +70,7 @@ In these Templates, has the Following Templates.
 | 5   | 	 ESP Device                | 	 NET-MQ    | 	 IES      | 	 IES   |   
 | 6   | 	 Escalator Panel           | 	 NET-TCP   | 	 ESCL8    | 	 8ZP   |    
 | 7   | 	 Escalator Panel - RS485 	 | NET-TCP     | 	 ESCL485  | 	 485P  | 
+| 8 | people counting         | NET-HTTP      | PCM        | PCMDEVICE       |
+| 9 | Continuous Ping IP      | NET-PING      | CPING      | Continuous Ping |
+| 10 | BMS Delta Router        | NET-BACNET    | BACNET     | Delta VAV       |
+
