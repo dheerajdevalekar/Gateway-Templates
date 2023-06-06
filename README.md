@@ -47,6 +47,7 @@ In these Templates, has the Following Templates.
 | 36 | Hitachi VRF For LODHA Towers         | MOD           | MOD-VRF       | Hitachi-VRF                          |
 | 37 | Elmeasure Energy Meter(Mains)        | MOD           | MOD-EM        | Elmeasure Energy Meter(Mains)        |
 | 38 | Elmeasure Energy Meter(Distribution) | MOD           | MOD-EM        | Elmeasure Energy Meter(Distribution) |
+| 39 | CO2 Detector AeroSense               | MOD           | MOD-TCP       | CO2 Detector AeroSense               |
 
 
 
