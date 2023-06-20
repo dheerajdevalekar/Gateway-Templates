@@ -48,6 +48,12 @@ In these Templates, has the Following Templates.
 | 37 | Elmeasure Energy Meter(Mains)        | MOD           | MOD-EM        | Elmeasure Energy Meter(Mains)        |
 | 38 | Elmeasure Energy Meter(Distribution) | MOD           | MOD-EM        | Elmeasure Energy Meter(Distribution) |
 | 39 | CO2 Detector AeroSense               | MOD           | MOD-TCP       | CO2 Detector AeroSense               |
+| 40 | selec-306-C-D                        | MOD           | MOD-TCP       | selec-306-C-D                        |
+| 41 | selec-4ch-ch1                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
+| 42 | selec-4ch-ch2                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
+| 43 | selec-4ch-ch3                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
+| 44 | selec-4ch-ch4                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
+
 
 
 
