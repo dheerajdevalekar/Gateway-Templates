@@ -31051,9 +31051,7 @@
           "name": "Floor No Z17-21"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 2,
@@ -31126,9 +31124,7 @@
           "name": "Floor No"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 3,
@@ -31201,9 +31197,7 @@
           "name": "Floor No"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 4,
@@ -31276,9 +31270,7 @@
           "name": "Floor No"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 5,
@@ -31362,7 +31354,7 @@
           "alarm_info": "{}",
           "min_alarm": 20,
           "max_alarm": 32,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Temperature"
         },
         {
@@ -31377,7 +31369,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Humidity"
         },
         {
@@ -31392,7 +31384,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device CO Level"
         },
         {
@@ -31407,7 +31399,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Pulse Count"
         },
         {
@@ -31422,7 +31414,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Dust Concentration"
         },
         {
@@ -31437,7 +31429,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Boot Count"
         },
         {
@@ -31452,7 +31444,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Boot Count"
         },
         {
@@ -31467,7 +31459,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Boot Count"
         },
         {
@@ -31482,7 +31474,7 @@
           "alarm_info": "{}",
           "min_alarm": 0,
           "max_alarm": 0,
-          "hysteresis": 1,
+          "hysteresis": 0,
           "name": "ESP Device Boot Count"
         },
         {
@@ -31695,9 +31687,7 @@
           "name": "Input 2"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 7,
@@ -34814,9 +34804,7 @@
           "name": "people out"
         }
       ],
-      "out_templates": [
-
-      ]
+      "out_templates": []
     },
     {
       "id": 9,
@@ -34862,7 +34850,7 @@
           "name": "System Mode",
           "device_type": "NET-BACNET",
           "sub_type": "BACNET",
-          "version": 1,
+          "version": "1",
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
@@ -34877,7 +34865,7 @@
           "name": "Room Temperature Setpoint in degree C",
           "device_type": "NET-BACNET",
           "sub_type": "BACNET",
-          "version": 1,
+          "version": "1",
           "input_type": "analog",
           "measurement": "temperature",
           "config_tags": "{}",
@@ -34892,7 +34880,7 @@
           "name": "Room Temperature in degree C",
           "device_type": "NET-BACNET",
           "sub_type": "BACNET",
-          "version": 1,
+          "version": "1",
           "input_type": "analog",
           "measurement": "temperature",
           "config_tags": "{}",
@@ -34907,7 +34895,7 @@
           "name": "Relative Damper Position in %",
           "device_type": "NET-BACNET",
           "sub_type": "BACNET",
-          "version": 1,
+          "version": "1",
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
@@ -34918,6 +34906,605 @@
         }
       ],
       "out_templates": []
+    },
+    {
+      "id": 11,
+      "device_type": "NET-BACNET",
+      "sub_type": "LG-BACNET",
+      "version": "1",
+      "inputs": "31",
+      "outputs": "8",
+      "model": "LG VAV",
+      "name": "BMS LG Router",
+      "in_templates": [
+        {
+          "id": 1,
+          "zone": "BINARYOUTPUT:1",
+          "name": "AC State Setting(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "acstate",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 2,
+          "zone": "BINARYINPUT:2",
+          "name": "AC State Status(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "state",
+          "measurement": "event",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 3,
+          "zone": "BINARYOUTPUT:3",
+          "name": "AC Lock Setting(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 4,
+          "zone": "BINARYINPUT:4",
+          "name": "AC Lock Status(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "state",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 5,
+          "zone": "BINARYINPUT:5",
+          "name": "Filter Sign Status(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 6,
+          "zone": "BINARYVALUE:6",
+          "name": "Filter Sign Reset(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 7,
+          "zone": "MULTISTATEOUTPUT:7",
+          "name": "AC Mode Setting(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Auto |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "acmode",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 8,
+          "zone": "MULTISTATEINPUT:8",
+          "name": "AC Mode Status(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Auto |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "acmode",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 9,
+          "zone": "BINARYOUTPUT:9",
+          "name": "AC Swing Setting(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "acswing",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 10,
+          "zone": "BINARYINPUT:10",
+          "name": "AC Swing Status(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "state",
+          "measurement": "acswing",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 11,
+          "zone": "MULTISTATEOUTPUT:11",
+          "name": "AC IDU Fan Speed Setting(| 1-Low | 2-Medium | 3-High | 4-Auto |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "speed",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 12,
+          "zone": "MULTISTATEINPUT:12",
+          "name": "AC IDU Fan Speed Status(| 1-Low | 2-Medium | 3-High | 4-Auto |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "speed",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 13,
+          "zone": "ANALOGVALUE:13",
+          "name": "Set Temperature in Degree Setting",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "temperature",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 14,
+          "zone": "ANALOGINPUT:14",
+          "name": "Set Temperature in Degree Status",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "temperature",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 15,
+          "zone": "BINARYINPUT:15",
+          "name": "AC IDU Alam Code(| 0-Normal | 1-Abnormal |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "state",
+          "measurement": "event",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 16,
+          "zone": "ANALOGINPUT:16",
+          "name": "AC IDU Malfunction Code",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "error",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 17,
+          "zone": "ANALOGINPUT:19",
+          "name": "Room Temperature in Degree",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "temperature",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 18,
+          "zone": "ANALOGINPUT:20",
+          "name": "Accumulated Power(100w)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "power",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 19,
+          "zone": "BINARYOUTPUT:31",
+          "name": "Mode Lock Permission Setting(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 20,
+          "zone": "BINARYINPUT:32",
+          "name": "Mode Lock Permission Status(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "state",
+          "measurement": "event",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 21,
+          "zone": "BINARYOUTPUT:33",
+          "name": "Fan Lock Permission Setting(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 22,
+          "zone": "BINARYINPUT:34",
+          "name": "Fan Lock Permission Status(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 23,
+          "zone": "BINARYINPUT:49",
+          "name": "Thermo Status(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 24,
+          "zone": "ANALOGINPUT:50",
+          "name": "Accumulated Gas Distribution Status(in Liter)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 25,
+          "zone": "BINARYINPUT:51",
+          "name": "Dust Sensor Status(| 0-DISABLED | 1-ENABLED |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "dust",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 26,
+          "zone": "BINARYOUTPUT:52",
+          "name": "IDU Air Cleaning Operation Setting(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 27,
+          "zone": "BINARYINPUT:53",
+          "name": "IDU Air Cleaning Operation Status(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "state",
+          "measurement": "misc",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 28,
+          "zone": "ANALOGINPUT:54",
+          "name": "Fine Dust Status(PM10)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "pm10",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 29,
+          "zone": "ANALOGINPUT:55",
+          "name": "Ultra Fine Dust Status(PM2.5)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "pm2p5",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 30,
+          "zone": "ANALOGINPUT:56",
+          "name": "Super Ultra Fine Dust Status(PM1.0)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "pm1p0",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        },
+        {
+          "id": 31,
+          "zone": "ANALOGINPUT:57",
+          "name": "Humidity Status(Percentage)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "input_type": "analog",
+          "measurement": "humidity",
+          "config_tags": "{}",
+          "alarm_info": "{}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
+        }
+      ],
+      "out_templates": [
+        {
+          "id": 1,
+          "zone": "BINARYOUTPUT:1",
+          "name": "AC State Setting(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 2,
+          "zone": "BINARYOUTPUT:3",
+          "name": "AC Lock Setting(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 3,
+          "zone": "MULTISTATEOUTPUT:7",
+          "name": "AC Mode Setting(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Auto |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 4,
+          "zone": "BINARYOUTPUT:9",
+          "name": "AC Swing Setting(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 5,
+          "zone": "MULTISTATEOUTPUT:11",
+          "name": "AC IDU Fan Speed Setting(| 1-Low | 2-Medium | 3-High | 4-Auto |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 6,
+          "zone": "ANALOGVALUE:13",
+          "name": "Set Temperature in Degree Setting",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 7,
+          "zone": "BINARYOUTPUT:31",
+          "name": "Mode Lock Permission Setting(| 0-PERMIT | 1-PROHIBIT |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 8,
+          "zone": "BINARYOUTPUT:52",
+          "name": "IDU Air Cleaning Operation Setting(| 0-OFF | 1-ON |)",
+          "device_type": "NET-BACNET",
+          "sub_type": "LG-BACNET",
+          "version": "1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        }
+      ]
     }
   ],
   "schedule_group_templates": [],
