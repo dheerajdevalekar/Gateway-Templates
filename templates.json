@@ -35057,7 +35057,7 @@
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "1",
-          "input_type": "state",
+          "input_type": "analog",
           "measurement": "acswing",
           "config_tags": "{}",
           "alarm_info": "{}",
