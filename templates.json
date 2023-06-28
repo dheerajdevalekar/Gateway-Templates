@@ -34925,7 +34925,7 @@
           "input_type": "analog",
           "measurement": "acstate",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC OFF\", \"1\": \"AC ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -34940,7 +34940,7 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC OFF\", \"1\": \"AC ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -34955,7 +34955,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC Lock Setting Permit\", \"1\": \"AC Lock Setting Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -34970,7 +34970,7 @@
           "input_type": "state",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC Lock Status Permit\", \"1\": \"AC Lock Status Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -34985,7 +34985,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Filter Sign Status Permit\", \"1\": \"Filter Sign Status Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35000,7 +35000,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Filter Sign Reset Permit\", \"1\": \"Filter Sign Reset Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35008,14 +35008,14 @@
         {
           "id": 7,
           "zone": "MULTISTATEOUTPUT:7",
-          "name": "AC Mode Setting(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Auto |)",
+          "name": "AC Mode Setting(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Heat |)",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "1",
           "input_type": "analog",
           "measurement": "acmode",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"1\": \"AC Cool Mode\", \"2\": \"AC Dry Mode\", \"3\": \"AC Fan Mode\", \"4\": \"AC Auto Mode\", \"5\": \"AC Heat Mode\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35023,14 +35023,14 @@
         {
           "id": 8,
           "zone": "MULTISTATEINPUT:8",
-          "name": "AC Mode Status(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Auto |)",
+          "name": "AC Mode Status(| 1-Cool | 2-Dry | 3-Fan | 4-Auto | 5-Heat |)",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "1",
           "input_type": "analog",
           "measurement": "acmode",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"1\": \"AC Cool Mode\", \"2\": \"AC Dry Mode\", \"3\": \"AC Fan Mode\", \"4\": \"AC Auto Mode\", \"5\": \"AC Heat Mode\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35045,7 +35045,7 @@
           "input_type": "analog",
           "measurement": "acswing",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC Swing OFF\", \"1\": \"AC Swing ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35060,7 +35060,7 @@
           "input_type": "analog",
           "measurement": "acswing",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC Swing OFF\", \"1\": \"AC Swing ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35075,7 +35075,7 @@
           "input_type": "analog",
           "measurement": "speed",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"1\": \"AC Low Speed\", \"2\": \"AC Medium Speed\", \"3\": \"AC High Speed\", \"4\": \"AC Auto Speed\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35090,7 +35090,7 @@
           "input_type": "analog",
           "measurement": "speed",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"1\": \"AC Low Speed\", \"2\": \"AC Medium Speed\", \"3\": \"AC High Speed\", \"4\": \"AC Auto Speed\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35105,7 +35105,7 @@
           "input_type": "analog",
           "measurement": "temperature",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35120,7 +35120,7 @@
           "input_type": "analog",
           "measurement": "temperature",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35135,7 +35135,7 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"AC IDU System Normal\", \"1\": \"AC IDU System Abnormal\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35150,7 +35150,7 @@
           "input_type": "analog",
           "measurement": "error",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35165,7 +35165,7 @@
           "input_type": "analog",
           "measurement": "temperature",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35180,7 +35180,7 @@
           "input_type": "analog",
           "measurement": "power",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35195,7 +35195,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Mode Lock Permission Setting Permit\", \"1\": \"Mode Lock Permission Setting Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35210,7 +35210,7 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Mode Lock Permission Status Permit\", \"1\": \"Mode Lock Permission Status Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35225,7 +35225,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Fan Lock Permission Setting Permit\", \"1\": \"Fan Lock Permission Setting Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35240,7 +35240,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Fan Lock Permission Status Permit\", \"1\": \"Fan Lock Permission Status Prohibit\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35255,7 +35255,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Thermo Status OFF\", \"1\": \"Thermo Status ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35270,7 +35270,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35285,7 +35285,7 @@
           "input_type": "analog",
           "measurement": "dust",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"Dust Sensor Status Disabled\", \"1\": \"Dust Sensor Status Enebled\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35300,7 +35300,7 @@
           "input_type": "analog",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"IDU Air Cleaning Operation Setting OFF\", \"1\": \"IDU Air Cleaning Operation Setting ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35315,7 +35315,7 @@
           "input_type": "state",
           "measurement": "misc",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"IDU Air Cleaning Operation Status OFF\", \"1\": \"IDU Air Cleaning Operation Status ON\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35330,7 +35330,7 @@
           "input_type": "analog",
           "measurement": "pm10",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35345,7 +35345,7 @@
           "input_type": "analog",
           "measurement": "pm2p5",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35360,7 +35360,7 @@
           "input_type": "analog",
           "measurement": "pm1p0",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
@@ -35375,7 +35375,7 @@
           "input_type": "analog",
           "measurement": "humidity",
           "config_tags": "{}",
-          "alarm_info": "{}",
+          "alarm_info": "{\"0\": \"No Alert\", \"1\": \"Yes Alert\"}",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0
