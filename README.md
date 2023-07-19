@@ -53,6 +53,11 @@ In these Templates, has the Following Templates.
 | 42 | selec-4ch-ch2                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
 | 43 | selec-4ch-ch3                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
 | 44 | selec-4ch-ch4                        | MOD           | MOD-TCP       | selec-mrj4m-quad                     |
+| 45 | selec-MIBRX-4-Channel                | MOD           | MOD-TCP       | selec_MIBRX-4Ch                      |
+| 46 | GasAlarm CO2 Module TCP              | MOD           | MOD-TCP       | GAS-CO2-R111-NO-T                    |
+| 47 | GasAlarm CO2 Module TCP              | MOD           | MOD-SOCKET    | GAS-CO2-R111-NO-T                    |
+| 48 | Moving Walk Escalator                | MOD           | MOD-TCP       | Moving Walk Escalator                |
+
 
 
 
@@ -77,7 +82,9 @@ In these Templates, has the Following Templates.
 | 5   | 	 ESP Device                | 	 NET-MQ    | 	 IES      | 	 IES   |   
 | 6   | 	 Escalator Panel           | 	 NET-TCP   | 	 ESCL8    | 	 8ZP   |    
 | 7   | 	 Escalator Panel - RS485 	 | NET-TCP     | 	 ESCL485  | 	 485P  | 
-| 8 | people counting         | NET-HTTP      | PCM        | PCMDEVICE       |
-| 9 | Continuous Ping IP      | NET-PING      | CPING      | Continuous Ping |
+| 8  | people counting         | NET-HTTP      | PCM        | PCMDEVICE       |
+| 9  | Continuous Ping IP      | NET-PING      | CPING      | Continuous Ping |
 | 10 | BMS Delta Router        | NET-BACNET    | BACNET     | Delta VAV       |
+| 11 | BMS LG Router           | NET-BACNET    | LG-BACNET  | LG VAV          |
+
 
