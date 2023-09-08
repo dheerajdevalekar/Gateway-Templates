@@ -33040,7 +33040,7 @@
       "byte_size": 8,
       "total_register": 4,
       "register_offset": 0,
-      "batches": "[{\"address\": 1,\"count\": 5}]",
+      "batches": "[{\"address\": 0,\"count\": 6}]",
       "word_order": "little",
       "byte_order": "big",
       "batch_retry_times": 1,
@@ -33059,7 +33059,7 @@
       "in_registers": [
         {
           "id": 1,
-          "register_address": 1,
+          "register_address": 0,
           "measurement": "acstate",
           "size_bits": 16,
           "count_registers": 1,
@@ -33077,7 +33077,7 @@
         },
         {
           "id": 2,
-          "register_address": 2,
+          "register_address": 1,
           "measurement": "acmode",
           "size_bits": 16,
           "count_registers": 1,
@@ -33095,7 +33095,7 @@
         },
         {
           "id": 3,
-          "register_address": 3,
+          "register_address": 2,
           "measurement": "acspeed",
           "size_bits": 16,
           "count_registers": 1,
@@ -33113,7 +33113,7 @@
         },
         {
           "id": 4,
-          "register_address": 4,
+          "register_address": 3,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -33131,7 +33131,7 @@
         },
         {
           "id": 5,
-          "register_address": 1,
+          "register_address": 0,
           "measurement": "aacstate",
           "size_bits": 16,
           "count_registers": 1,
@@ -33162,7 +33162,7 @@
           "zone": "ACSTATE",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 1,
+          "register_address": 0,
           "device_type": "MOD",
           "local_storage_enable": true
         },
@@ -33179,7 +33179,7 @@
           "zone": "ACMODE",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 2,
+          "register_address": 1,
           "device_type": "MOD",
           "local_storage_enable": true
         },
@@ -33196,7 +33196,7 @@
           "zone": "ACSPEED",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 3,
+          "register_address": 2,
           "device_type": "MOD",
           "local_storage_enable": true
         },
@@ -33213,7 +33213,7 @@
           "zone": "STEMP",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 4,
+          "register_address": 3,
           "device_type": "MOD",
           "local_storage_enable": true
         }
@@ -33228,7 +33228,7 @@
       "byte_size": 8,
       "total_register": 4,
       "register_offset": 0,
-      "batches": "[{\"address\": 1,\"count\": 1}, {\"address\": 961,\"count\": 1}]",
+      "batches": "[{\"address\": 0,\"count\": 2}, {\"address\": 960,\"count\": 2}]",
       "word_order": "little",
       "byte_order": "big",
       "batch_retry_times": 1,
@@ -33247,7 +33247,7 @@
       "in_registers": [
         {
           "id": 1,
-          "register_address": 1,
+          "register_address": 0,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -33265,7 +33265,7 @@
         },
         {
           "id": 2,
-          "register_address": 961,
+          "register_address": 960,
           "measurement": "error",
           "size_bits": 16,
           "count_registers": 1,
