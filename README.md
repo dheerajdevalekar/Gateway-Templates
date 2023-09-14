@@ -57,6 +57,15 @@ In these Templates, has the Following Templates.
 | 46 | GasAlarm CO2 Module TCP              | MOD           | MOD-TCP       | GAS-CO2-R111-NO-T                    |
 | 47 | GasAlarm CO2 Module TCP              | MOD           | MOD-SOCKET    | GAS-CO2-R111-NO-T                    |
 | 48 | Moving Walk Escalator                | MOD           | MOD-TCP       | Moving Walk Escalator                |
+| 49 | Blue Star AC                         | MOD           | MOD-ALL-REGISTER-BLUESTAR-AC | Blue Star AC                         |
+| 50 | 485 Based 8-IO Board                 | MOD           | MOD-EM                       | 485 Based 8-IO                       |
+| 51 | Office Made 16 Io-Board              | MOD           | MOD-ALL-REGISTER             | Office Made 16 Io-Board              |
+| 52 | Blue Star AC(Holding)                | MOD           | MOD-BLUESTAR-AC-HOLDING      | Blue Star AC Holding Register        |
+| 53 | Blue Star AC(Input)                  | MOD           | MOD-BLUESTAR-AC-INPUT        | Blue Star AC Input Register          |
+| 54 | trinity-tinypro-6                    | MOD           | MOD-TCP                      | trinity-tinypro-6                    |
+| 55 | Water Flowmeter Series 6400          | MOD           | MOD-EM                       | Water Flowmeter Series 6400          |
+| 56 | Water Flowmeter Series 6400          | MOD           | MOD-TCP                      | Water Flowmeter Series 6400          |
+| 57 | ESP IN-OUT Counter                   | MOD           | MOD-EM                       | ESP IN-OUT Counter                   |
 
 
 
