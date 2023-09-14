@@ -38026,7 +38026,7 @@
         {
           "id": 1,
           "zone": "MULTISTATEVALUE:1",
-          "name": "System Mode",
+          "name": "System Mode(off, active, eco, boost)",
           "device_type": "NET-BACNET",
           "sub_type": "BACNET",
           "version": "1",
