@@ -66,6 +66,10 @@ In these Templates, has the Following Templates.
 | 55 | Water Flowmeter Series 6400          | MOD           | MOD-EM                       | Water Flowmeter Series 6400          |
 | 56 | Water Flowmeter Series 6400          | MOD           | MOD-TCP                      | Water Flowmeter Series 6400          |
 | 57 | ESP IN-OUT Counter                   | MOD           | MOD-EM                       | ESP IN-OUT Counter                   |
+| 58 | Office Made 16 Io-Board              | MOD           | MOD-TCP-ALL-REGISTER         | Office Made 16 Io-Board              |
+| 59 | DG_fuel_sensor_DHL                   | MOD           | MOD-ALL-REGISTER             | DG_fuel_sensor_DHL                   |
+| 60 | PLC_battery_reader                   | MOD           | MOD-ALL-REGISTER             | PLC_battery_reader                   |
+
 
 
 
