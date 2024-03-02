@@ -4,8 +4,7 @@ This Project is Related to Templates of Iam-Gateway.
 In these Templates, has the Following Templates.
 
 
-###Modbus Device
-
+### Modbus Device
 
 | id  | 	 Name                  	 | Device Type | 	 Sub Type    | 	 Model               |
 |-----|---------------------------|-------------|---------------|-----------------------|
@@ -71,20 +70,14 @@ In these Templates, has the Following Templates.
 | 60 | PLC_battery_reader                   | MOD           | MOD-ALL-REGISTER             | PLC_battery_reader                   |
 
 
-
-
-
-
-###Serial Device
-
+### Serial Device
 
 | id  | 	 Name                  	 | Device Type | 	 Sub Type      | 	 Model           |
 |-----|---------------------------|-------------|-----------------|-------------------|
 | 1   | 	onfinity                 | SER         | 	SER	SER-UPS-T1 | 	numeric_onfinity |
 
 
-###Network Device
-
+### Network Device
 
 | id  | 	 Name                  	   | Device Type | 	 Sub Type | 	 Model |
 |-----|-----------------------------|-------------|------------|---------|
