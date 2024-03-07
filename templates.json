@@ -41896,7 +41896,7 @@
         },
         {
           "id": 16,
-          "zone": "BINARYINPUT:1462",
+          "zone": "ANALOGINPUT:1462",
           "name": "Output KVA",
           "device_type": "NET-BACNET",
           "sub_type": "EATON-BACNET",
