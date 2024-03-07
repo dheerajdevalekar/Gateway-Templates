@@ -41912,7 +41912,7 @@
         {
           "id": 17,
           "zone": "ANALOGINPUT:1571",
-          "name": "Output Phase Load-1",
+          "name": "Output Percent Load-1",
           "device_type": "NET-BACNET",
           "sub_type": "EATON-BACNET",
           "version": 1,
