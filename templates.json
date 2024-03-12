@@ -38203,8 +38203,8 @@
       "register_func_type": "holding",
       "device_type": "MOD",
       "sub_type": "MOD-EM",
-      "model": "trinity-tinypro-6",
-      "name": "trinity-tinypro-6",
+      "model": "trinity-tinypro-6(OLD)",
+      "name": "trinity-tinypro-6(OLD)",
       "in_registers": [
         {
           "id": 117,
