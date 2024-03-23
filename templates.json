@@ -38987,7 +38987,7 @@
         {
           "id": 2,
           "register_address": 10,
-          "measurement": "misc",
+          "measurement": "event",
           "size_bits": 16,
           "count_registers": 1,
           "decode_type": "int",
@@ -38995,7 +38995,7 @@
           "zone": "DGSTAT",
           "device_type": "MOD",
           "master_device_id": 66,
-          "input_type": "analog",
+          "input_type": "state",
           "name": "Geneset State(0-13 Modes)",
           "min_alarm": 0,
           "max_alarm": 0,
