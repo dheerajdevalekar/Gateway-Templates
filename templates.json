@@ -39537,7 +39537,7 @@
         },
         {
           "id": 15,
-          "register_address": 2001,
+          "register_address": 2000,
           "measurement": "event",
           "size_bits": 1,
           "count_registers": 1,
@@ -39548,7 +39548,7 @@
           "master_device_id": 69,
           "sub_register_type": "holding",
           "input_type": "state",
-          "name": "AC State Set(| 1-ON | 0-OFF |)",
+          "name": "AC State (| 1-ON | 0-OFF |)",
           "min_alarm": 0,
           "max_alarm": 0,
           "hysteresis": 0,
@@ -39556,7 +39556,7 @@
         },
         {
           "id": 16,
-          "register_address": 2001,
+          "register_address": 2000,
           "measurement": "acswing",
           "size_bits": 9,
           "count_registers": 3,
@@ -39575,7 +39575,7 @@
         },
         {
           "id": 17,
-          "register_address": 2001,
+          "register_address": 2000,
           "measurement": "acspeed",
           "size_bits": 13,
           "count_registers": 3,
@@ -39594,7 +39594,7 @@
         },
         {
           "id": 18,
-          "register_address": 2002,
+          "register_address": 2001,
           "measurement": "acmode",
           "size_bits": 1,
           "count_registers": 4,
@@ -39613,7 +39613,7 @@
         },
         {
           "id": 19,
-          "register_address": 2003,
+          "register_address": 2002,
           "measurement": "temperature",
           "size_bits": 16,
           "count_registers": 1,
@@ -39645,7 +39645,7 @@
           "zone": "ACSTATE",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 2001,
+          "register_address": 2000,
           "device_type": "MOD",
           "local_storage_enable": true
         },
@@ -39662,7 +39662,7 @@
           "zone": "ACMODE",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 2002,
+          "register_address": 2001,
           "device_type": "MOD",
           "local_storage_enable": true
         },
@@ -39679,7 +39679,7 @@
           "zone": "ACSPEED",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 2001,
+          "register_address": 2000,
           "device_type": "MOD",
           "local_storage_enable": true
         },
@@ -39696,7 +39696,7 @@
           "zone": "STEMP",
           "config_tags": "{}",
           "alarm_enable": true,
-          "register_address": 2003,
+          "register_address": 2002,
           "device_type": "MOD",
           "local_storage_enable": true
         },
