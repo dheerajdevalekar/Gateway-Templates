@@ -33241,7 +33241,7 @@
       "id": 50,
       "port": "/dev/serial0",
       "baud_rate": 9600,
-      "parity": "E",
+      "parity": "N",
       "stop_bits": 1,
       "byte_size": 8,
       "total_register": 80,
