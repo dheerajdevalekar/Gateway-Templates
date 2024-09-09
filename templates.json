@@ -41574,7 +41574,7 @@
       "register_func_type": "input",
       "device_type": "MOD",
       "sub_type": "MOD-SOCKET",
-      "model": "selec-306-C-D",
+      "model": "selec-306-C-D-Socket",
       "name": "selec-306-C-D-Socket",
       "in_registers": [
         {
