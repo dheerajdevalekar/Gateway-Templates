@@ -48575,7 +48575,7 @@
         {
           "id": 3,
           "zone": "STEMP",
-          "name": "ANALOGVALUE:2||Set Temperature",
+          "name": "ANALOGVALUE:12||Set Temperature",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "2.1",
@@ -48862,7 +48862,7 @@
         {
           "id": 2,
           "zone": "STEMP",
-          "name": "ANALOGVALUE:2||Set Temperature",
+          "name": "ANALOGVALUE:12||Set Temperature",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "2.1",
@@ -48919,7 +48919,7 @@
         {
           "id": 3,
           "zone": "STEMP",
-          "name": "ANALOGVALUE:4||Set Temperature",
+          "name": "ANALOGVALUE:13||Set Temperature",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "2.2",
@@ -49146,7 +49146,7 @@
         {
           "id": 2,
           "zone": "STEMP",
-          "name": "ANALOGVALUE:4||Set Temperature",
+          "name": "ANALOGVALUE:13||Set Temperature",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "2.2",
