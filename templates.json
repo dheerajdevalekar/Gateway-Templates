@@ -48934,7 +48934,7 @@
         {
           "id": 4,
           "zone": "RTEMP",
-          "name": "ANALOGINPUT:11||Room Temperature",
+          "name": "ANALOGVALUE:11||Room Temperature",
           "device_type": "NET-BACNET",
           "sub_type": "LG-BACNET",
           "version": "2.2",
