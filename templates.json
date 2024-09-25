@@ -49328,7 +49328,7 @@
       "device_type": "NET-BACNET",
       "sub_type": "SCHNEIDER-BACNET",
       "version": "1.2",
-      "inputs": "20",
+      "inputs": "10",
       "outputs": "0",
       "model": "SCHNEIDER Energy Meter",
       "name": "Bengaluru Continental 9th Floor Energy Meter-02",
