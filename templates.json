@@ -49660,7 +49660,7 @@
       "name": "Bengaluru Continental 9th Floor ECFAN-01",
       "in_templates": [
         {
-          "id": "1",
+          "id": 1,
           "zone": "ECFANSPEED",
           "name": "ANALOGVALUE:562||ECFAN Speed",
           "device_type": "NET-BACNET",
@@ -49670,12 +49670,12 @@
           "measurement": "acspeed",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "2",
+          "id": 2,
           "zone": "RTEMP",
           "name": "ANALOGVALUE:563||Return Air Temperature",
           "device_type": "NET-BACNET",
@@ -49685,12 +49685,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "3",
+          "id": 3,
           "zone": "KW",
           "name": "ANALOGVALUE:564||ECFAN Active Power",
           "device_type": "NET-BACNET",
@@ -49700,12 +49700,12 @@
           "measurement": "power",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "4",
+          "id": 4,
           "zone": "STEMP",
           "name": "ANALOGVALUE:566||Set Air Temperature",
           "device_type": "NET-BACNET",
@@ -49715,12 +49715,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "5",
+          "id": 5,
           "zone": "ECFANCMD",
           "name": "BINARYVALUE:567||ECFAN Command",
           "device_type": "NET-BACNET",
@@ -49730,12 +49730,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":\"ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "6",
+          "id": 6,
           "zone": "FANSTATE",
           "name": "BINARYVALUE:568||ECFAN Status",
           "device_type": "NET-BACNET",
@@ -49745,12 +49745,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN OFF\",\"1\":\"ECFAN ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "7",
+          "id": 7,
           "zone": "AMSTATE",
           "name": "BINARYVALUE:569||ECFAN AM Flow Status",
           "device_type": "NET-BACNET",
@@ -49760,12 +49760,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\": \"AIR-FLOW OFF\", \"1\": \"AIR-FLOW ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "8",
+          "id": 8,
           "zone": "FIRESTATE",
           "name": "BINARYVALUE:570||Fire Status",
           "device_type": "NET-BACNET",
@@ -49774,10 +49774,10 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":”ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "alarm_info": "{\"0\": \"FIRE NO\", \"1\": \"FIRE YES\"}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         }
       ],
       "out_templates": []
@@ -49793,7 +49793,7 @@
       "name": "Bengaluru Continental 9th Floor ECFAN-02",
       "in_templates": [
         {
-          "id": "1",
+          "id": 1,
           "zone": "ECFANSPEED",
           "name": "ANALOGVALUE:571||ECFAN Speed",
           "device_type": "NET-BACNET",
@@ -49803,12 +49803,12 @@
           "measurement": "acspeed",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "2",
+          "id": 2,
           "zone": "RTEMP",
           "name": "ANALOGVALUE:572||Return Air Temperature",
           "device_type": "NET-BACNET",
@@ -49818,12 +49818,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "3",
+          "id": 3,
           "zone": "KW",
           "name": "ANALOGVALUE:573||ECFAN Active Power",
           "device_type": "NET-BACNET",
@@ -49833,12 +49833,12 @@
           "measurement": "power",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "4",
+          "id": 4,
           "zone": "STEMP",
           "name": "ANALOGVALUE:575||Set Air Temperature",
           "device_type": "NET-BACNET",
@@ -49848,12 +49848,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "5",
+          "id": 5,
           "zone": "ECFANCMD",
           "name": "BINARYVALUE:576||ECFAN Command",
           "device_type": "NET-BACNET",
@@ -49863,12 +49863,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":\"ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "6",
+          "id": 6,
           "zone": "FANSTATE",
           "name": "BINARYVALUE:577||ECFAN Status",
           "device_type": "NET-BACNET",
@@ -49878,12 +49878,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN OFF\",\"1\":\"ECFAN ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "7",
+          "id": 7,
           "zone": "AMSTATE",
           "name": "BINARYVALUE:578||ECFAN AM Flow Status",
           "device_type": "NET-BACNET",
@@ -49893,12 +49893,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\": \"AIR-FLOW OFF\", \"1\": \"AIR-FLOW ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "8",
+          "id": 8,
           "zone": "FIRESTATE",
           "name": "BINARYVALUE:579||Fire Status",
           "device_type": "NET-BACNET",
@@ -49907,10 +49907,10 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":”ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "alarm_info": "{\"0\": \"FIRE NO\", \"1\": \"FIRE YES\"}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         }
       ],
       "out_templates": []
@@ -49926,7 +49926,7 @@
       "name": "Bengaluru Continental 9th Floor ECFAN-03",
       "in_templates": [
         {
-          "id": "1",
+          "id": 1,
           "zone": "ECFANSPEED",
           "name": "ANALOGVALUE:163||ECFAN Speed",
           "device_type": "NET-BACNET",
@@ -49936,12 +49936,12 @@
           "measurement": "acspeed",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "2",
+          "id": 2,
           "zone": "RTEMP",
           "name": "ANALOGVALUE:164||Return Air Temperature",
           "device_type": "NET-BACNET",
@@ -49951,12 +49951,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "3",
+          "id": 3,
           "zone": "KW",
           "name": "ANALOGVALUE:165||ECFAN Active Power",
           "device_type": "NET-BACNET",
@@ -49966,12 +49966,12 @@
           "measurement": "power",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "4",
+          "id": 4,
           "zone": "STEMP",
           "name": "ANALOGVALUE:167||Set Air Temperature",
           "device_type": "NET-BACNET",
@@ -49981,12 +49981,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "5",
+          "id": 5,
           "zone": "ECFANCMD",
           "name": "BINARYVALUE:168||ECFAN Command",
           "device_type": "NET-BACNET",
@@ -49996,12 +49996,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":\"ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "6",
+          "id": 6,
           "zone": "FANSTATE",
           "name": "BINARYVALUE:169||ECFAN Status",
           "device_type": "NET-BACNET",
@@ -50011,12 +50011,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN OFF\",\"1\":\"ECFAN ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "7",
+          "id": 7,
           "zone": "AMSTATE",
           "name": "BINARYVALUE:170||ECFAN AM Flow Status",
           "device_type": "NET-BACNET",
@@ -50026,12 +50026,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\": \"AIR-FLOW OFF\", \"1\": \"AIR-FLOW ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "8",
+          "id": 8,
           "zone": "FIRESTATE",
           "name": "BINARYVALUE:171||Fire Status",
           "device_type": "NET-BACNET",
@@ -50040,10 +50040,10 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":”ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "alarm_info": "{\"0\": \"FIRE NO\", \"1\": \"FIRE YES\"}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         }
       ],
       "out_templates": []
@@ -50059,7 +50059,7 @@
       "name": "Bengaluru Continental 9th Floor ECFAN-04",
       "in_templates": [
         {
-          "id": "1",
+          "id": 1,
           "zone": "ECFANSPEED",
           "name": "ANALOGVALUE:172||ECFAN Speed",
           "device_type": "NET-BACNET",
@@ -50069,12 +50069,12 @@
           "measurement": "acspeed",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "2",
+          "id": 2,
           "zone": "RTEMP",
           "name": "ANALOGVALUE:173||Return Air Temperature",
           "device_type": "NET-BACNET",
@@ -50084,12 +50084,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "3",
+          "id": 3,
           "zone": "KW",
           "name": "ANALOGVALUE:174||ECFAN Active Power",
           "device_type": "NET-BACNET",
@@ -50099,12 +50099,12 @@
           "measurement": "power",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "4",
+          "id": 4,
           "zone": "STEMP",
           "name": "ANALOGVALUE:176||Set Air Temperature",
           "device_type": "NET-BACNET",
@@ -50114,12 +50114,12 @@
           "measurement": "temperature",
           "config_tags": "{}",
           "alarm_info": "{}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "5",
+          "id": 5,
           "zone": "ECFANCMD",
           "name": "BINARYVALUE:177||ECFAN Command",
           "device_type": "NET-BACNET",
@@ -50129,12 +50129,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":\"ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "6",
+          "id": 6,
           "zone": "FANSTATE",
           "name": "BINARYVALUE:178||ECFAN Status",
           "device_type": "NET-BACNET",
@@ -50144,12 +50144,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\":\"ECFAN OFF\",\"1\":\"ECFAN ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "7",
+          "id": 7,
           "zone": "AMSTATE",
           "name": "BINARYVALUE:179||ECFAN AM Flow Status",
           "device_type": "NET-BACNET",
@@ -50159,12 +50159,12 @@
           "measurement": "event",
           "config_tags": "{}",
           "alarm_info": "{\"0\": \"AIR-FLOW OFF\", \"1\": \"AIR-FLOW ON\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         },
         {
-          "id": "8",
+          "id": 8,
           "zone": "FIRESTATE",
           "name": "BINARYVALUE:180||Fire Status",
           "device_type": "NET-BACNET",
@@ -50173,10 +50173,10 @@
           "input_type": "state",
           "measurement": "event",
           "config_tags": "{}",
-          "alarm_info": "{\"0\":\"ECFAN Command Inactive\",\"1\":”ECFAN Command Active\"}",
-          "min_alarm": "0",
-          "max_alarm": "0",
-          "hysteresis": "0"
+          "alarm_info": "{\"0\": \"FIRE NO\", \"1\": \"FIRE YES\"}",
+          "min_alarm": 0,
+          "max_alarm": 0,
+          "hysteresis": 0
         }
       ],
       "out_templates": []
