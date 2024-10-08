@@ -49655,13 +49655,13 @@
       "sub_type": "ECFAN-BACNET",
       "version": "1.1",
       "inputs": "8",
-      "outputs": "0",
+      "outputs": "2",
       "model": "ECFAN",
       "name": "Bengaluru Continental 9th Floor ECFAN-01",
       "in_templates": [
         {
           "id": 1,
-          "zone": "ECFANSPEED",
+          "zone": "ACSPEED",
           "name": "ANALOGVALUE:562||ECFAN Speed",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -49736,7 +49736,7 @@
         },
         {
           "id": 6,
-          "zone": "FANSTATE",
+          "zone": "ACSTATE",
           "name": "BINARYVALUE:568||ECFAN Status",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -49780,7 +49780,38 @@
           "hysteresis": 0
         }
       ],
-      "out_templates": []
+      "out_templates": [
+        {
+          "id": 1,
+          "zone": "ACSPEED",
+          "name": "ANALOGVALUE:562||ECFAN Speed",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.1",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 2,
+          "zone": "ACSTATE",
+          "name": "BINARYVALUE:568||ECFAN Status",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.1",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        }
+      ]
     },
     {
       "id": 20,
@@ -49788,13 +49819,13 @@
       "sub_type": "ECFAN-BACNET",
       "version": "1.2",
       "inputs": "8",
-      "outputs": "0",
+      "outputs": "2",
       "model": "ECFAN",
       "name": "Bengaluru Continental 9th Floor ECFAN-02",
       "in_templates": [
         {
           "id": 1,
-          "zone": "ECFANSPEED",
+          "zone": "ACSPEED",
           "name": "ANALOGVALUE:571||ECFAN Speed",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -49869,7 +49900,7 @@
         },
         {
           "id": 6,
-          "zone": "FANSTATE",
+          "zone": "ACSTATE",
           "name": "BINARYVALUE:577||ECFAN Status",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -49913,7 +49944,38 @@
           "hysteresis": 0
         }
       ],
-      "out_templates": []
+      "out_templates": [
+        {
+          "id": 1,
+          "zone": "ACSPEED",
+          "name": "ANALOGVALUE:571||ECFAN Speed",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.2",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 2,
+          "zone": "ACSTATE",
+          "name": "BINARYVALUE:577||ECFAN Status",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.2",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        }
+      ]
     },
     {
       "id": 21,
@@ -49921,13 +49983,13 @@
       "sub_type": "ECFAN-BACNET",
       "version": "1.3",
       "inputs": "8",
-      "outputs": "0",
+      "outputs": "2",
       "model": "ECFAN",
       "name": "Bengaluru Continental 9th Floor ECFAN-03",
       "in_templates": [
         {
           "id": 1,
-          "zone": "ECFANSPEED",
+          "zone": "ACSPEED",
           "name": "ANALOGVALUE:163||ECFAN Speed",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -50002,7 +50064,7 @@
         },
         {
           "id": 6,
-          "zone": "FANSTATE",
+          "zone": "ACSTATE",
           "name": "BINARYVALUE:169||ECFAN Status",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -50046,7 +50108,38 @@
           "hysteresis": 0
         }
       ],
-      "out_templates": []
+      "out_templates": [
+        {
+          "id": 1,
+          "zone": "ACSPEED",
+          "name": "ANALOGVALUE:163||ECFAN Speed",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.3",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 2,
+          "zone": "ACSTATE",
+          "name": "BINARYVALUE:169||ECFAN Status",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.3",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        }
+      ]
     },
     {
       "id": 22,
@@ -50054,13 +50147,13 @@
       "sub_type": "ECFAN-BACNET",
       "version": "1.4",
       "inputs": "8",
-      "outputs": "0",
+      "outputs": "2",
       "model": "ECFAN",
       "name": "Bengaluru Continental 9th Floor ECFAN-04",
       "in_templates": [
         {
           "id": 1,
-          "zone": "ECFANSPEED",
+          "zone": "ACSPEED",
           "name": "ANALOGVALUE:172||ECFAN Speed",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -50135,7 +50228,7 @@
         },
         {
           "id": 6,
-          "zone": "FANSTATE",
+          "zone": "ACSTATE",
           "name": "BINARYVALUE:178||ECFAN Status",
           "device_type": "NET-BACNET",
           "sub_type": "ECFAN-BACNET",
@@ -50179,7 +50272,38 @@
           "hysteresis": 0
         }
       ],
-      "out_templates": []
+      "out_templates": [
+        {
+          "id": 1,
+          "zone": "ACSPEED",
+          "name": "ANALOGVALUE:172||ECFAN Speed",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.4",
+          "output_type": "analog",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        },
+        {
+          "id": 2,
+          "zone": "ACSTATE",
+          "name": "BINARYVALUE:178||ECFAN Status",
+          "device_type": "NET-BACNET",
+          "sub_type": "ECFAN-BACNET",
+          "version": "1.4",
+          "output_type": "digital",
+          "config_tags": "{}",
+          "local_storage_enable": true,
+          "cloud_storage_enable": true,
+          "rt_enable": true,
+          "alarm_enable": true,
+          "enable": true
+        }
+      ]
     }
   ],
   "schedule_group_templates": [],
