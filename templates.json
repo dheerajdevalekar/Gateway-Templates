@@ -48539,7 +48539,7 @@
       "version": "2.1",
       "inputs": "20",
       "outputs": "2",
-      "model": "Sauter ECOS-504 Controller",
+      "model": "Sauter ECOS-504 Controller-Primary",
       "name": "Bengaluru Continental-Primary AHU",
       "in_templates": [
         {
@@ -48883,7 +48883,7 @@
       "version": "2.2",
       "inputs": "16",
       "outputs": "2",
-      "model": "Sauter ECOS-504 Controller",
+      "model": "Sauter ECOS-504 Controller-Secondary",
       "name": "Bengaluru Continental-Secondary AHU",
       "in_templates": [
         {
@@ -49167,7 +49167,7 @@
       "version": "1.1",
       "inputs": "20",
       "outputs": "0",
-      "model": "SCHNEIDER Energy Meter",
+      "model": "SCHNEIDER Energy Meter-1",
       "name": "Bengaluru Continental 9th Floor Energy Meter-01",
       "in_templates": [
         {
@@ -49330,7 +49330,7 @@
       "version": "1.2",
       "inputs": "10",
       "outputs": "0",
-      "model": "SCHNEIDER Energy Meter",
+      "model": "SCHNEIDER Energy Meter-2",
       "name": "Bengaluru Continental 9th Floor Energy Meter-02",
       "in_templates": [
         {
@@ -49493,7 +49493,7 @@
       "version": "1.0",
       "inputs": "10",
       "outputs": "0",
-      "model": "BTU Energy Meter",
+      "model": "BTU Energy Meter-1",
       "name": "Bengaluru Continental 9th Floor BTU Energy Meter",
       "in_templates": [
         {
@@ -49656,7 +49656,7 @@
       "version": "1.1",
       "inputs": "8",
       "outputs": "2",
-      "model": "ECFAN",
+      "model": "ECFAN-1",
       "name": "Bengaluru Continental 9th Floor ECFAN-01",
       "in_templates": [
         {
@@ -49820,7 +49820,7 @@
       "version": "1.2",
       "inputs": "8",
       "outputs": "2",
-      "model": "ECFAN",
+      "model": "ECFAN-2",
       "name": "Bengaluru Continental 9th Floor ECFAN-02",
       "in_templates": [
         {
@@ -49984,7 +49984,7 @@
       "version": "1.3",
       "inputs": "8",
       "outputs": "2",
-      "model": "ECFAN",
+      "model": "ECFAN-3",
       "name": "Bengaluru Continental 9th Floor ECFAN-03",
       "in_templates": [
         {
@@ -50148,7 +50148,7 @@
       "version": "1.4",
       "inputs": "8",
       "outputs": "2",
-      "model": "ECFAN",
+      "model": "ECFAN-4",
       "name": "Bengaluru Continental 9th Floor ECFAN-04",
       "in_templates": [
         {
