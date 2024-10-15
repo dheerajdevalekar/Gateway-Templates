@@ -49380,7 +49380,7 @@
         },
         {
           "id": 4,
-          "zone": "KWH2",
+          "zone": "KW2",
           "name": "ANALOGINPUT:718||Active Power-2",
           "device_type": "NET-BACNET",
           "sub_type": "SCHNEIDER-BACNET",
