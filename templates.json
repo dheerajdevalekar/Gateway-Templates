@@ -20898,7 +20898,7 @@
           "count_registers": 2,
           "decode_type": "float",
           "sub_type": "MOD-EM",
-          "zone": "I3",
+          "zone": "AI",
           "device_type": "MOD",
           "master_device_id": 28,
           "input_type": "analog",
