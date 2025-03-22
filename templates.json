@@ -6238,7 +6238,7 @@
         {
           "enable": true,
           "register_func_type": "holding",
-          "name": "AC State",
+          "name": "Set Temperature",
           "cloud_storage_enable": true,
           "id": 826,
           "sub_type": "MOD-HVAC",
@@ -36995,7 +36995,7 @@
         {
           "enable": true,
           "register_func_type": "holding",
-          "name": "AC State",
+          "name": "Set Temperature",
           "cloud_storage_enable": true,
           "id": 826,
           "sub_type": "MOD-SOCKET",
